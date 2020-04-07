@@ -44,11 +44,20 @@
 </blockquote>
 <p>Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的Linux或Windows，Mac机器上，也可以实现虚拟化（摘自百度百科）。Docker为我们提供了一个快平台应用开发的解决方案，为了解决软件迁移和通用性的问题，也即为了实现一次配置，全平台通用，我们这里使用Docker来构建仿真平台。</p>
 <h4 id="Kali平台"><a href="#Kali平台" class="headerlink" title="Kali平台"></a>Kali平台</h4><blockquote>
-<ol>
-<li>打开终端（Terminal Emulator），之后的操作都需要在终端中完成；</li>
-</ol>
+<p>1.打开终端（Terminal Emulator），之后的操作都需要在终端中完成；</p>
 </blockquote>
 <p><img src="1.png" alt="Terminal Emulator"></p>
+<blockquote>
+<p>2.在终端中更新软件源，运行“sudo apt-get update”，并安装docker软件，运行“sudo apt-get install docker-compose”。注意可能需要输入root密码。</p>
+</blockquote>
+<p><img src="2.png" alt="Terminal Emulator"></p>
+<blockquote>
+<p>3.进入Root用户下，运行”sudo su”，需要输入密码;<br><del>安装https协议、CA证书、dirmngr，运行</del></p>
+<p><pre><code>apt-get install -y apt-transport-https ca-certificates
+apt-get install dirmngr</code></pre><br><del>添加GPG密钥并添加更新源，运行</del></p>
+<p><pre><code>apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+echo 'deb https://apt.dockerproject.org/repo debian-stretch main' > /etc/apt/sources.list.d/docker.list</code></pre><br>下载预设的容器包这里我们选择“jupyter/tensorflow-notebook”，运行“docker pull jupyter/tensorflow-notebook”.</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>CVQC</category>
