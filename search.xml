@@ -29,6 +29,36 @@
       </tags>
   </entry>
   <entry>
+    <title>【CVQC】离散量子计算工具ProjectQ安装教程</title>
+    <url>/2020/04/07/%E3%80%90CVQC%E3%80%91%E7%A6%BB%E6%95%A3%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7ProjectQ%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>ProjectQ是基于Python开发的离散变量量子计算的仿真库，它拥有IBM Q研发的Qiskit脚本语言的易用性，同时由于它与Python语言的集成，拥有很好的扩展性。并且ProjectQ同时提供了C语言编译的核心引擎能极大地提高量子算法模型的仿真速度。</p>
+<a id="more"></a>
+<h1 id="安装环境"><a href="#安装环境" class="headerlink" title="安装环境"></a>安装环境</h1><blockquote>
+<ol>
+<li>个人电脑或云服务器，运行有支持Docker的操作系统;（笔者使用了Kali Linux 2020.1 amd64版本）</li>
+<li>良好的网络以支持程序和各种库的下载。</li>
+</ol>
+</blockquote>
+<h1 id="基础软件下载"><a href="#基础软件下载" class="headerlink" title="基础软件下载"></a>基础软件下载</h1><blockquote>
+<p>一、下载并安装Docker</p>
+</blockquote>
+<p>Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的Linux或Windows，Mac机器上，也可以实现虚拟化（摘自百度百科）。Docker为我们提供了一个快平台应用开发的解决方案，为了解决软件迁移和通用性的问题，也即为了实现一次配置，全平台通用，我们这里使用Docker来构建仿真平台。</p>
+<h4 id="Kali平台"><a href="#Kali平台" class="headerlink" title="Kali平台"></a>Kali平台</h4><blockquote>
+<ol>
+<li>打开终端（Terminal Emulator），之后的操作都需要在终端中完成；</li>
+</ol>
+</blockquote>
+<p><img src="1.png" alt="Terminal Emulator"></p>
+]]></content>
+      <categories>
+        <category>CVQC</category>
+      </categories>
+      <tags>
+        <tag>Quantum</tag>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【游戏】IBM ‘Hello Quantum’</title>
     <url>/2020/04/06/%E3%80%90%E6%B8%B8%E6%88%8F%E3%80%91IBM-%E2%80%98Hello-Quantum%E2%80%99/</url>
     <content><![CDATA[<blockquote>
