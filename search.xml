@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>【游戏】IBM &#39;Hello Quantum&#39;攻略</title>
+    <url>/2020/04/07/%E3%80%90%E6%B8%B8%E6%88%8F%E3%80%91IBM-&#39;Hello-Quantum&#39;%E6%94%BB%E7%95%A5/</url>
+    <content><![CDATA[<p>LX:Left X gate(左边的X门);RX:Right X gate(右边的X门);<br>LH:Left H gate(左边的H门);RH:Right H gate(右边的H门);<br>LZ:Left Z gate(左边的Z门);RZ:Right Z gate(右边的Z门);</p>
+<a id="more"></a>
+<p>每一关的可行的完美解法如下(执行步骤从左到右)：</p>
+<h1 id="Level-01"><a href="#Level-01" class="headerlink" title="Level 01"></a>Level 01</h1><blockquote>
+<p>Puzzle 01: LX<br>Puzzle 02: RX<br>Puzzle 03: LX, RX<br>Puzzle 04: RH<br>Puzzle 05: LH, RH<br>Puzzle 06: RX, LH<br>Puzzle 07: LZ, LH, RH<br>Puzzle 08: LZ, RZ, LH, RH<br>Puzzle 09: RH, RZ, RH<br>Puzzle 10: LH, LZ, RH, RZ, LH, RH</p>
+</blockquote>
+<h1 id="Level-02"><a href="#Level-02" class="headerlink" title="Level 02"></a>Level 02</h1><blockquote>
+<p>Puzzle 01: RX, LH<br>Puzzle 02: RX, LH<br>Puzzle 03: LZ, LH, RH<br>Puzzle 04: RH, RZ, RH, LH</p>
+</blockquote>
+<h1 id="Level-03"><a href="#Level-03" class="headerlink" title="Level 03"></a>Level 03</h1><blockquote>
+<p>Puzzle 01: CZ<br>Puzzle 02: RH, LH, CZ, LH, RH<br>Puzzle 03: LZ, CZ<br>Puzzle 04: LH, CZ</p>
+</blockquote>
+<h1 id="Level-04"><a href="#Level-04" class="headerlink" title="Level 04"></a>Level 04</h1><blockquote>
+<p>Puzzle 01: X, CZ, X, RH<br>Puzzle 02: X, CZ, X, LH<br>Puzzle 03: X, RH, CZ, X, RH<br>Puzzle 04: X, LH, CZ, X, LH<br>Puzzle 05: CZ<br>Puzzle 06: RH, CZ<br>Puzzle 07: CZ<br>Puzzle 08: CZ, RH<br>Puzzle 09: RH, CZ, RH, LH, CZ, LH<br>Puzzle 10: CZ, LH, RH, CZ<br>Puzzle 11: CZ, LH, RH, CZ, RH, LH, CZ</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Quantum Relate</category>
+      </categories>
+      <tags>
+        <tag>Quantum</tag>
+        <tag>技术</tag>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【游戏】IBM ‘Hello Quantum’</title>
+    <url>/2020/04/06/%E3%80%90%E6%B8%B8%E6%88%8F%E3%80%91IBM-%E2%80%98Hello-Quantum%E2%80%99/</url>
+    <content><![CDATA[<blockquote>
+<p>今天为大家介绍一款由IBM公司推出的一款手机游戏‘Hello Quantum’。</p>
+</blockquote>
+<img src="/2020/04/06/%E3%80%90%E6%B8%B8%E6%88%8F%E3%80%91IBM-%E2%80%98Hello-Quantum%E2%80%99/LV1.png" class="">
+<a id="more"></a>
+<blockquote>
+<p>游戏中你可以操作特定的量子逻辑门来实现量子态的变化。</p>
+</blockquote>
+<img src="/2020/04/06/%E3%80%90%E6%B8%B8%E6%88%8F%E3%80%91IBM-%E2%80%98Hello-Quantum%E2%80%99/LV2.png" class="">
+<p>上图展示了游戏内景，游戏正中间是整个两量子比特系统的状态，左下角和右下角的白色高亮区域表示的是量子比特本身（黑色代表量子比特0，白色代表量子比特1，无色代表它处在0和1的某种叠加状态），较暗区域为量子比特之间的关联特性（黑色代表其所关联的量子比特相同，白色代表不同，无色代表不确定）。左上角为目标状态，我们需要通过系统周围的量子逻辑门将其演化成要求的状态。</p>
+<p>如果想深入了解这个游戏，可以访问游戏设计者Dr James Wootton的引导网站<a href="https://medium.com/qiskit/hello-quantum-2c1c00fe830c" target="_blank" rel="noopener">https://medium.com/qiskit/hello-quantum-2c1c00fe830c</a><a href="https://medium.com/qiskit/hello-quantum-2c1c00fe830c" target="_blank" rel="noopener">https://medium.com/qiskit/hello-quantum-2c1c00fe830c</a>或者<a href="https://helloquantum.mybluemix.net/" target="_blank" rel="noopener">Hello Quantum官网</a>查阅相关资料</p>
+<p>这个游戏设计的精巧，但它并不完全是两量子比特计算系统的仿真，与真实的量子系统有不少出入，如果这个游戏激发起来你对量子计算的兴趣不妨可以试试<a href="https://quantumexperience.ng.bluemix.net/qx/editor" target="_blank" rel="noopener">IBM的5量子比特量子计算机和量子仿真器</a>，设计或验证量子算法，感受未来科技。量子计算一定不会让你失望</p>
+<p>下面附上B站的游戏演示视频及链接</p>
+<iframe src="//player.bilibili.com/player.html?aid=53837706&bvid=BV1F4411W7fU&cid=94172409&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<p>Link: <a href="https://www.bilibili.com/video/av53837706/" target="_blank" rel="noopener">https://www.bilibili.com/video/av53837706/</a></p>
+]]></content>
+      <categories>
+        <category>Quantum Relate</category>
+      </categories>
+      <tags>
+        <tag>Quantum</tag>
+        <tag>技术</tag>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Test</title>
     <url>/2020/04/06/Test/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Wrong password!" data-whm="Wrong data!">
@@ -31,35 +88,6 @@
       </categories>
       <tags>
         <tag>Holder File</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【游戏】IBM ‘Hello Quantum’</title>
-    <url>/2019/05/27/%E3%80%90%E6%B8%B8%E6%88%8F%E3%80%91IBM-%E2%80%98Hello-Quantum%E2%80%99/</url>
-    <content><![CDATA[<blockquote>
-<p>今天为大家介绍一款由IBM公司推出的一款手机游戏‘Hello Quantum’。</p>
-</blockquote>
-<img src="/2019/05/27/%E3%80%90%E6%B8%B8%E6%88%8F%E3%80%91IBM-%E2%80%98Hello-Quantum%E2%80%99/LV1.png" class="">
-<a id="more"></a>
-<blockquote>
-<p>游戏中你可以操作特定的量子逻辑门来实现量子态的变化。</p>
-</blockquote>
-<img src="/2019/05/27/%E3%80%90%E6%B8%B8%E6%88%8F%E3%80%91IBM-%E2%80%98Hello-Quantum%E2%80%99/LV2.png" class="">
-<p>上图展示了游戏内景，游戏正中间是整个两量子比特系统的状态，左下角和右下角的白色高亮区域表示的是量子比特本身（黑色代表量子比特0，白色代表量子比特1，无色代表它处在0和1的某种叠加状态），较暗区域为量子比特之间的关联特性（黑色代表其所关联的量子比特相同，白色代表不同，无色代表不确定）。左上角为目标状态，我们需要通过系统周围的量子逻辑门将其演化成要求的状态。</p>
-<p>如果想深入了解这个游戏，可以访问游戏设计者Dr James Wootton的引导网站<a href="https://medium.com/qiskit/hello-quantum-2c1c00fe830c" target="_blank" rel="noopener">https://medium.com/qiskit/hello-quantum-2c1c00fe830c</a><a href="https://medium.com/qiskit/hello-quantum-2c1c00fe830c" target="_blank" rel="noopener">https://medium.com/qiskit/hello-quantum-2c1c00fe830c</a>或者<a href="https://helloquantum.mybluemix.net/" target="_blank" rel="noopener">Hello Quantum官网</a>查阅相关资料</p>
-<p>这个游戏设计的精巧，但它并不完全是两量子比特计算系统的仿真，与真实的量子系统有不少出入，如果这个游戏激发起来你对量子计算的兴趣不妨可以试试<a href="https://quantumexperience.ng.bluemix.net/qx/editor" target="_blank" rel="noopener">IBM的5量子比特量子计算机和量子仿真器</a>，设计或验证量子算法，感受未来科技。量子计算一定不会让你失望</p>
-<p>下面附上B站的游戏演示视频及链接</p>
-<iframe src="//player.bilibili.com/player.html?aid=53837706&cid=94172409&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-<p><a href="https://www.bilibili.com/video/av53837706/" target="_blank" rel="noopener">https://www.bilibili.com/video/av53837706/</a></p>
-]]></content>
-      <categories>
-        <category>Quantum Relate</category>
-      </categories>
-      <tags>
-        <tag>Quantum</tag>
-        <tag>技术</tag>
-        <tag>游戏</tag>
       </tags>
   </entry>
 </search>
