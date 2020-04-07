@@ -1,70 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>【游戏】IBM &#39;Hello Quantum&#39;攻略</title>
-    <url>/2020/04/07/%E3%80%90%E6%B8%B8%E6%88%8F%E3%80%91IBM-&#39;Hello-Quantum&#39;%E6%94%BB%E7%95%A5/</url>
-    <content><![CDATA[<p>LX:Left X gate(左边的X门);RX:Right X gate(右边的X门);<br>LH:Left H gate(左边的H门);RH:Right H gate(右边的H门);<br>LZ:Left Z gate(左边的Z门);RZ:Right Z gate(右边的Z门);</p>
-<a id="more"></a>
-<p>每一关的可行的完美解法如下(执行步骤从左到右)：</p>
-<h1 id="Level-01"><a href="#Level-01" class="headerlink" title="Level 01"></a>Level 01</h1><blockquote>
-<p>Puzzle 01: LX<br>Puzzle 02: RX<br>Puzzle 03: LX, RX<br>Puzzle 04: RH<br>Puzzle 05: LH, RH<br>Puzzle 06: RX, LH<br>Puzzle 07: LZ, LH, RH<br>Puzzle 08: LZ, RZ, LH, RH<br>Puzzle 09: RH, RZ, RH<br>Puzzle 10: LH, LZ, RH, RZ, LH, RH</p>
-</blockquote>
-<h1 id="Level-02"><a href="#Level-02" class="headerlink" title="Level 02"></a>Level 02</h1><blockquote>
-<p>Puzzle 01: RX, LH<br>Puzzle 02: RX, LH<br>Puzzle 03: LZ, LH, RH<br>Puzzle 04: RH, RZ, RH, LH</p>
-</blockquote>
-<h1 id="Level-03"><a href="#Level-03" class="headerlink" title="Level 03"></a>Level 03</h1><blockquote>
-<p>Puzzle 01: CZ<br>Puzzle 02: RH, LH, CZ, LH, RH<br>Puzzle 03: LZ, CZ<br>Puzzle 04: LH, CZ</p>
-</blockquote>
-<h1 id="Level-04"><a href="#Level-04" class="headerlink" title="Level 04"></a>Level 04</h1><blockquote>
-<p>Puzzle 01: X, CZ, X, RH<br>Puzzle 02: X, CZ, X, LH<br>Puzzle 03: X, RH, CZ, X, RH<br>Puzzle 04: X, LH, CZ, X, LH<br>Puzzle 05: CZ<br>Puzzle 06: RH, CZ<br>Puzzle 07: CZ<br>Puzzle 08: CZ, RH<br>Puzzle 09: RH, CZ, RH, LH, CZ, LH<br>Puzzle 10: CZ, LH, RH, CZ<br>Puzzle 11: CZ, LH, RH, CZ, RH, LH, CZ</p>
-</blockquote>
-]]></content>
+    <title>Test</title>
+    <url>/2020/04/06/Test/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Wrong password!" data-whm="Wrong data!">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Enter password to read, and please refresh page to enable mathjax and other scripts.</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="005632d530f681d42b8f613da3b1f7a953caefe9c2b9fb2a0c381fb5e8be15e2">00aa2c256f6c42b1ba6fca351f607fbee1c595bf946254927613c2bccd9c60bd53c99585958dba98ed320b9cd04e6e98089d4d94c2b3276f172b5477aa916a8ccce5db0ef86a6e53892031b381ef16d2bbdc80258e2b433c84e86959d153cdba8b9174df787febeabb66def1408068f66d2d9df755a104ac0e489fc7940d2e4b4bd50737bbc6bc091b26b32782d4f4a612b52917da17da311322905ceade1c3ee992b46834f7c3ef98e101c1148dff7b4a15e8ff13630bd5caadb380bc9fe60f5e6a9626ebc286e1d1429465c3db8ea404fbd6b98f7c33f6cb22d4afcb64dea4abb5ff14b67b1560113dd5b543e6c38b91f1ef5e6094ea6e02bfe0299be344424a63aed3c874d2d28091e8381ddeb7ffbac3c4f0f20642a8a8f522687b0c273d9c1603945fda48ce2affb78768052f91cc6a13b38e1dfb721ea5289fc7857f280e8775d3f9e388a0af3dcd7ac8e9f5ae14e08a8df00123a1ca3c145579a9cb9539d44e27231803f5a05fb64dfcae45d131790c2e8a5c9060dec430770e1de69e8a0c70ccbf5857c16a2fa91d153ee63d03d82b1c4dd5b5bd08be5abf0224480a4013629d50d0f326a57712f86fc2a06f96a45f6af6c1a5e18379657bacf6078d029888159b141d93808af79dbdbbf65084f209866bb574e8a4a4a4e8b1a11cc82596a8c042a8a6d42fabc2c1b93e5f231a570db80f7e51d754fd4847c1ce9d02ef2375e44ae645ae0278e5b017de13a98567bcc25b9b724b4735ab2c198490e997f066dee39c69819e76e4f4dec35ac24712549cfa105ac8138d8c0e42779bdc259ca9160c3c80bdb841e0c2e711c39c278dc0b0f603b6c1f0d6d18ccb0ac065b652013cbc4006c163151035d0208b9b364f799b5a98155bb0f8e27c64a81dfda18dc2875c3417d6aa340cc1b299500b9510b16669d871f4fea93912059e13730164989395c919c11fc3b0772f32a247f0be90ac8c17da788f2c1be2374d6b33c3e6b6546600e09b9c7864968bc24ff6ae15a2291933141218facaf3175c05de31b0fc17c3e5f0cee7272f11241175a3a921c38ab48aab93f890be96a63f5eff127bd514782e1cbb393139a7dd94802540eb7729d4925e20e1d9b90150825cffabe0eafcf1c1328f673d1734b703955891a97f0fb1532c74c7478c02e673d9edee534ee5b5b0c98e78ee012eda30357019f294f59b8f4f4f2102ac30d2d5aef7f2467600c5eca20014e25caab48c696a6decbe8ba2dda106f39b6e894da09fe9e715468e104cbb4505d982465d4cc0744347d058340d280329fc9d2bbdc5c43c65858a375aedbc9f9bcbd9745a6ddbe6336147f5917b902e15192890457e7e1448beae48288192edd42a4a2f36a80a90f0c4d602765f0cfabf40e3fac11fc7c4daa9f98c67afd94e781f240eec74cccf8990d77278d24e8e0f2e685a4380f8174db2c261b3ac570087049ee04c5047f83c006d59a28a9973de339341160d8b82c8641c7a3037f62ff9b452f48e74f94f43b5d58ecff2bd95847d20e626fbf393feb8c30a5b07be6315a1073a3da80e205e2508f92da97f1382bae8641ac49cec3f319b59b55693cc00175638e0042c6a4253446f947be4fd58373cca7ff435fa7b9137130f1c06bc87c654393857c31c1102eb7db0964557cb701e3e5e2fc7f15bafb14c2912993af38289b7abb442629c813fe029dd2e4cf0ed09d0676bc4dece014ef2040b8d7dcc57d590be8670bd84f62d0eeddefb6833b2c79e3deb72935dcd6b583c192e89ef5a2e079ccfc403c9864c3f86bfe73aa77057138672c8a75bbd574131d7ea59ea9f038ee79d9555b46fc23ace6d9336ec90181a692a3c420b929d56e33f96177a572d2ff9476da3c45b48460f268ad3c7fd99654e11cbd0955ce2a55e839df26bcf1cad9ee64249592c651a1f68feae4adc801ec85cb5af22eba0b5e3b3861e46115c0e23456587f45d55b0b993b6d52ad69e2ba9259005a3afe01fe01abe01fc4ec4e554f8081c97836c52dbb5ef6c0f3491bfef02b62613d0758d38066be820d0abcebcc998347c8014aeadf845070fb052f434f08d6b0d724137b405a499512d25d09c22ba7ceb3d40769a9094d5c02be9fbded0aec9958b2139499d6de33d7bede2e059ddb33c3ec2fccaed7f68ff55d5248e5a55f972aff8090623696b610b0ed2beaa54ea8ed3e67dd7bafebc1e03d2e181c85419c06a2d523a836b386e676134133b00e16e86043d017346c0a11ef6208ef68e3f48651765079f9e9b38e99af40da113e36ec48baa2a488a9f8b0054cc9899d36de6b49bbf627f018323091339440e162dd07000c6d52addeefcd27a8fcd8d46dab6a0ad2f348a19e584fc19374668b6264ca56f78ba32c8c878ca9d26277661283e486f52c538f39c8455b6d55cd0c2c0662f11285fa11b2e2b3744dfb4875102d06fb464e03718df36ad8941c142df23ab424c5fd17692aa2d41b82ed7e031004645a1ae0bf45c6ea7aa1b5346e11170a51e8effd94227e026f97b74ce451dffc0ee75505979781c22f133bbdcf234538a016f1e68cc1abe8c65e2f158392b98678211bb95d4982f1ea252de18e0a8be5243afc8bbc5afd5f9b21f8467e786bc29fc407dc30cc3d0d2636e54a81b71ef784a3a5d85dbf6a64b0b8175280f87b3857d4a2eaa4f909a9be61582fa7b5a83ed2e6495498473abf53c47fe878acc0c5cb5da6c84cc2b18166fe86661a46003d05eb4652796d251cccebe43601ac5b9f4d2ce272c6c7da32d528c28acc608c020705eb991a7ed1f23809ae2f39ad9f39db5bc2abe8df25bced8e4caf060ecc187aa38263e7ff9d9b948d24ca316d4479c8f47d0255e4c86c990385ee9ffe9dc402502facb174deb306ffecb75f4969d23c7b93211dd9345ddede133250241742ac1176cda5e1f11aa410ee6c5415c1997dbd5e29b942ebe90c64f28c41bda4d15aa5b21cc059f46bf189ea971e618b91817e88d808965ae80f30c24a83623f25d97d35e4915a9cf5193fa7d1e175cbea69aa6ccb06b97c01dc61df4da3ff66c441117ee4ee966b9de1e7209ed17b424c243276f6797bfe111fb7c9dee1b8dcf1a6899d00733843845078a072bb42a4b6ffc8d1b46599bd18558c9b1f50b0ed56c8eede6aad78234fc94839f51b082bfb13e8703a8256331a01abb6ec3913deb667885020f2a67c46ab8b95e84191303e397d1cbd6d3fe9204e9b43f243fce4ada2ab38630d8bbb8a5e25d7b680ba636</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>Quantum Relate</category>
+        <category>Others</category>
       </categories>
       <tags>
-        <tag>Quantum</tag>
-        <tag>技术</tag>
-        <tag>游戏</tag>
+        <tag>Holder File</tag>
       </tags>
   </entry>
   <entry>
-    <title>【CVQC】离散量子计算工具ProjectQ安装教程</title>
-    <url>/2020/04/07/%E3%80%90CVQC%E3%80%91%E7%A6%BB%E6%95%A3%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7ProjectQ%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<p>ProjectQ是基于Python开发的离散变量量子计算的仿真库，它拥有IBM Q研发的Qiskit脚本语言的易用性，同时由于它与Python语言的集成，拥有很好的扩展性。并且ProjectQ同时提供了C语言编译的核心引擎能极大地提高量子算法模型的仿真速度。</p>
+    <title>Holder</title>
+    <url>/2020/04/06/Holder/</url>
+    <content><![CDATA[<p>This is a holder!</p>
 <a id="more"></a>
-<h1 id="安装环境"><a href="#安装环境" class="headerlink" title="安装环境"></a>安装环境</h1><blockquote>
-<ol>
-<li>个人电脑或云服务器，运行有支持Docker的操作系统;（笔者使用了Kali Linux 2020.1 amd64版本）</li>
-<li>良好的网络以支持程序和各种库的下载。</li>
-</ol>
-</blockquote>
-<h1 id="基础软件下载"><a href="#基础软件下载" class="headerlink" title="基础软件下载"></a>基础软件下载</h1><blockquote>
-<p>一、下载并安装Docker</p>
-</blockquote>
-<p>Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的Linux或Windows，Mac机器上，也可以实现虚拟化（摘自百度百科）。Docker为我们提供了一个快平台应用开发的解决方案，为了解决软件迁移和通用性的问题，也即为了实现一次配置，全平台通用，我们这里使用Docker来构建仿真平台。</p>
-<h4 id="Kali平台"><a href="#Kali平台" class="headerlink" title="Kali平台"></a>Kali平台</h4><blockquote>
-<p>1.打开终端（Terminal Emulator），之后的操作都需要在终端中完成；</p>
-</blockquote>
-<p><img src="1.png" alt="Terminal Emulator"></p>
-<blockquote>
-<p>2.在终端中更新软件源，运行“sudo apt-get update”，并安装docker软件，运行“sudo apt-get install docker-compose”。注意可能需要输入root密码。</p>
-</blockquote>
-<p><img src="2.png" alt="Terminal Emulator"></p>
-<blockquote>
-<p>3.进入Root用户下，运行”sudo su”，需要输入密码;<br><del>安装https协议、CA证书、dirmngr，运行</del></p>
-<p><pre><code>apt-get install -y apt-transport-https ca-certificates
-apt-get install dirmngr</code></pre><br><del>添加GPG密钥并添加更新源，运行</del></p>
-<p><pre><code>apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
-echo 'deb https://apt.dockerproject.org/repo debian-stretch main' > /etc/apt/sources.list.d/docker.list</code></pre><br>下载预设的容器包这里我们选择“jupyter/tensorflow-notebook”，运行“docker pull jupyter/tensorflow-notebook”.</p>
-</blockquote>
+<p>Waiting For Edit!</p>
 ]]></content>
       <categories>
-        <category>CVQC</category>
+        <category>Others</category>
       </categories>
       <tags>
-        <tag>Quantum</tag>
-        <tag>技术</tag>
+        <tag>Holder File</tag>
       </tags>
   </entry>
   <entry>
@@ -97,36 +63,70 @@ echo 'deb https://apt.dockerproject.org/repo debian-stretch main' > /etc/apt/sou
       </tags>
   </entry>
   <entry>
-    <title>Test</title>
-    <url>/2020/04/06/Test/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Wrong password!" data-whm="Wrong data!">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">Enter password to read, and please refresh page to enable mathjax and other scripts.</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="005632d530f681d42b8f613da3b1f7a953caefe9c2b9fb2a0c381fb5e8be15e2">00aa2c256f6c42b1ba6fca351f607fbee1c595bf946254927613c2bccd9c60bd53c99585958dba98ed320b9cd04e6e98089d4d94c2b3276f172b5477aa916a8ccce5db0ef86a6e53892031b381ef16d2bbdc80258e2b433c84e86959d153cdba8b9174df787febeabb66def1408068f66d2d9df755a104ac0e489fc7940d2e4b4bd50737bbc6bc091b26b32782d4f4a612b52917da17da311322905ceade1c3ee992b46834f7c3ef98e101c1148dff7b4a15e8ff13630bd5caadb380bc9fe60f5e6a9626ebc286e1d1429465c3db8ea404fbd6b98f7c33f6cb22d4afcb64dea4abb5ff14b67b1560113dd5b543e6c38b91f1ef5e6094ea6e02bfe0299be344424a63aed3c874d2d28091e8381ddeb7ffbac3c4f0f20642a8a8f522687b0c273d9c1603945fda48ce2affb78768052f91cc6a13b38e1dfb721ea5289fc7857f280e8775d3f9e388a0af3dcd7ac8e9f5ae14e08a8df00123a1ca3c145579a9cb9539d44e27231803f5a05fb64dfcae45d131790c2e8a5c9060dec430770e1de69e8a0c70ccbf5857c16a2fa91d153ee63d03d82b1c4dd5b5bd08be5abf0224480a4013629d50d0f326a57712f86fc2a06f96a45f6af6c1a5e18379657bacf6078d029888159b141d93808af79dbdbbf65084f209866bb574e8a4a4a4e8b1a11cc82596a8c042a8a6d42fabc2c1b93e5f231a570db80f7e51d754fd4847c1ce9d02ef2375e44ae645ae0278e5b017de13a98567bcc25b9b724b4735ab2c198490e997f066dee39c69819e76e4f4dec35ac24712549cfa105ac8138d8c0e42779bdc259ca9160c3c80bdb841e0c2e711c39c278dc0b0f603b6c1f0d6d18ccb0ac065b652013cbc4006c163151035d0208b9b364f799b5a98155bb0f8e27c64a81dfda18dc2875c3417d6aa340cc1b299500b9510b16669d871f4fea93912059e13730164989395c919c11fc3b0772f32a247f0be90ac8c17da788f2c1be2374d6b33c3e6b6546600e09b9c7864968bc24ff6ae15a2291933141218facaf3175c05de31b0fc17c3e5f0cee7272f11241175a3a921c38ab48aab93f890be96a63f5eff127bd514782e1cbb393139a7dd94802540eb7729d4925e20e1d9b90150825cffabe0eafcf1c1328f673d1734b703955891a97f0fb1532c74c7478c02e673d9edee534ee5b5b0c98e78ee012eda30357019f294f59b8f4f4f2102ac30d2d5aef7f2467600c5eca20014e25caab48c696a6decbe8ba2dda106f39b6e894da09fe9e715468e104cbb4505d982465d4cc0744347d058340d280329fc9d2bbdc5c43c65858a375aedbc9f9bcbd9745a6ddbe6336147f5917b902e15192890457e7e1448beae48288192edd42a4a2f36a80a90f0c4d602765f0cfabf40e3fac11fc7c4daa9f98c67afd94e781f240eec74cccf8990d77278d24e8e0f2e685a4380f8174db2c261b3ac570087049ee04c5047f83c006d59a28a9973de339341160d8b82c8641c7a3037f62ff9b452f48e74f94f43b5d58ecff2bd95847d20e626fbf393feb8c30a5b07be6315a1073a3da80e205e2508f92da97f1382bae8641ac49cec3f319b59b55693cc00175638e0042c6a4253446f947be4fd58373cca7ff435fa7b9137130f1c06bc87c654393857c31c1102eb7db0964557cb701e3e5e2fc7f15bafb14c2912993af38289b7abb442629c813fe029dd2e4cf0ed09d0676bc4dece014ef2040b8d7dcc57d590be8670bd84f62d0eeddefb6833b2c79e3deb72935dcd6b583c192e89ef5a2e079ccfc403c9864c3f86bfe73aa77057138672c8a75bbd574131d7ea59ea9f038ee79d9555b46fc23ace6d9336ec90181a692a3c420b929d56e33f96177a572d2ff9476da3c45b48460f268ad3c7fd99654e11cbd0955ce2a55e839df26bcf1cad9ee64249592c651a1f68feae4adc801ec85cb5af22eba0b5e3b3861e46115c0e23456587f45d55b0b993b6d52ad69e2ba9259005a3afe01fe01abe01fc4ec4e554f8081c97836c52dbb5ef6c0f3491bfef02b62613d0758d38066be820d0abcebcc998347c8014aeadf845070fb052f434f08d6b0d724137b405a499512d25d09c22ba7ceb3d40769a9094d5c02be9fbded0aec9958b2139499d6de33d7bede2e059ddb33c3ec2fccaed7f68ff55d5248e5a55f972aff8090623696b610b0ed2beaa54ea8ed3e67dd7bafebc1e03d2e181c85419c06a2d523a836b386e676134133b00e16e86043d017346c0a11ef6208ef68e3f48651765079f9e9b38e99af40da113e36ec48baa2a488a9f8b0054cc9899d36de6b49bbf627f018323091339440e162dd07000c6d52addeefcd27a8fcd8d46dab6a0ad2f348a19e584fc19374668b6264ca56f78ba32c8c878ca9d26277661283e486f52c538f39c8455b6d55cd0c2c0662f11285fa11b2e2b3744dfb4875102d06fb464e03718df36ad8941c142df23ab424c5fd17692aa2d41b82ed7e031004645a1ae0bf45c6ea7aa1b5346e11170a51e8effd94227e026f97b74ce451dffc0ee75505979781c22f133bbdcf234538a016f1e68cc1abe8c65e2f158392b98678211bb95d4982f1ea252de18e0a8be5243afc8bbc5afd5f9b21f8467e786bc29fc407dc30cc3d0d2636e54a81b71ef784a3a5d85dbf6a64b0b8175280f87b3857d4a2eaa4f909a9be61582fa7b5a83ed2e6495498473abf53c47fe878acc0c5cb5da6c84cc2b18166fe86661a46003d05eb4652796d251cccebe43601ac5b9f4d2ce272c6c7da32d528c28acc608c020705eb991a7ed1f23809ae2f39ad9f39db5bc2abe8df25bced8e4caf060ecc187aa38263e7ff9d9b948d24ca316d4479c8f47d0255e4c86c990385ee9ffe9dc402502facb174deb306ffecb75f4969d23c7b93211dd9345ddede133250241742ac1176cda5e1f11aa410ee6c5415c1997dbd5e29b942ebe90c64f28c41bda4d15aa5b21cc059f46bf189ea971e618b91817e88d808965ae80f30c24a83623f25d97d35e4915a9cf5193fa7d1e175cbea69aa6ccb06b97c01dc61df4da3ff66c441117ee4ee966b9de1e7209ed17b424c243276f6797bfe111fb7c9dee1b8dcf1a6899d00733843845078a072bb42a4b6ffc8d1b46599bd18558c9b1f50b0ed56c8eede6aad78234fc94839f51b082bfb13e8703a8256331a01abb6ec3913deb667885020f2a67c46ab8b95e84191303e397d1cbd6d3fe9204e9b43f243fce4ada2ab38630d8bbb8a5e25d7b680ba636</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <title>【游戏】IBM &#39;Hello Quantum&#39;攻略</title>
+    <url>/2020/04/07/%E3%80%90%E6%B8%B8%E6%88%8F%E3%80%91IBM-&#39;Hello-Quantum&#39;%E6%94%BB%E7%95%A5/</url>
+    <content><![CDATA[<p>LX:Left X gate(左边的X门);RX:Right X gate(右边的X门);<br>LH:Left H gate(左边的H门);RH:Right H gate(右边的H门);<br>LZ:Left Z gate(左边的Z门);RZ:Right Z gate(右边的Z门);</p>
+<a id="more"></a>
+<p>每一关的可行的完美解法如下(执行步骤从左到右)：</p>
+<h1 id="Level-01"><a href="#Level-01" class="headerlink" title="Level 01"></a>Level 01</h1><blockquote>
+<p>Puzzle 01: LX<br>Puzzle 02: RX<br>Puzzle 03: LX, RX<br>Puzzle 04: RH<br>Puzzle 05: LH, RH<br>Puzzle 06: RX, LH<br>Puzzle 07: LZ, LH, RH<br>Puzzle 08: LZ, RZ, LH, RH<br>Puzzle 09: RH, RZ, RH<br>Puzzle 10: LH, LZ, RH, RZ, LH, RH</p>
+</blockquote>
+<h1 id="Level-02"><a href="#Level-02" class="headerlink" title="Level 02"></a>Level 02</h1><blockquote>
+<p>Puzzle 01: RX, LH<br>Puzzle 02: RX, LH<br>Puzzle 03: LZ, LH, RH<br>Puzzle 04: RH, RZ, RH, LH</p>
+</blockquote>
+<h1 id="Level-03"><a href="#Level-03" class="headerlink" title="Level 03"></a>Level 03</h1><blockquote>
+<p>Puzzle 01: CZ<br>Puzzle 02: RH, LH, CZ, LH, RH<br>Puzzle 03: LZ, CZ<br>Puzzle 04: LH, CZ</p>
+</blockquote>
+<h1 id="Level-04"><a href="#Level-04" class="headerlink" title="Level 04"></a>Level 04</h1><blockquote>
+<p>Puzzle 01: X, CZ, X, RH<br>Puzzle 02: X, CZ, X, LH<br>Puzzle 03: X, RH, CZ, X, RH<br>Puzzle 04: X, LH, CZ, X, LH<br>Puzzle 05: CZ<br>Puzzle 06: RH, CZ<br>Puzzle 07: CZ<br>Puzzle 08: CZ, RH<br>Puzzle 09: RH, CZ, RH, LH, CZ, LH<br>Puzzle 10: CZ, LH, RH, CZ<br>Puzzle 11: CZ, LH, RH, CZ, RH, LH, CZ</p>
+</blockquote>
+]]></content>
       <categories>
-        <category>Others</category>
+        <category>Quantum Relate</category>
       </categories>
       <tags>
-        <tag>Holder File</tag>
+        <tag>Quantum</tag>
+        <tag>技术</tag>
+        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
-    <title>Holder</title>
-    <url>/2020/04/06/Holder/</url>
-    <content><![CDATA[<p>This is a holder!</p>
+    <title>【DVQC】离散量子计算工具ProjectQ安装教程</title>
+    <url>/2020/04/07/%E3%80%90CVQC%E3%80%91%E7%A6%BB%E6%95%A3%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7ProjectQ%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>ProjectQ是基于Python开发的离散变量量子计算(DVQC)的仿真库，它拥有IBM Q研发的Qiskit脚本语言的易用性，同时由于它与Python语言的集成，拥有很好的扩展性。并且ProjectQ同时提供了C语言编译的核心引擎能极大地提高量子算法模型的仿真速度。</p>
 <a id="more"></a>
-<p>Waiting For Edit!</p>
+<h1 id="安装环境"><a href="#安装环境" class="headerlink" title="安装环境"></a>安装环境</h1><blockquote>
+<ol>
+<li>个人电脑或云服务器，运行有支持Docker的操作系统;（笔者使用了Kali Linux 2020.1 amd64版本）</li>
+<li>良好的网络以支持程序和各种库的下载。</li>
+</ol>
+</blockquote>
+<h1 id="基础软件下载"><a href="#基础软件下载" class="headerlink" title="基础软件下载"></a>基础软件下载</h1><blockquote>
+<p>一、下载并安装Docker</p>
+</blockquote>
+<p>Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的Linux或Windows，Mac机器上，也可以实现虚拟化（摘自百度百科）。Docker为我们提供了一个快平台应用开发的解决方案，为了解决软件迁移和通用性的问题，也即为了实现一次配置，全平台通用，我们这里使用Docker来构建仿真平台。</p>
+<h4 id="Kali平台"><a href="#Kali平台" class="headerlink" title="Kali平台"></a>Kali平台</h4><blockquote>
+<p>1.打开终端（Terminal Emulator），之后的操作都需要在终端中完成；</p>
+</blockquote>
+<p><img src="1.png" alt="Terminal Emulator"></p>
+<blockquote>
+<p>2.在终端中更新软件源，运行“sudo apt-get update”，并安装docker软件，运行“sudo apt-get install docker-compose”。注意可能需要输入root密码。</p>
+</blockquote>
+<p><img src="2.png" alt="Terminal Emulator"></p>
+<blockquote>
+<p>3.进入Root用户下，运行”sudo su”，需要输入密码;<br><del>安装https协议、CA证书、dirmngr，运行</del></p>
+<p><pre><code>apt-get install -y apt-transport-https ca-certificates
+apt-get install dirmngr</code></pre><br><del>添加GPG密钥并添加更新源，运行</del></p>
+<p><pre><code>apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+echo 'deb https://apt.dockerproject.org/repo debian-stretch main' > /etc/apt/sources.list.d/docker.list</code></pre><br>下载预设的容器包这里我们选择“jupyter/tensorflow-notebook”，运行“docker pull jupyter/tensorflow-notebook”.</p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>Others</category>
+        <category>DVQC</category>
       </categories>
       <tags>
-        <tag>Holder File</tag>
+        <tag>Quantum</tag>
+        <tag>技术</tag>
       </tags>
   </entry>
 </search>
