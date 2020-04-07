@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://qc.happyan.space/"/>
-  <updated>2020-04-06T16:23:25.920Z</updated>
+  <updated>2020-04-07T05:29:40.459Z</updated>
   <id>http://qc.happyan.space/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://qc.happyan.space/2020/04/06/Test/"/>
     <id>http://qc.happyan.space/2020/04/06/Test/</id>
     <published>2020-04-06T07:09:18.000Z</published>
-    <updated>2020-04-06T16:23:25.920Z</updated>
+    <updated>2020-04-07T05:29:40.459Z</updated>
     
     <summary type="html">
     
@@ -42,7 +42,7 @@
     <link href="http://qc.happyan.space/2020/04/06/Holder/"/>
     <id>http://qc.happyan.space/2020/04/06/Holder/</id>
     <published>2020-04-06T06:28:07.000Z</published>
-    <updated>2020-04-06T16:05:16.920Z</updated>
+    <updated>2020-04-07T05:29:23.082Z</updated>
     
     <summary type="html">
     
@@ -55,6 +55,34 @@
     
     
       <category term="Holder File" scheme="http://qc.happyan.space/tags/Holder-File/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【游戏】IBM ‘Hello Quantum’</title>
+    <link href="http://qc.happyan.space/2019/05/27/%E3%80%90%E6%B8%B8%E6%88%8F%E3%80%91IBM-%E2%80%98Hello-Quantum%E2%80%99/"/>
+    <id>http://qc.happyan.space/2019/05/27/%E3%80%90%E6%B8%B8%E6%88%8F%E3%80%91IBM-%E2%80%98Hello-Quantum%E2%80%99/</id>
+    <published>2019-05-28T03:48:24.000Z</published>
+    <updated>2020-04-07T05:28:55.860Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;今天为大家介绍一款由IBM公司推出的一款手机游戏‘Hello Quantum’。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;img src=&quot;/2019/05/27/%E3%80%90%E6%B8%B8%E6%88%8F%E3%80%91IBM-%E2%80%98Hello-Quantum%E2%80%99/LV1.png&quot; class=&quot;&quot;&gt;
+    
+    </summary>
+    
+    
+      <category term="Quantum Relate" scheme="http://qc.happyan.space/categories/Quantum-Relate/"/>
+    
+    
+      <category term="Quantum" scheme="http://qc.happyan.space/tags/Quantum/"/>
+    
+      <category term="技术" scheme="http://qc.happyan.space/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="游戏" scheme="http://qc.happyan.space/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
