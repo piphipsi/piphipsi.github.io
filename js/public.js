@@ -1,0 +1,10 @@
+function getPubKey(){
+	var pubkey="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv3WK3DsK8XSBCSBPlXgt\
+qQFDSPSPdXDD4hdeumL5cZZ8ziI/gPOuL3v0tQo/9wUPy1C3w4VgisOVAzf7/wyX\
+Z5aIEvyYJUWDbNZUbIjAYiYt8M07hHSUBUmeTRQyKlZkg59VfHBwKqWRNnNqgK2j\
+Iuahw1Zoeu3nOj5cnRNFUiJAcEV4Znax+psY0sxS2AjcqhZm3o8SoDf6WNgnMT/m\
+aFxueMFr58rn9+X2/juT72Ygi56UZVk11GjRSEN8TxGpumse9vb1LM7Z4usaRBBd\
+jQqRxnLhL21pr3gR6roymZQwkdfMO/ck9/3sSfhU/Lvcgk6wvPYilgv5I+RJUQpD\
+kQIDAQAB";
+    return pubkey;
+}

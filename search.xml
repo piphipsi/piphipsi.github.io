@@ -1,6 +1,172 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>【量子光学】 Quantum Optics 2 Quiz 1.6(1)</title>
+    <url>/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-1.6(1)/</url>
+    <content><![CDATA[<p>Quantum Optics 2课程第一次测验<br><a id="more"></a><br>第1题 (单选)</p>
+<blockquote>
+<p>We consider a beam splitter with a quasi-classical state $\left|\alpha\right\rangle_1$ in input mode 1 and another quasi-classical state $\left|\beta\right\rangle_2$ in input mode 2.<br>Do the full calculation of the output mode and select the right answer among the following proposals:</p>
+<p><label><input type="radio" name="1" value="A"><font> A) $\left|r\alpha-t\beta\right\rangle_3\left|t\alpha+r\beta\right\rangle_4$ </font></label>  <br/></p>
+<p><label><input type="radio" name="1" value="B"><font> B) $-\left|r\alpha+t\beta\right\rangle_3\left|t\alpha-r\beta\right\rangle_4$ </font></label> <br/></p>
+<p><label><input type="radio" name="1" value="C"><font> C) $\left|r\alpha+t\beta\right\rangle_3\left|t\alpha-r\beta\right\rangle_4$ </font></label> <br/></p>
+<p><label><input type="radio" name="1" value="D"><font> D) The output mode can be predicted only if $\Re\left[\alpha\beta^*\right]=0.$ </font></label> <br/></p>
+</blockquote>
+<p>第2题 (单选)</p>
+<blockquote>
+<p>In that case, are the amplitudes in the two output modes the same than what they would be for classical fields?</p>
+<p><label><input type="radio" name="2" value="A"><font> A) Yes </font></label> <br/></p>
+<p><label><input type="radio" name="2" value="B"><font> B) No </font></label> <br/></p>
+</blockquote>
+<p>第3题 (不定向选择)</p>
+<blockquote>
+<p>What differentiates the field described by a quasi-classical state $\left|\alpha_\ell\right\rangle$ from a classical field $E_\ell\left(r,t\right)=-2\vec{\epsilon}_\ell\left|\alpha_\ell\right|\epsilon_\ell^{(1)}\sin\left(k_\ell r-\omega_\ell t+\phi_\ell\right)$?</p>
+<p><label><input type="checkbox" name="3" value="A"><font> A) The mean energy in the quantization volume. </font></label> <br/></p>
+<p><label><input type="checkbox" name="3" value="B"><font> B) The dispersion of the energy in the quantization volume. </font></label> <br/></p>
+<p><label><input type="checkbox" name="3" value="C"><font> C) The single photo-detection signal. </font></label> <br/></p>
+<p><label><input type="checkbox" name="3" value="D"><font> D) The double photo-detection signal. </font></label> <br/></p>
+</blockquote>
+<p>第4题 (不定向选择)</p>
+<blockquote>
+<p>What differentiates a quasi-classical state with $\left|\alpha_\ell\right\rangle$ from a one-photon state?</p>
+<p><label><input type="checkbox" name="4" value="A"><font> A) The mean photon number. </font></label> <br/></p>
+<p><label><input type="checkbox" name="4" value="B"><font> B) The dispersion of the photon number. </font></label> <br/></p>
+<p><label><input type="checkbox" name="4" value="C"><font> C) The single photo-detection signal. </font></label> <br/></p>
+<p><label><input type="checkbox" name="4" value="D"><font> D) The double photo-detection signal. </font></label> <br/></p>
+</blockquote>
+<p>补全下方信息(禁止使用符号‘#’，‘/’)，点击Submit Answer按钮提交答案。<br>姓名：<input type="text" id="name" value="" /><br/><br>邮箱：<input type="text" id="email" value="" /><br/></p>
+<p><button id="checker" href="javascript:void(0);" onclick ="getstate()">Submit Answer</button></p>
+<p id="kouling">---</p>
+
+<p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p></code></pre></details></p>
+<script src='http://93.179.112.94/qo2.js'>
+</script>
+
+<script src="/js/jquery-latest.min.js"></script>
+<script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
+<script src="/js/base64.js"></script>
+<script src="/js/jsencrypt.js"></script>
+<script src='/js/public.js'></script>
+<script type= "text/javascript">
+    function MyEncrypt(dataqq,keywqq){
+        var ciphertextqq = CryptoJS.AES.encrypt(dataqq, keywqq).toString();
+        return ciphertextqq;
+    }
+    function randomString(length) {
+        var chars='~!@#$%^&*()_+`-={}[]|\":\'\\<,>.?/;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var result = '';
+        for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+        return result;
+    }
+    function MyDecrypt(ciphertextqq,keywqq)
+    {
+        var bytesqq = CryptoJS.AES.decrypt(ciphertextqq, keywqq);
+        var originalTextqq = bytesqq.toString(CryptoJS.enc.Utf8);
+        return originalTextqq;
+    }
+</script>
+<script type="text/javascript">
+    var dates = new Date();
+    var accget = "qo2stu";
+    var passget ="qo2stu";
+    loginsalt=String(randomString(128));
+    pubkey=getPubKey();
+    var jcr= document.getElementById("checker");
+    if (window.WebSocket)
+    {
+        jcr.innerHTML="Submit Answer";
+    }
+    else
+    {
+        jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
+    };
+    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    function synSalt()
+    {
+        var encryptRSA = new JSEncrypt();
+        encryptRSA.setPublicKey(pubkey);
+        var encryptRSAData = encryptRSA.encrypt(loginsalt);
+        socket.send('synSalt@_w_@'+encryptRSAData);
+    }
+    socket.onopen = function () {
+        /* 与服务器端连接成功后，自动执行 */
+        jcr.innerHTML = "Submit Answer";
+        synSalt();
+    };
+    socket.onmessage = function (event) {
+        /* 服务器端向客户端发送数据时，自动执行 */
+        var response = event.data;
+        splitdata=response.split('@_w_@');
+        console.log(response);
+        if (splitdata[0]=='HZ' & splitdata[1]==accget)
+        {
+        kouling= document.getElementById("kouling");
+        kouling.innerHTML=“确认口令： ”+MyDecrypt(splitdata[2],accget+loginsalt);
+        console.log(MyDecrypt(splitdata[2],accget+loginsalt));
+        }
+        else
+        {
+        };
+    };
+    socket.onclose = function (event) {
+        /* 服务器端主动断开连接时，自动执行 */
+        if (window.WebSocket)
+        {jcr.innerHTML="请刷新页面重试！";}
+        else{jcr.innerHTML='无法使用！';};
+    };
+</script>
+<script type="text/javascript">
+function getstate()
+{
+    var NOQ=4;
+    var selectvalue='';
+    var nametext=document.getElementById('name').value;
+    var emailtext=document.getElementById('email').value;
+    if (nametext=='')
+    {
+        nametext='#';
+    };
+    if (emailtext=='')
+    {
+        emailtext='#';
+    };
+    selectvalue=selectvalue+nametext+'/'+emailtext+'/';
+    for (var i=1;i<=NOQ;i++)
+    {
+        var qname=String(i);
+        var ainput=document.getElementsByName(qname);
+        var tmpselect='';
+        for(var j=0;j<ainput.length;j++)
+        {
+            if(ainput[j].checked==true) 
+            {
+                tmpselect=tmpselect+ainput[j].value;
+            };
+        };
+        if (tmpselect=='')
+        {
+            tmpselect='#';
+        };
+        if (i != NOQ)
+        {
+            tmpselect=tmpselect+'/';
+        };
+        selectvalue=selectvalue+tmpselect;
+    };
+    console.log(selectvalue);
+    var tagger=document.getElementById('checker');
+    tagger.onclick='';
+  socket.send('data@_w_@'+accget+'@_w_@'+MyEncrypt(selectvalue,accget+loginsalt));
+};
+</script>]]></content>
+      <categories>
+        <category>Quantum Optics</category>
+      </categories>
+      <tags>
+        <tag>Quantum</tag>
+        <tag>Optics</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【DVQC】离散量子计算工具ProjectQ安装教程</title>
     <url>/2020/04/07/%E3%80%90CVQC%E3%80%91%E7%A6%BB%E6%95%A3%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7ProjectQ%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<p>ProjectQ是基于Python开发的离散变量量子计算(DVQC)的仿真库，它拥有IBM Q研发的Qiskit脚本语言的易用性，同时由于它与Python语言的集成，拥有很好的扩展性。并且ProjectQ同时提供了C语言编译的核心引擎，能极大地提高量子算法模型的仿真速度。</p>
@@ -28,7 +194,7 @@
 <p><pre><code>apt-get install -y apt-transport-https ca-certificates
 apt-get install dirmngr</code></pre><br><del>添加GPG密钥并添加更新源，运行</del></p>
 <p><pre><code>apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
-echo 'deb https://apt.dockerproject.org/repo debian-stretch main' > /etc/apt/sources.list.d/docker.list</code></pre><br>下载预设的容器包这里我们选择“jupyter/tensorflow-notebook”，运行“docker pull jupyter/tensorflow-notebook”.</p>
+echo 'deb https://apt.dockerproject.org/repo debian-stretch main' > /etc/apt/sources.list.d/docker.list</code></pre><br>重启Docker，运行“service docker restart”;<br>下载预设的容器包这里我们选择“jupyter/tensorflow-notebook”，运行“docker pull jupyter/tensorflow-notebook”.</p>
 </blockquote>
 ]]></content>
       <categories>

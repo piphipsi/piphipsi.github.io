@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://qc.happyan.space/"/>
-  <updated>2020-04-07T15:47:10.857Z</updated>
+  <updated>2020-04-27T07:37:39.540Z</updated>
   <id>http://qc.happyan.space/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【量子光学】 Quantum Optics 2 Quiz 1.6(1)</title>
+    <link href="http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-1.6(1)/"/>
+    <id>http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-1.6(1)/</id>
+    <published>2020-04-26T19:34:37.000Z</published>
+    <updated>2020-04-27T07:37:39.540Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Quantum Optics 2课程第一次测验&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Quantum Optics" scheme="http://qc.happyan.space/categories/Quantum-Optics/"/>
+    
+    
+      <category term="Quantum" scheme="http://qc.happyan.space/tags/Quantum/"/>
+    
+      <category term="Optics" scheme="http://qc.happyan.space/tags/Optics/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【DVQC】离散量子计算工具ProjectQ安装教程</title>
     <link href="http://qc.happyan.space/2020/04/07/%E3%80%90CVQC%E3%80%91%E7%A6%BB%E6%95%A3%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7ProjectQ%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
     <id>http://qc.happyan.space/2020/04/07/%E3%80%90CVQC%E3%80%91%E7%A6%BB%E6%95%A3%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7ProjectQ%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</id>
     <published>2020-04-07T22:25:56.000Z</published>
-    <updated>2020-04-07T15:47:10.857Z</updated>
+    <updated>2020-04-08T04:14:05.634Z</updated>
     
     <summary type="html">
     
