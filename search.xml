@@ -100,7 +100,7 @@
         if (splitdata[0]=='HZ' & splitdata[1]==accget)
         {
         kouling= document.getElementById("kouling");
-        kouling.innerHTML=“确认口令： ”+MyDecrypt(splitdata[2],accget+loginsalt);
+        kouling.innerHTML='确认口令(请保存好作为提交凭据）： '+MyDecrypt(splitdata[2],accget+loginsalt);
         console.log(MyDecrypt(splitdata[2],accget+loginsalt));
         }
         else
@@ -113,8 +113,6 @@
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
     };
-</script>
-<script type="text/javascript">
 function getstate()
 {
     var NOQ=4;
