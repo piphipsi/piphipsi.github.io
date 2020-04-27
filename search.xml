@@ -33,11 +33,13 @@
 <p><label><input type="checkbox" name="4" value="C"><font> C) The single photo-detection signal. </font></label> <br/></p>
 <p><label><input type="checkbox" name="4" value="D"><font> D) The double photo-detection signal. </font></label> <br/></p>
 </blockquote>
+<p id='qattach'></p>
+
 <p>补全下方信息(禁止使用符号‘#’，‘/’)，点击Submit Answer按钮提交答案。<br>姓名(英语/拼音)：<input type="text" id="name" value="" /><br/><br>邮箱(手机/其他)：<input type="text" id="email" value="" /><br/></p>
 <p><button id="checker" href="javascript:void(0);" onclick ="getstate()">Submit Answer</button></p>
 <p id="kouling">---提交后等待口令，若无需刷新后重新提交！---</p>
 
-<p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p></code></pre></details></p>
+<p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
 <script src='http://93.179.112.94/qo2.js'>
 </script>
 
