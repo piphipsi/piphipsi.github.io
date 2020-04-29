@@ -1602,8 +1602,8 @@ function getstate()
   </entry>
   <entry>
     <title>【DVQC】离散量子计算工具ProjectQ安装教程</title>
-    <url>/2020/04/07/%E3%80%90CVQC%E3%80%91%E7%A6%BB%E6%95%A3%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7ProjectQ%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<p>ProjectQ是基于Python开发的离散变量量子计算(DVQC)的仿真库，它拥有IBM Q研发的Qiskit脚本语言的易用性，同时由于它与Python语言的集成，拥有很好的扩展性。并且ProjectQ同时提供了C语言编译的核心引擎，能极大地提高量子算法模型的仿真速度。</p>
+    <url>/2020/04/07/%E3%80%90DVQC%E3%80%91%E7%A6%BB%E6%95%A3%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7ProjectQ%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>(暂未更新完成)<br>ProjectQ是基于Python开发的离散变量量子计算(DVQC)的仿真库，它拥有IBM Q研发的Qiskit脚本语言的易用性，同时由于它与Python语言的集成，拥有很好的扩展性。并且ProjectQ同时提供了C语言编译的核心引擎，能极大地提高量子算法模型的仿真速度。</p>
 <a id="more"></a>
 <h1 id="安装环境"><a href="#安装环境" class="headerlink" title="安装环境"></a>安装环境</h1><blockquote>
 <ol>
