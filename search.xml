@@ -17,7 +17,7 @@
 <p><label><input type="radio" name="2" value="A"><font> A) Yes </font></label> <br/></p>
 <p><label><input type="radio" name="2" value="B"><font> B) No </font></label> <br/></p>
 </blockquote>
-<p>第3题 (不定向选择)</p>
+<p>第3题 (不定项选择)</p>
 <blockquote>
 <p>What differentiates the field described by a quasi-classical state $\left|\alpha_\ell\right\rangle$ from a classical field $E_\ell\left(r,t\right)=-2\vec{\epsilon}_\ell\left|\alpha_\ell\right|\epsilon_\ell^{(1)}\sin\left(k_\ell r-\omega_\ell t+\phi_\ell\right)$?</p>
 <p><label><input type="checkbox" name="3" value="A"><font> A) The mean energy in the quantization volume. </font></label> <br/></p>
@@ -25,7 +25,7 @@
 <p><label><input type="checkbox" name="3" value="C"><font> C) The single photo-detection signal. </font></label> <br/></p>
 <p><label><input type="checkbox" name="3" value="D"><font> D) The double photo-detection signal. </font></label> <br/></p>
 </blockquote>
-<p>第4题 (不定向选择)</p>
+<p>第4题 (不定项选择)</p>
 <blockquote>
 <p>What differentiates a quasi-classical state with $\left|\alpha_\ell\right\rangle$ from a one-photon state?</p>
 <p><label><input type="checkbox" name="4" value="A"><font> A) The mean photon number. </font></label> <br/></p>
@@ -175,7 +175,7 @@ function getstate()
   <entry>
     <title>【量子光学】 Quantum Optics 2 Quiz 1.10(2)</title>
     <url>/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-1.10(2)/</url>
-    <content><![CDATA[<p>Quantum Optics 2课程第二次测验<br><a id="more"></a><br>第1题 (不定向选择)</p>
+    <content><![CDATA[<p>Quantum Optics 2课程第二次测验<br><a id="more"></a><br>第1题 (不定项选择)</p>
 <blockquote>
 <p>Which of these light fields can be described by quasi-classical states?</p>
 <p><label><input type="checkbox" name="1" value="A"><font> A) The vacuum. </font></label>  <br/></p>
@@ -326,7 +326,7 @@ function getstate()
     <title>【量子光学】 Quantum Optics 2 Quiz 2.4(3)</title>
     <url>/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-2.4(3)/</url>
     <content><![CDATA[<p>Quantum Optics 2课程第三次测验<br><a id="more"></a></p>
-<p>第1题 (不定向选择)</p>
+<p>第1题 (不定项选择)</p>
 <blockquote>
 <p>We consider a beam splitter with a quasi-classical wave-packet at the input 1 and vacuum at input 2. Each mode of the wave-packet is characterized by a complex number $\alpha_\ell$.<br>Using the formalism of the multimode creation operators $\hat{a}^\dagger_{multi}$, you can establish the expression of the complex number $\alpha_{3,multi}$ associated to the multimode radiation in the output 3. Select the right answer(s):</p>
 <p><label><input type="checkbox" name="1" value="A"><font> A) $\left|\alpha_{3,multi}\right|^2=r\left\langle N\right\rangle$ </font></label> <br/></p>
@@ -334,7 +334,7 @@ function getstate()
 <p><label><input type="checkbox" name="1" value="C"><font> C) $\left|\alpha_{3,multi}\right|^2=r^2\Sigma_\ell\left|\alpha_\ell\right|^2$ </font></label> <br/></p>
 <p><label><input type="checkbox" name="1" value="D"><font> D) $\left|\alpha_{3,multi}\right|^2=r\left|\alpha_{1,multi}\right|^2$ </font></label> <br/></p>
 </blockquote>
-<p>第2题 (不定向选择)</p>
+<p>第2题 (不定项选择)</p>
 <blockquote>
 <p>Based on the expression of $\alpha_{3,multi}$, express the probability distribution of photon number in the output 3. It is equal to:</p>
 <p><label><input type="checkbox" name="2" value="A"><font> A) $P(n_{3,multi})=e^{-r\left\langle N\right\rangle}\frac{\left(r\left\langle N\right\rangle\right)^{n_{3,multi}}}{n_{3,multi}!}$ </font></label> <br/></p>
@@ -957,19 +957,19 @@ function getstate()
   <entry>
     <title>【量子光学】 Quantum Optics 2 Quiz 3.7(7)</title>
     <url>/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.7(7)/</url>
-    <content><![CDATA[<p>Quantum Optics 2课程第七次测验<br><a id="more"></a><br>第1题 (不定向选择)</p>
+    <content><![CDATA[<p>Quantum Optics 2课程第七次测验<br><a id="more"></a><br>第1题 (不定项选择)</p>
 <blockquote>
 <p>What will happen for the interferometer if one works around a dephasing $\delta$ equals 0 instead of $\frac{\pi}{2}$ ?</p>
 <p><label><input type="checkbox" name="1" value="A"><font> A) The interferometer will be poorly sensitive to variation in the difference between the arms lengths. </font></label> <br/></p>
 <p><label><input type="checkbox" name="1" value="B"><font> B) The interferometer will not be able to distinguish between a positive and a negative variation in the difference between the arms lengths. </font></label> <br/></p>
 </blockquote>
-<p>第2题 (不定向选择)</p>
+<p>第2题 (不定项选择)</p>
 <blockquote>
 <p>When considering as input state $\left|\psi\right\rangle_{in}=\left|0\right\rangle_1\otimes\left|\alpha\right\rangle_2$ with $\alpha\gg1$, for which calculation(s) does it really matter to take into account the operators $\hat{a}_1$ and $\hat{a}^\dagger_1$ ?</p>
 <p><label><input type="checkbox" name="2" value="A"><font> A) The average signal $\left\langle\hat{N}_6-\hat{N}_5\right\rangle$. </font></label> <br/></p>
 <p><label><input type="checkbox" name="2" value="B"><font> B) The standard deviation $\left\langle(\hat{N}_6-\hat{N}_5)^2\right\rangle$. </font></label> <br/></p>
 </blockquote>
-<p>第3题 (不定向选择)</p>
+<p>第3题 (不定项选择)</p>
 <blockquote>
 <p>When considering as input state $\left|\psi\right\rangle_{in}=\left|0, R\right\rangle_1\otimes\left|\alpha\right\rangle_2$ with $\alpha\gg1$, for which calculation(s) does it really matter to take into account the operators $\hat{a}_1$ and $\hat{a}^\dagger_1$ ?</p>
 <p><label><input type="checkbox" name="3" value="A"><font> A) The average signal $\left\langle\hat{N}_6-\hat{N}_5\right\rangle$. </font></label> <br/></p>
@@ -1271,7 +1271,7 @@ function getstate()
   <entry>
     <title>【量子光学】 Quantum Optics 2 Quiz 4.2(9)</title>
     <url>/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.2(9)/</url>
-    <content><![CDATA[<p>Quantum Optics 2课程第九次测验<br><a id="more"></a><br>第1题 (不定向选择)</p>
+    <content><![CDATA[<p>Quantum Optics 2课程第九次测验<br><a id="more"></a><br>第1题 (不定项选择)</p>
 <blockquote>
 <p>Which of the following states are entangled?</p>
 <p><label><input type="checkbox" name="1" value="A"><font> A) $\frac{1}{\sqrt{2}}\left(\left|x_1,y_2\right\rangle+\left|y_1,x_2\right\rangle\right)$ </font></label>  <br/></p>
@@ -1286,7 +1286,7 @@ function getstate()
 <p><label><input type="radio" name="2" value="C"><font> C) $ P_{+ +}=P_{- -}=\frac{1}{2}\cos^2(2\alpha), P_{+ -}=P_{- +}=\frac{1}{2}\sin^2(2\alpha)$ </font></label> <br/></p>
 <p><label><input type="radio" name="2" value="D"><font> D) $ P_{+ +}=P_{- -}=\frac{1}{2}\sin^2(2\alpha), P_{+ -}=P_{- +}=\frac{1}{2}\cos^2(2\alpha)$ </font></label> <br/></p>
 </blockquote>
-<p>第3题 (不定向选择)</p>
+<p>第3题 (不定项选择)</p>
 <blockquote>
 <p>Which angles $\alpha ,\beta$ of the polarizers I and II do lead to total correlation for the entangled state $\frac{1}{\sqrt{2}}\left(\left|x_1,y_2\right\rangle+\left|y_1,x_2\right\rangle\right)$?</p>
 <p><label><input type="checkbox" name="3" value="A"><font> A) $\alpha=0, \beta=0$ </font></label> <br/></p>
@@ -1445,7 +1445,7 @@ function getstate()
 <p><label><input type="radio" name="1" value="B"><font> B) $\hat{A}=\hat{P}_{\vec{x}}-\hat{P}_{\vec{y}}$ </font></label> <br/></p>
 <p><label><input type="radio" name="1" value="C"><font> C) $\hat{A}=\hat{P}_{\vec{x}}+\hat{P}_{\vec{y}}$ </font></label> <br/></p>
 </blockquote>
-<p>第2题 (不定向选择)</p>
+<p>第2题 (不定项选择)</p>
 <blockquote>
 <p>Just after a measurement of the polarization of photon $\nu_1$ yielding +1, what is the quantum state $\left|\psi_M\right\rangle$ of the pair of photons initially in the state $\left|\psi\right\rangle$?</p>
 <p><label><input type="checkbox" name="2" value="A"><font> A) $\left|\psi_M\right\rangle=\hat{P}_{\vec{x}}\left|\psi\right\rangle$ </font></label> <br/></p>
