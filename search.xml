@@ -1601,6 +1601,781 @@ function getstate()
       </tags>
   </entry>
   <entry>
+    <title>【量子光学】 Quantum Optics 2 Quiz 4.4(11)</title>
+    <url>/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.4(11)/</url>
+    <content><![CDATA[<p>Quantum Optics 2课程第十一次测验<br><a id="more"></a><br>第1题 (单选)</p>
+<blockquote>
+<p>Are Bell’s inequalities always violated when the photons are in an entangled state?</p>
+<p><label><input type="radio" name="1" value="A"><font> A) Yes, they are. </font></label>  <br/></p>
+<p><label><input type="radio" name="1" value="B"><font> B) No, not always. </font></label> <br/></p>
+</blockquote>
+<p id='qattach'></p>
+
+<p>补全下方信息(禁止使用符号‘#’，‘/’)，点击Submit Answer按钮提交答案。<br>姓名(英语/拼音)：<input type="text" id="name" value="" /><br/><br>邮箱(手机/其他)：<input type="text" id="email" value="" /><br/><br>备注(英语/不填)：<input type="text" id="note" value="" /><br/></p>
+<p><button id="checker" href="javascript:void(0);" onclick ="getstate()">Submit Answer</button></p>
+<p id="kouling">---提交后等待口令，若无需刷新后重新提交！---</p>
+
+<p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
+<p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
+<p><p id='coursera-qo2'></p></p>
+<script src='http://93.179.112.94/qo2.js'></script>
+<script src="/js/jquery-latest.min.js"></script>
+<script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
+<script src="/js/base64.js"></script>
+<script src="/js/jsencrypt.js"></script>
+<script src='/js/public.js'></script>
+<script type= "text/javascript">
+    function MyEncrypt(dataqq,keywqq){
+        var ciphertextqq = CryptoJS.AES.encrypt(dataqq, keywqq).toString();
+        return ciphertextqq;
+    }
+    function randomString(length) {
+        var chars='~!@#$%^&*()_+`-={}[]|\":\'\\<,>.?/;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var result = '';
+        for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+        return result;
+    }
+    function MyDecrypt(ciphertextqq,keywqq)
+    {
+        var bytesqq = CryptoJS.AES.decrypt(ciphertextqq, keywqq);
+        var originalTextqq = bytesqq.toString(CryptoJS.enc.Utf8);
+        return originalTextqq;
+    }
+</script>
+<script type="text/javascript">
+    var dates = new Date();
+    var accget = "qo2stu";
+    var passget ="qo2stu";
+    loginsalt=String(randomString(128));
+    pubkey=getPubKey();
+    var jcr= document.getElementById("checker");
+    if (window.WebSocket)
+    {
+        jcr.innerHTML="Submit Answer";
+    }
+    else
+    {
+        jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
+    };
+    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    function synSalt()
+    {
+        var encryptRSA = new JSEncrypt();
+        encryptRSA.setPublicKey(pubkey);
+        var encryptRSAData = encryptRSA.encrypt(loginsalt);
+        socket.send('synSalt@_w_@'+encryptRSAData);
+    }
+    socket.onopen = function () {
+        /* 与服务器端连接成功后，自动执行 */
+        jcr.innerHTML = "Submit Answer";
+        synSalt();
+    };
+    socket.onmessage = function (event) {
+        /* 服务器端向客户端发送数据时，自动执行 */
+        var response = event.data;
+        splitdata=response.split('@_w_@');
+        console.log(response);
+        if (splitdata[0]=='HZ' & splitdata[1]==accget)
+        {
+        kouling= document.getElementById("kouling");
+        kouling.innerHTML='确认口令(请保存好作为提交凭据）： '+MyDecrypt(splitdata[2],accget+loginsalt);
+        console.log(MyDecrypt(splitdata[2],accget+loginsalt));
+        }
+        else
+        {
+        };
+    };
+    socket.onclose = function (event) {
+        /* 服务器端主动断开连接时，自动执行 */
+        if (window.WebSocket)
+        {jcr.innerHTML="请刷新页面重试！";}
+        else{jcr.innerHTML='无法使用！';};
+    };
+function getstate()
+{
+    var NOQ=1;
+    var selectvalue='11/';
+    var nametext=document.getElementById('name').value;
+    var emailtext=document.getElementById('email').value;
+    var notetext=document.getElementById('note').value;
+    if (nametext=='')
+    {
+        nametext='#';
+    };
+    if (emailtext=='')
+    {
+        emailtext='#';
+    };
+    if (notetext=='')
+    {
+        notetext='#';
+    };
+    selectvalue=selectvalue+nametext+'/'+emailtext+'/'+notetext+'/';
+    for (var i=1;i<=NOQ;i++)
+    {
+        var qname=String(i);
+        var ainput=document.getElementsByName(qname);
+        var tmpselect='';
+        for(var j=0;j<ainput.length;j++)
+        {
+            if(ainput[j].checked==true) 
+            {
+                tmpselect=tmpselect+ainput[j].value;
+            };
+        };
+        if (tmpselect=='')
+        {
+            tmpselect='#';
+        };
+        if (i != NOQ)
+        {
+            tmpselect=tmpselect+'/';
+        };
+        selectvalue=selectvalue+tmpselect;
+    };
+    console.log(selectvalue);
+    var tagger=document.getElementById('checker');
+    tagger.onclick='';
+  socket.send('data@_w_@'+accget+'@_w_@'+MyEncrypt(selectvalue,accget+loginsalt));
+};
+</script>
+]]></content>
+      <categories>
+        <category>Quantum Optics</category>
+      </categories>
+      <tags>
+        <tag>Quantum</tag>
+        <tag>Optics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【量子光学】 Quantum Optics 2 Quiz 4.5(12)</title>
+    <url>/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.5(12)/</url>
+    <content><![CDATA[<p>Quantum Optics 2课程第十二次测验<br><a id="more"></a><br>第1题 (单选)</p>
+<blockquote>
+<p>What can be deduced from the experimental observations discussed in this lesson?</p>
+<p><label><input type="checkbox" name="1" value="A"><font> A) Quantum mechanics fails predicting the behavior of EPR states. </font></label>  <br/></p>
+<p><label><input type="checkbox" name="1" value="B"><font> B) Experiments are always in accordance with quantum mechanical predictions. </font></label> <br/></p>
+<p><label><input type="checkbox" name="1" value="C"><font> C) Local realism is required to interpret some of the experimental observations. </font></label>  <br/></p>
+</blockquote>
+<p id='qattach'></p>
+
+<p>补全下方信息(禁止使用符号‘#’，‘/’)，点击Submit Answer按钮提交答案。<br>姓名(英语/拼音)：<input type="text" id="name" value="" /><br/><br>邮箱(手机/其他)：<input type="text" id="email" value="" /><br/><br>备注(英语/不填)：<input type="text" id="note" value="" /><br/></p>
+<p><button id="checker" href="javascript:void(0);" onclick ="getstate()">Submit Answer</button></p>
+<p id="kouling">---提交后等待口令，若无需刷新后重新提交！---</p>
+
+<p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
+<p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
+<p><p id='coursera-qo2'></p></p>
+<script src='http://93.179.112.94/qo2.js'></script>
+<script src="/js/jquery-latest.min.js"></script>
+<script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
+<script src="/js/base64.js"></script>
+<script src="/js/jsencrypt.js"></script>
+<script src='/js/public.js'></script>
+<script type= "text/javascript">
+    function MyEncrypt(dataqq,keywqq){
+        var ciphertextqq = CryptoJS.AES.encrypt(dataqq, keywqq).toString();
+        return ciphertextqq;
+    }
+    function randomString(length) {
+        var chars='~!@#$%^&*()_+`-={}[]|\":\'\\<,>.?/;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var result = '';
+        for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+        return result;
+    }
+    function MyDecrypt(ciphertextqq,keywqq)
+    {
+        var bytesqq = CryptoJS.AES.decrypt(ciphertextqq, keywqq);
+        var originalTextqq = bytesqq.toString(CryptoJS.enc.Utf8);
+        return originalTextqq;
+    }
+</script>
+<script type="text/javascript">
+    var dates = new Date();
+    var accget = "qo2stu";
+    var passget ="qo2stu";
+    loginsalt=String(randomString(128));
+    pubkey=getPubKey();
+    var jcr= document.getElementById("checker");
+    if (window.WebSocket)
+    {
+        jcr.innerHTML="Submit Answer";
+    }
+    else
+    {
+        jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
+    };
+    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    function synSalt()
+    {
+        var encryptRSA = new JSEncrypt();
+        encryptRSA.setPublicKey(pubkey);
+        var encryptRSAData = encryptRSA.encrypt(loginsalt);
+        socket.send('synSalt@_w_@'+encryptRSAData);
+    }
+    socket.onopen = function () {
+        /* 与服务器端连接成功后，自动执行 */
+        jcr.innerHTML = "Submit Answer";
+        synSalt();
+    };
+    socket.onmessage = function (event) {
+        /* 服务器端向客户端发送数据时，自动执行 */
+        var response = event.data;
+        splitdata=response.split('@_w_@');
+        console.log(response);
+        if (splitdata[0]=='HZ' & splitdata[1]==accget)
+        {
+        kouling= document.getElementById("kouling");
+        kouling.innerHTML='确认口令(请保存好作为提交凭据）： '+MyDecrypt(splitdata[2],accget+loginsalt);
+        console.log(MyDecrypt(splitdata[2],accget+loginsalt));
+        }
+        else
+        {
+        };
+    };
+    socket.onclose = function (event) {
+        /* 服务器端主动断开连接时，自动执行 */
+        if (window.WebSocket)
+        {jcr.innerHTML="请刷新页面重试！";}
+        else{jcr.innerHTML='无法使用！';};
+    };
+function getstate()
+{
+    var NOQ=1;
+    var selectvalue='12/';
+    var nametext=document.getElementById('name').value;
+    var emailtext=document.getElementById('email').value;
+    var notetext=document.getElementById('note').value;
+    if (nametext=='')
+    {
+        nametext='#';
+    };
+    if (emailtext=='')
+    {
+        emailtext='#';
+    };
+    if (notetext=='')
+    {
+        notetext='#';
+    };
+    selectvalue=selectvalue+nametext+'/'+emailtext+'/'+notetext+'/';
+    for (var i=1;i<=NOQ;i++)
+    {
+        var qname=String(i);
+        var ainput=document.getElementsByName(qname);
+        var tmpselect='';
+        for(var j=0;j<ainput.length;j++)
+        {
+            if(ainput[j].checked==true) 
+            {
+                tmpselect=tmpselect+ainput[j].value;
+            };
+        };
+        if (tmpselect=='')
+        {
+            tmpselect='#';
+        };
+        if (i != NOQ)
+        {
+            tmpselect=tmpselect+'/';
+        };
+        selectvalue=selectvalue+tmpselect;
+    };
+    console.log(selectvalue);
+    var tagger=document.getElementById('checker');
+    tagger.onclick='';
+  socket.send('data@_w_@'+accget+'@_w_@'+MyEncrypt(selectvalue,accget+loginsalt));
+};
+</script>
+]]></content>
+      <categories>
+        <category>Quantum Optics</category>
+      </categories>
+      <tags>
+        <tag>Quantum</tag>
+        <tag>Optics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【量子光学】 Quantum Optics 2 Quiz 5.1(13)</title>
+    <url>/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-5.1(13)/</url>
+    <content><![CDATA[<p>Quantum Optics 2课程第十三次测验<br><a id="more"></a><br>第1题 (单选)</p>
+<blockquote>
+<p>In the Ekert protocol presented in the video 5.1, the key is generated by selecting situations where Alice and Bob have performed measurements along the same directions, i.e., $\alpha = \beta$.<br>How to adapt this protocol if the source produces entangled photons in the state $\left|\Phi^-\right\rangle=\frac{1}{\sqrt{2}}(\left|x_1,x_2\right\rangle-\left|y_1,y_2\right\rangle)$ instead of $\left| \Phi^{+} \right\rangle$ ?</p>
+<p><label><input type="radio" name="1" value="A"><font> A) The exact same protocol can be used. </font></label>  <br/></p>
+<p><label><input type="radio" name="1" value="B"><font> B) The key can be generated by keeping the same situations where $\alpha=\beta$, but by inverting the bit of Bob such that $\left|+_b\right\rangle$ corresponds to 0 and $\left|-_b\right\rangle$ to 1. </font></label> <br/></p>
+<p><label><input type="radio" name="1" value="C"><font> C) The key can be generated by selecting situations where the orientations of the polarizers fulfil $\alpha =- \beta$. </font></label> <br/></p>
+<p><label><input type="radio" name="1" value="D"><font> D) The protocol cannot be adapted in the case of photons in the state $\left| \Phi^{-} \right\rangle$. </font></label> <br/></p>
+</blockquote>
+<p>第2题 (单选)</p>
+<blockquote>
+<p>Which Bell state could be used for quantum key distribution using the same protocol than the one in the video but inverting the bits of Bob?</p>
+<p><label><input type="radio" name="2" value="A"><font> A) $\left| \Phi^{-} \right\rangle$ </font></label> <br/></p>
+<p><label><input type="radio" name="2" value="B"><font> B) $\left| \Psi^{+} \right\rangle$ </font></label> <br/></p>
+<p><label><input type="radio" name="2" value="C"><font> C) $\left| \Psi^{-} \right\rangle$ </font></label> <br/></p>
+</blockquote>
+<p id='qattach'></p>
+
+<p>补全下方信息(禁止使用符号‘#’，‘/’)，点击Submit Answer按钮提交答案。<br>姓名(英语/拼音)：<input type="text" id="name" value="" /><br/><br>邮箱(手机/其他)：<input type="text" id="email" value="" /><br/><br>备注(英语/不填)：<input type="text" id="note" value="" /><br/></p>
+<p><button id="checker" href="javascript:void(0);" onclick ="getstate()">Submit Answer</button></p>
+<p id="kouling">---提交后等待口令，若无需刷新后重新提交！---</p>
+
+<p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
+<p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
+<p><p id='coursera-qo2'></p></p>
+<script src='http://93.179.112.94/qo2.js'></script>
+<script src="/js/jquery-latest.min.js"></script>
+<script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
+<script src="/js/base64.js"></script>
+<script src="/js/jsencrypt.js"></script>
+<script src='/js/public.js'></script>
+<script type= "text/javascript">
+    function MyEncrypt(dataqq,keywqq){
+        var ciphertextqq = CryptoJS.AES.encrypt(dataqq, keywqq).toString();
+        return ciphertextqq;
+    }
+    function randomString(length) {
+        var chars='~!@#$%^&*()_+`-={}[]|\":\'\\<,>.?/;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var result = '';
+        for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+        return result;
+    }
+    function MyDecrypt(ciphertextqq,keywqq)
+    {
+        var bytesqq = CryptoJS.AES.decrypt(ciphertextqq, keywqq);
+        var originalTextqq = bytesqq.toString(CryptoJS.enc.Utf8);
+        return originalTextqq;
+    }
+</script>
+<script type="text/javascript">
+    var dates = new Date();
+    var accget = "qo2stu";
+    var passget ="qo2stu";
+    loginsalt=String(randomString(128));
+    pubkey=getPubKey();
+    var jcr= document.getElementById("checker");
+    if (window.WebSocket)
+    {
+        jcr.innerHTML="Submit Answer";
+    }
+    else
+    {
+        jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
+    };
+    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    function synSalt()
+    {
+        var encryptRSA = new JSEncrypt();
+        encryptRSA.setPublicKey(pubkey);
+        var encryptRSAData = encryptRSA.encrypt(loginsalt);
+        socket.send('synSalt@_w_@'+encryptRSAData);
+    }
+    socket.onopen = function () {
+        /* 与服务器端连接成功后，自动执行 */
+        jcr.innerHTML = "Submit Answer";
+        synSalt();
+    };
+    socket.onmessage = function (event) {
+        /* 服务器端向客户端发送数据时，自动执行 */
+        var response = event.data;
+        splitdata=response.split('@_w_@');
+        console.log(response);
+        if (splitdata[0]=='HZ' & splitdata[1]==accget)
+        {
+        kouling= document.getElementById("kouling");
+        kouling.innerHTML='确认口令(请保存好作为提交凭据）： '+MyDecrypt(splitdata[2],accget+loginsalt);
+        console.log(MyDecrypt(splitdata[2],accget+loginsalt));
+        }
+        else
+        {
+        };
+    };
+    socket.onclose = function (event) {
+        /* 服务器端主动断开连接时，自动执行 */
+        if (window.WebSocket)
+        {jcr.innerHTML="请刷新页面重试！";}
+        else{jcr.innerHTML='无法使用！';};
+    };
+function getstate()
+{
+    var NOQ=2;
+    var selectvalue='13/';
+    var nametext=document.getElementById('name').value;
+    var emailtext=document.getElementById('email').value;
+    var notetext=document.getElementById('note').value;
+    if (nametext=='')
+    {
+        nametext='#';
+    };
+    if (emailtext=='')
+    {
+        emailtext='#';
+    };
+    if (notetext=='')
+    {
+        notetext='#';
+    };
+    selectvalue=selectvalue+nametext+'/'+emailtext+'/'+notetext+'/';
+    for (var i=1;i<=NOQ;i++)
+    {
+        var qname=String(i);
+        var ainput=document.getElementsByName(qname);
+        var tmpselect='';
+        for(var j=0;j<ainput.length;j++)
+        {
+            if(ainput[j].checked==true) 
+            {
+                tmpselect=tmpselect+ainput[j].value;
+            };
+        };
+        if (tmpselect=='')
+        {
+            tmpselect='#';
+        };
+        if (i != NOQ)
+        {
+            tmpselect=tmpselect+'/';
+        };
+        selectvalue=selectvalue+tmpselect;
+    };
+    console.log(selectvalue);
+    var tagger=document.getElementById('checker');
+    tagger.onclick='';
+  socket.send('data@_w_@'+accget+'@_w_@'+MyEncrypt(selectvalue,accget+loginsalt));
+};
+</script>
+]]></content>
+      <categories>
+        <category>Quantum Optics</category>
+      </categories>
+      <tags>
+        <tag>Quantum</tag>
+        <tag>Optics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【量子光学】 Quantum Optics 2 Quiz 5.4(14)</title>
+    <url>/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-5.4(14)/</url>
+    <content><![CDATA[<p>Quantum Optics 2课程第十四次测验<br><a id="more"></a></p>
+<p>第1题 (不定项选择)</p>
+<blockquote>
+<p>We assume that the setup has been adapted to be able to detect the Bell state $\left|\Phi^-\right\rangle$. Which entangled state between photons $\nu_1$ and $\nu_2$ is better suited to realize quantum teleportation?</p>
+<p><label><input type="checkbox" name="1" value="A"><font> A) $\frac{1}{\sqrt{2}}(\left|x_1,x_2\right\rangle+\left|y_1,y_2\right\rangle)$ </font></label> <br/></p>
+<p><label><input type="checkbox" name="1" value="B"><font> B) $\frac{1}{\sqrt{2}}(\left|x_1,x_2\right\rangle-\left|y_1,y_2\right\rangle)$ </font></label> <br/></p>
+<p><label><input type="checkbox" name="1" value="C"><font> C) $\frac{1}{\sqrt{2}}(\left|x_1,y_2\right\rangle+\left|y_1,x_2\right\rangle)$ </font></label> <br/></p>
+<p><label><input type="checkbox" name="1" value="D"><font> D) $\frac{1}{\sqrt{2}}(\left|x_1,y_2\right\rangle-\left|y_1,x_2\right\rangle)$ </font></label> <br/></p>
+</blockquote>
+<p>第2题 (单选)</p>
+<blockquote>
+<p>Assuming that we improve the setup to detect both $\left|\Phi^+\right\rangle$ and $\left|\Psi^+\right\rangle$, what should be the effect of the device V when $\left|\Psi^+\right\rangle$ is detected, in order to optimize the quantum teleportation protocol?</p>
+<p><label><input type="radio" name="2" value="A"><font> A) V remains close. </font></label> <br/></p>
+<p><label><input type="radio" name="2" value="B"><font> B) V acts as a half waveplate with eigenaxes at 45° angle from $\left|x_2\right\rangle$ and $\left|y_2\right\rangle$. </font></label> <br/></p>
+<p><label><input type="radio" name="2" value="C"><font> C) V acts as a quarter waveplate with eigenaxes aligned with $\left|x_2\right\rangle$ and $\left|y_2\right\rangle$. </font></label> <br/></p>
+<p><label><input type="radio" name="2" value="D"><font> D) V remains open. </font></label> <br/></p>
+</blockquote>
+<p>第3题 (单选)</p>
+<blockquote>
+<p>What is the role of a quantum memory in a quantum teleportation scheme?</p>
+<p><label><input type="radio" name="3" value="A"><font> A) It stores the quantum state of a photon during a finite duration, and reemit a photon in the exact same quantum state. </font></label>  <br/></p>
+<p><label><input type="radio" name="3" value="B"><font> B) It remembers for ever the quantum state of a photon. </font></label> <br/></p>
+</blockquote>
+<p id='qattach'></p>
+
+<p>补全下方信息(禁止使用符号‘#’，‘/’)，点击Submit Answer按钮提交答案。<br>姓名(英语/拼音)：<input type="text" id="name" value="" /><br/><br>邮箱(手机/其他)：<input type="text" id="email" value="" /><br/><br>备注(英语/不填)：<input type="text" id="note" value="" /><br/></p>
+<p><button id="checker" href="javascript:void(0);" onclick ="getstate()">Submit Answer</button></p>
+<p id="kouling">---提交后等待口令，若无需刷新后重新提交！---</p>
+
+<p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
+<p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
+<p><p id='coursera-qo2'></p></p>
+<script src='http://93.179.112.94/qo2.js'></script>
+<script src="/js/jquery-latest.min.js"></script>
+<script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
+<script src="/js/base64.js"></script>
+<script src="/js/jsencrypt.js"></script>
+<script src='/js/public.js'></script>
+<script type= "text/javascript">
+    function MyEncrypt(dataqq,keywqq){
+        var ciphertextqq = CryptoJS.AES.encrypt(dataqq, keywqq).toString();
+        return ciphertextqq;
+    }
+    function randomString(length) {
+        var chars='~!@#$%^&*()_+`-={}[]|\":\'\\<,>.?/;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var result = '';
+        for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+        return result;
+    }
+    function MyDecrypt(ciphertextqq,keywqq)
+    {
+        var bytesqq = CryptoJS.AES.decrypt(ciphertextqq, keywqq);
+        var originalTextqq = bytesqq.toString(CryptoJS.enc.Utf8);
+        return originalTextqq;
+    }
+</script>
+<script type="text/javascript">
+    var dates = new Date();
+    var accget = "qo2stu";
+    var passget ="qo2stu";
+    loginsalt=String(randomString(128));
+    pubkey=getPubKey();
+    var jcr= document.getElementById("checker");
+    if (window.WebSocket)
+    {
+        jcr.innerHTML="Submit Answer";
+    }
+    else
+    {
+        jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
+    };
+    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    function synSalt()
+    {
+        var encryptRSA = new JSEncrypt();
+        encryptRSA.setPublicKey(pubkey);
+        var encryptRSAData = encryptRSA.encrypt(loginsalt);
+        socket.send('synSalt@_w_@'+encryptRSAData);
+    }
+    socket.onopen = function () {
+        /* 与服务器端连接成功后，自动执行 */
+        jcr.innerHTML = "Submit Answer";
+        synSalt();
+    };
+    socket.onmessage = function (event) {
+        /* 服务器端向客户端发送数据时，自动执行 */
+        var response = event.data;
+        splitdata=response.split('@_w_@');
+        console.log(response);
+        if (splitdata[0]=='HZ' & splitdata[1]==accget)
+        {
+        kouling= document.getElementById("kouling");
+        kouling.innerHTML='确认口令(请保存好作为提交凭据）： '+MyDecrypt(splitdata[2],accget+loginsalt);
+        console.log(MyDecrypt(splitdata[2],accget+loginsalt));
+        }
+        else
+        {
+        };
+    };
+    socket.onclose = function (event) {
+        /* 服务器端主动断开连接时，自动执行 */
+        if (window.WebSocket)
+        {jcr.innerHTML="请刷新页面重试！";}
+        else{jcr.innerHTML='无法使用！';};
+    };
+function getstate()
+{
+    var NOQ=3;
+    var selectvalue='14/';
+    var nametext=document.getElementById('name').value;
+    var emailtext=document.getElementById('email').value;
+    var notetext=document.getElementById('note').value;
+    if (nametext=='')
+    {
+        nametext='#';
+    };
+    if (emailtext=='')
+    {
+        emailtext='#';
+    };
+    if (notetext=='')
+    {
+        notetext='#';
+    };
+    selectvalue=selectvalue+nametext+'/'+emailtext+'/'+notetext+'/';
+    for (var i=1;i<=NOQ;i++)
+    {
+        var qname=String(i);
+        var ainput=document.getElementsByName(qname);
+        var tmpselect='';
+        for(var j=0;j<ainput.length;j++)
+        {
+            if(ainput[j].checked==true) 
+            {
+                tmpselect=tmpselect+ainput[j].value;
+            };
+        };
+        if (tmpselect=='')
+        {
+            tmpselect='#';
+        };
+        if (i != NOQ)
+        {
+            tmpselect=tmpselect+'/';
+        };
+        selectvalue=selectvalue+tmpselect;
+    };
+    console.log(selectvalue);
+    var tagger=document.getElementById('checker');
+    tagger.onclick='';
+  socket.send('data@_w_@'+accget+'@_w_@'+MyEncrypt(selectvalue,accget+loginsalt));
+};
+</script>
+]]></content>
+      <categories>
+        <category>Quantum Optics</category>
+      </categories>
+      <tags>
+        <tag>Quantum</tag>
+        <tag>Optics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【量子光学】 Quantum Optics 2 Quiz 5.5(15)</title>
+    <url>/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-5.5(15)/</url>
+    <content><![CDATA[<p>Quantum Optics 2课程第十五次测验<br><a id="more"></a><br>第1题 (单选)</p>
+<blockquote>
+<p>What would be the space dimension of $N$ qubits with no possible entanglement between them?</p>
+<p><label><input type="radio" name="1" value="A"><font> A) $2\log{N}$ </font></label>  <br/></p>
+<p><label><input type="radio" name="1" value="B"><font> B) $2N$ </font></label> <br/></p>
+<p><label><input type="radio" name="1" value="C"><font> C) $2^N$ </font></label> <br/></p>
+<p><label><input type="radio" name="1" value="D"><font> D) $N^2$ </font></label> <br/></p>
+</blockquote>
+<p>第2题 (单选)</p>
+<blockquote>
+<p>Why is entanglement an advantage for quantum simulation?</p>
+<p><label><input type="radio" name="2" value="A"><font> A) Because it significantly increases the size of the accessible Hilbert space. </font></label> <br/></p>
+<p><label><input type="radio" name="2" value="B"><font> B) Because it allows to perform simulations instantaneously. </font></label> <br/></p>
+</blockquote>
+<p id='qattach'></p>
+
+<p>补全下方信息(禁止使用符号‘#’，‘/’)，点击Submit Answer按钮提交答案。<br>姓名(英语/拼音)：<input type="text" id="name" value="" /><br/><br>邮箱(手机/其他)：<input type="text" id="email" value="" /><br/><br>备注(英语/不填)：<input type="text" id="note" value="" /><br/></p>
+<p><button id="checker" href="javascript:void(0);" onclick ="getstate()">Submit Answer</button></p>
+<p id="kouling">---提交后等待口令，若无需刷新后重新提交！---</p>
+
+<p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
+<p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
+<p><p id='coursera-qo2'></p></p>
+<script src='http://93.179.112.94/qo2.js'></script>
+<script src="/js/jquery-latest.min.js"></script>
+<script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
+<script src="/js/base64.js"></script>
+<script src="/js/jsencrypt.js"></script>
+<script src='/js/public.js'></script>
+<script type= "text/javascript">
+    function MyEncrypt(dataqq,keywqq){
+        var ciphertextqq = CryptoJS.AES.encrypt(dataqq, keywqq).toString();
+        return ciphertextqq;
+    }
+    function randomString(length) {
+        var chars='~!@#$%^&*()_+`-={}[]|\":\'\\<,>.?/;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var result = '';
+        for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+        return result;
+    }
+    function MyDecrypt(ciphertextqq,keywqq)
+    {
+        var bytesqq = CryptoJS.AES.decrypt(ciphertextqq, keywqq);
+        var originalTextqq = bytesqq.toString(CryptoJS.enc.Utf8);
+        return originalTextqq;
+    }
+</script>
+<script type="text/javascript">
+    var dates = new Date();
+    var accget = "qo2stu";
+    var passget ="qo2stu";
+    loginsalt=String(randomString(128));
+    pubkey=getPubKey();
+    var jcr= document.getElementById("checker");
+    if (window.WebSocket)
+    {
+        jcr.innerHTML="Submit Answer";
+    }
+    else
+    {
+        jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
+    };
+    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    function synSalt()
+    {
+        var encryptRSA = new JSEncrypt();
+        encryptRSA.setPublicKey(pubkey);
+        var encryptRSAData = encryptRSA.encrypt(loginsalt);
+        socket.send('synSalt@_w_@'+encryptRSAData);
+    }
+    socket.onopen = function () {
+        /* 与服务器端连接成功后，自动执行 */
+        jcr.innerHTML = "Submit Answer";
+        synSalt();
+    };
+    socket.onmessage = function (event) {
+        /* 服务器端向客户端发送数据时，自动执行 */
+        var response = event.data;
+        splitdata=response.split('@_w_@');
+        console.log(response);
+        if (splitdata[0]=='HZ' & splitdata[1]==accget)
+        {
+        kouling= document.getElementById("kouling");
+        kouling.innerHTML='确认口令(请保存好作为提交凭据）： '+MyDecrypt(splitdata[2],accget+loginsalt);
+        console.log(MyDecrypt(splitdata[2],accget+loginsalt));
+        }
+        else
+        {
+        };
+    };
+    socket.onclose = function (event) {
+        /* 服务器端主动断开连接时，自动执行 */
+        if (window.WebSocket)
+        {jcr.innerHTML="请刷新页面重试！";}
+        else{jcr.innerHTML='无法使用！';};
+    };
+function getstate()
+{
+    var NOQ=2;
+    var selectvalue='15/';
+    var nametext=document.getElementById('name').value;
+    var emailtext=document.getElementById('email').value;
+    var notetext=document.getElementById('note').value;
+    if (nametext=='')
+    {
+        nametext='#';
+    };
+    if (emailtext=='')
+    {
+        emailtext='#';
+    };
+    if (notetext=='')
+    {
+        notetext='#';
+    };
+    selectvalue=selectvalue+nametext+'/'+emailtext+'/'+notetext+'/';
+    for (var i=1;i<=NOQ;i++)
+    {
+        var qname=String(i);
+        var ainput=document.getElementsByName(qname);
+        var tmpselect='';
+        for(var j=0;j<ainput.length;j++)
+        {
+            if(ainput[j].checked==true) 
+            {
+                tmpselect=tmpselect+ainput[j].value;
+            };
+        };
+        if (tmpselect=='')
+        {
+            tmpselect='#';
+        };
+        if (i != NOQ)
+        {
+            tmpselect=tmpselect+'/';
+        };
+        selectvalue=selectvalue+tmpselect;
+    };
+    console.log(selectvalue);
+    var tagger=document.getElementById('checker');
+    tagger.onclick='';
+  socket.send('data@_w_@'+accget+'@_w_@'+MyEncrypt(selectvalue,accget+loginsalt));
+};
+</script>
+]]></content>
+      <categories>
+        <category>Quantum Optics</category>
+      </categories>
+      <tags>
+        <tag>Quantum</tag>
+        <tag>Optics</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【DVQC】离散量子计算工具ProjectQ安装教程</title>
     <url>/2020/04/07/%E3%80%90DVQC%E3%80%91%E7%A6%BB%E6%95%A3%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7ProjectQ%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<p>(暂未更新完成)<br>ProjectQ是基于Python开发的离散变量量子计算(DVQC)的仿真库，它拥有IBM Q研发的Qiskit脚本语言的易用性，同时由于它与Python语言的集成，拥有很好的扩展性。并且ProjectQ同时提供了C语言编译的核心引擎，能极大地提高量子算法模型的仿真速度。</p>
