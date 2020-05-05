@@ -4,7 +4,7 @@
     <title>【量子光学】 Quantum Optics 2 Quiz 整合(更新完毕)</title>
     <url>/2020/05/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-%E6%95%B4%E5%90%88(%E6%9B%B4%E6%96%B0%E5%AE%8C%E6%AF%95)/</url>
     <content><![CDATA[<p>答案更新中，最近更新2020/5/5。<br><a id="more"></a></p>
-<details><summary>使用说明</summary><pre><code><a href='https://qc.happyan.space/2020/04/05/【量子光学】-Quantum-Optics-2-Quiz-提交说明/#more'>在线提交说明</a></code></pre></details>
+<details><summary>使用说明</summary><pre><code><a href='https://qc.happyan.space/2020/04/05/【量子光学】-Quantum-Optics-2-Quiz-提交说明/#more'>在线提交说明(第一次使用请认真阅读)</a></code></pre></details>
 
 <blockquote>
 <ol>
@@ -2538,17 +2538,17 @@ echo 'deb https://apt.dockerproject.org/repo debian-stretch main' > /etc/apt/sou
 <h2 id="提交步骤"><a href="#提交步骤" class="headerlink" title="提交步骤"></a>提交步骤</h2><ol>
 <li><p>打开作业页面，请注意检查页面是否是用http协议打开，如果用https协议打开会导致无法提交作业。<br><img src="01.png" alt="01"></p>
 </li>
-<li><p>Quantum Optics 2 Quiz全部由选择题构成，请根据“单选”、“不定项选择”标签确定选择类型，勾选你认为正确的答案。<br><img src="02.png" alt="02"></p>
+<li><p>Quantum Optics 2 Quiz全部由选择题构成，请根据”单选”、”不定项选择”标签确定选择类型，勾选你认为正确的答案。<br><img src="02.png" alt="02"></p>
 </li>
-<li><p>完成答题后，完成”姓名“等基本信息的输入，请注意使用ASCII码字符，即使用拼音或可分辨的英文简称。”邮箱“、”备注“都可以不填，如需填写，同样要求使用ASCII码。<br><img src="03.png" alt="03"></p>
+<li><p>完成答题后，完成”姓名”等基本信息的输入，请注意使用ASCII码字符，即使用拼音或可分辨的英文简称。”邮箱”、”备注”都可以不填，如需填写，同样要求使用ASCII码。<br><img src="03.png" alt="03"></p>
 </li>
 <li><p>点击 Submit Answer 按钮提交你的答案。稍等片刻，若按钮下方出现确认口令等即为提交成功，若未出现，请检查是否使用了https协议，若无法解决请联系email：<strong>happyan@happyan.space</strong> .<br><img src="04.png" alt="04"></p>
 </li>
 </ol>
 <h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ol>
-<li>请勿频繁提交给核对答案造成不变。</li>
-<li>”姓名“请一定填写能让管理者立刻明白提交者身份的ASCII码字符。</li>
-<li>如非必要，请尽量不要填写”邮箱“、”备注“。</li>
+<li>请勿频繁提交给核对答案造成不便。</li>
+<li>“姓名”请一定填写能让管理者立刻明白提交者身份的ASCII码字符。</li>
+<li>如非必要，请尽量不要填写”邮箱”、”备注”。</li>
 <li>本网站所有信息只做测试之用，<strong>权侵删</strong>，本网站保留最终解释权。</li>
 <li>如果没出现 Submit Answer 按钮，可能管理员没开启提交功能，请联系管理员。</li>
 <li>任何问题请联系email：<strong>happyan@happyan.space</strong> 。</li>
