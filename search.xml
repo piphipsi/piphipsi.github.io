@@ -5,6 +5,7 @@
     <url>/2020/05/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-%E6%95%B4%E5%90%88(%E6%9B%B4%E6%96%B0%E5%AE%8C%E6%AF%95)/</url>
     <content><![CDATA[<p>答案更新中，最近更新2020/5/18。<br><a id="more"></a></p>
 <details><summary>使用说明</summary><pre><code><a href='https://qc.happyan.space/2020/04/05/【量子光学】-Quantum-Optics-2-Quiz-提交说明/#more'>在线提交说明(第一次使用请认真阅读)</a></code></pre></details>
+<details><summary>补充材料</summary><pre><code id='bccl'><input type="text" id="bdy" value="" /><button href="javascript:void(0);" onclick ="debccl()">确认</button><br/><text id='forend' hidden>U2FsdGVkX19qqJL+cqOMrDhcy8FrY1RmncLfNyGTyvdpgnGrmB2lIMO60Ok6aOkeI3jxb9Ygir7APhVrIolGzQMTeuGDKffeVveT+LYCwesHW9nB6i6Ju/InQSDzTe6i18VIUV9F6l/9emvt8+1DNgNZgPSBnQU139BG1Fdbyk/BpWTEd4R12xeZta767elRg7Lm25EKta8nYL64cVX3nQ==</text></code></pre></details>
 
 <blockquote>
 <ol>
@@ -45,6 +46,45 @@ function mAlert() {
     ;
 }
 </script>
+<script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
+<script src="/js/base64.js"></script>
+<script type= "text/javascript">
+    function MyEncrypt(dataqq,keywqq){
+        var ciphertextqq = CryptoJS.AES.encrypt(dataqq, keywqq).toString();
+        return ciphertextqq;
+    }
+    function randomString(length) {
+        var chars='~!@#$%^&*()_+`-={}[]|\":\'\\<,>.?/;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var result = '';
+        for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+        return result;
+    }
+    function MyDecrypt(ciphertextqq,keywqq)
+    {
+        var bytesqq = CryptoJS.AES.decrypt(ciphertextqq, keywqq);
+        var originalTextqq = bytesqq.toString(CryptoJS.enc.Utf8);
+        return originalTextqq;
+    }
+    function debccl()
+    {
+        var bccl=document.getElementById('bccl');
+        var tiquma=document.getElementById('bdy').value;
+        var miwen=document.getElementById('forend').innerHTML;
+        if (tiquma=='')
+        {
+            tiquma='#';
+        };
+        bdyHTML=MyDecrypt(String(miwen),String(tiquma));
+        if (bdyHTML=='')
+        {
+            bdyHTML='提取失败！';
+        };
+        bccl.innerHTML=bdyHTML;
+    }
+    console.log(MyEncrypt("链接：<a href=\'url'>url</a>, 提取码：2333",'password'));
+</script>
+
+
 ]]></content>
   </entry>
   <entry>
