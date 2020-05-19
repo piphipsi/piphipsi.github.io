@@ -195,9 +195,11 @@ function mAlert() {
         else
         {
         };
+                socket.send('close@_w_@happy');
     };
     socket.onclose = function (event) {
         /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
         if (window.WebSocket)
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
@@ -345,9 +347,11 @@ function getstate()
         else
         {
         };
+                socket.send('close@_w_@happy');
     };
     socket.onclose = function (event) {
         /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
         if (window.WebSocket)
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
@@ -511,9 +515,11 @@ function getstate()
         else
         {
         };
+                socket.send('close@_w_@happy');
     };
     socket.onclose = function (event) {
         /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
         if (window.WebSocket)
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
@@ -674,9 +680,11 @@ function getstate()
         else
         {
         };
+                socket.send('close@_w_@happy');
     };
     socket.onclose = function (event) {
         /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
         if (window.WebSocket)
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
@@ -829,9 +837,11 @@ function getstate()
         else
         {
         };
+                socket.send('close@_w_@happy');
     };
     socket.onclose = function (event) {
         /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
         if (window.WebSocket)
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
@@ -977,9 +987,11 @@ function getstate()
         else
         {
         };
+                socket.send('close@_w_@happy');
     };
     socket.onclose = function (event) {
         /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
         if (window.WebSocket)
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
@@ -1137,9 +1149,11 @@ function getstate()
         else
         {
         };
+                socket.send('close@_w_@happy');
     };
     socket.onclose = function (event) {
         /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
         if (window.WebSocket)
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
@@ -1291,9 +1305,11 @@ function getstate()
         else
         {
         };
+                socket.send('close@_w_@happy');
     };
     socket.onclose = function (event) {
         /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
         if (window.WebSocket)
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
@@ -1458,9 +1474,11 @@ function getstate()
         else
         {
         };
+                socket.send('close@_w_@happy');
     };
     socket.onclose = function (event) {
         /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
         if (window.WebSocket)
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
@@ -1623,9 +1641,11 @@ function getstate()
         else
         {
         };
+                socket.send('close@_w_@happy');
     };
     socket.onclose = function (event) {
         /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
         if (window.WebSocket)
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
@@ -1771,12 +1791,15 @@ function getstate()
         else
         {
         };
+                socket.send('close@_w_@happy');
     };
     socket.onclose = function (event) {
         /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
         if (window.WebSocket)
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
+    };
     };
 function getstate()
 {
@@ -1920,9 +1943,11 @@ function getstate()
         else
         {
         };
+                socket.send('close@_w_@happy');
     };
     socket.onclose = function (event) {
         /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
         if (window.WebSocket)
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
@@ -2077,9 +2102,11 @@ function getstate()
         else
         {
         };
+                socket.send('close@_w_@happy');
     };
     socket.onclose = function (event) {
         /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
         if (window.WebSocket)
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
@@ -2242,9 +2269,11 @@ function getstate()
         else
         {
         };
+                socket.send('close@_w_@happy');
     };
     socket.onclose = function (event) {
         /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
         if (window.WebSocket)
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
@@ -2398,9 +2427,11 @@ function getstate()
         else
         {
         };
+                socket.send('close@_w_@happy');
     };
     socket.onclose = function (event) {
         /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
         if (window.WebSocket)
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
