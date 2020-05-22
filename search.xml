@@ -187,7 +187,7 @@ function mAlert() {
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("wss://cdn2.happyan.space:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -339,7 +339,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -507,7 +507,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -672,7 +672,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -829,7 +829,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -979,7 +979,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -1141,7 +1141,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -1297,7 +1297,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -1466,7 +1466,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -1633,7 +1633,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -1783,7 +1783,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -1935,7 +1935,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -2094,7 +2094,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -2261,7 +2261,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -2419,7 +2419,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://175.24.111.204:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
