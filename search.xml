@@ -88,6 +88,39 @@ function mAlert() {
 ]]></content>
   </entry>
   <entry>
+    <title>Quantum Optics Course System</title>
+    <url>/2020/05/23/Quantum-Optics-Course-System/</url>
+    <content><![CDATA[<p>QOCS v0.1.0<br><a id="more"></a></p>
+<p><link href="https://vjs.zencdn.net/7.7.6/video-js.css" rel="stylesheet" /><br><!-- If you'd like to support IE8 (for Video.js versions prior to v7) --></p>
+<p><script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script><br><strong>服务器状态：</strong><text id='status'><font color='red'>离线</font></text>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>用户：</strong><text id='status'><font color='red'>未登录</font></text>&nbsp;&nbsp;&nbsp;<button id='wcud'>登录</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Where you are：</strong><text id='status'>ChatRoom 1</text></p>
+<hr>
+<div id='videopart'>
+<strong>正在播放：</strong><text id='video_name'>test_video.mp4</text>
+<center>
+<video
+    id="my-video"
+    class="video-js vjs-default-skin vjs-big-play-centered"
+    controls
+    preload="auto"
+    width=100%
+    height=100%
+    poster="images/1.jpg"
+    nativeTextTracks=false
+    data-setup="{}"
+  >
+    <source src="video/test_video.mp4" type="video/mp4" />
+    <track id='subt' kind="subtitles" src="video/test_video.vtt" srclang="en" label="English" default />
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
+    </p>
+  </video></center>
+</div>]]></content>
+  </entry>
+  <entry>
     <title>Share Page</title>
     <url>/2020/05/20/Share-Page/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Wrong password!" data-whm="Wrong data!">
