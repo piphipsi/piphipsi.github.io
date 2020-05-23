@@ -91,11 +91,12 @@ function mAlert() {
     <title>Quantum Optics Course System</title>
     <url>/2020/05/23/Quantum-Optics-Course-System/</url>
     <content><![CDATA[<p>QOCS v1.0.0<br><a id="more"></a></p>
-<p><head><link href="https://vjs.zencdn.net/7.7.6/video-js.css" rel="stylesheet" /><link rel="alternate" href="/atom.xml" title="PiPhiPsi" type="application/atom+xml">
+<p><head><link href="https://qc.happyan.space/css/video-js.css" rel="stylesheet" /><link rel="alternate" href="/atom.xml" title="PiPhiPsi" type="application/atom+xml">
 </head><strong>&gt;服务器状态：</strong><text id='status'><font color='red'>离线</font></text>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&gt;用户：</strong><text id='status'><font color='red'>未登录</font></text>&nbsp;&nbsp;&nbsp;<button id='wcud'>登录</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&gt;Where you are：</strong><text id='status'>ChatRoom 1</text></p>
 <hr>
 <p><strong>正在播放：</strong><text id='video_name'>test.mp4</text></p>
-<p><div id='videopart'><center><video id="my-video" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" width=100% height=100% poster="images/posters_video.jpg" nativeTextTracks=false data-setup="{}"><source src="video/test.mp4" type="video/mp4" /><track id='subt' kind="subtitles" src="video/test.vtt" srclang="en" label="English" default /><p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p></video></center></div><script src="https://vjs.zencdn.net/7.7.6/video.js"></script></p>
+<p><div id='videopart'><center><video id="my-video" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" width=100% height=100% poster="https://qc.happyan.space/images/posters_video.jpg" nativeTextTracks=false data-setup="{}"><source src="https://qc.happyan.space/video/test.mp4" type="video/mp4" /><track id='subt' kind="subtitles" src="https://qc.happyan.space/video/test.vtt" srclang="en" label="English" default /><p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p></video></center></div></p>
+<script src="https://qc.happyan.space/js/video.js"></script>
 ]]></content>
   </entry>
   <entry>
