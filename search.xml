@@ -130,8 +130,6 @@ console.log(vtemp);
 };
 selecter.innerHTML=selhtml+'<option value=\'---\'>---</option>';
 };
-function changevideo()
-{
 var subtit=player.textTracks();
 var selecter= document.getElementById("videos");
 selecter.onchange=function()
@@ -148,7 +146,6 @@ player.removeRemoteTextTrack(subtit[i]);
 hz=sresult.split('.');
 player.src({type: 'video/'+String(hz[1]).toLowerCase( ),src: String(videodict[sresult])});
 player.addRemoteTextTrack({id:'subt',src:String(videodict[hz[0]+'.vtt']),srclang:'en',label:'Users',kind:'subtitles'});
-};
 };
 };
 </script>
