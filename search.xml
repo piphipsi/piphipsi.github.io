@@ -116,8 +116,8 @@ files=document.getElementById("docu").files;
 for (var i = 0; i < files.length; i++) 
 {
 vtemp=files[i].name;
-var videodict=new Array();
 videodict[vtemp]=window.URL.createObjectURL(files[i]);
+console.log(videodict[vtemp]);
 if (vtemp.match('.vtt'))
 {
 ;
