@@ -130,15 +130,17 @@ console.log(vtemp);
 };
 selecter.innerHTML=selhtml+'<option value=\'---\'>---</option>';
 };
-var subtit=player.textTracks();
 function changevideo()
 {
+var subtit=player.textTracks();
 var selecter= document.getElementById("videos");
 selecter.onchange=function()
 {
 var sresult=selecter.options[selecter.selectedIndex].innerHTML;
 if (sresult!='---')
 {
+var zzbf= document.getElementById("zzbf");
+zzbf.innerHTML=sresult;
 for (var i = 0; i < subtit.length; i++)
 {
 player.removeRemoteTextTrack(subtit[i]);
