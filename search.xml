@@ -97,6 +97,7 @@ function mAlert() {
 <p><strong>正在播放：</strong><text id='video_name'>test.mp4</text></p>
 <p><div id='videopart'><center><video id="my-video" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" width=900px height=600px poster="https://qc.happyan.space/images/posters_video.jpg" nativeTextTracks=false data-setup="{}"><source src="https://qc.happyan.space/video/test.mp4" type="video/mp4" /><track id='subt' kind="subtitles" src="https://qc.happyan.space/video/test.vtt" srclang="cn" label="Chinese" default /><p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p></video></center></div></p>
 <script src="https://qc.happyan.space/js/video.js"></script>
+<script src="https://cdn2.happyan.space/CDN0522/js/QOCS_global.js"></script>
 ]]></content>
   </entry>
   <entry>
