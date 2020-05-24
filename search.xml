@@ -128,7 +128,7 @@ selhtml=selhtml+'<option value=\''+vtemp+'\'>'+ vtemp+'</option>';
 };
 console.log(vtemp);
 };
-selecter.innerHTML=selhtml+'<option value=\'---\'>---</option>'
+selecter.innerHTML=selhtml+'<option value=\'---\'>---</option>';
 };
 var subtit=player.textTracks();
 function changevideo()
@@ -145,7 +145,7 @@ player.removeRemoteTextTrack(subtit[i]);
 };
 hz=sresult.split('.');
 player.src({type: 'video/'+String(hz[1]).toLowerCase( ),src: String(videodict[sresult])});
-player.addRemoteTextTrack({id:'subt',src:String(videodict[hz[0]+'.vtt']),srclang:'en',label:'Users',kind:'subtitles'});};
+player.addRemoteTextTrack({id:'subt',src:String(videodict[hz[0]+'.vtt']),srclang:'en',label:'Users',kind:'subtitles'});
 };
 };
 };
