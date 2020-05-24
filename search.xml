@@ -144,6 +144,7 @@ for (var i = 0; i < subtit.length; i++)
 player.removeRemoteTextTrack(subtit[i]);
 };
 hz=sresult.split('.');
+console.log(sresult);
 player.src({type: 'video/'+String(hz[1]).toLowerCase( ),src: String(videodict[sresult])});
 player.addRemoteTextTrack({id:'subt',src:String(videodict[hz[0]+'.vtt']),srclang:'en',label:'Users',kind:'subtitles'});
 };
