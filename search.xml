@@ -4,26 +4,26 @@
     <title>【量子光学】 Quantum Optics 2 Quiz 整合(更新完毕)</title>
     <url>/2020/05/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-%E6%95%B4%E5%90%88(%E6%9B%B4%E6%96%B0%E5%AE%8C%E6%AF%95)/</url>
     <content><![CDATA[<p>答案更新中，最近更新2020/5/18。<br><a id="more"></a></p>
-<details><summary>使用说明</summary><pre><code><a href='https://qc.happyan.space/2020/04/05/【量子光学】-Quantum-Optics-2-Quiz-提交说明/#more'>在线提交说明(第一次使用请认真阅读)</a></code></pre></details>
+<details><summary>使用说明</summary><pre><code><a href='https://blog.piphipsi.com/2020/04/05/【量子光学】-Quantum-Optics-2-Quiz-提交说明/#more' target="_blank" rel="noopener">在线提交说明(第一次使用请认真阅读)</a></code></pre></details>
 <details><summary>补充材料</summary><pre><code id='bccl'><input type="text" id="bdy" value="" /><button href="javascript:void(0);" onclick ="debccl()">确认</button><br/><text id='forend' hidden>U2FsdGVkX19qqJL+cqOMrDhcy8FrY1RmncLfNyGTyvdpgnGrmB2lIMO60Ok6aOkeI3jxb9Ygir7APhVrIolGzQMTeuGDKffeVveT+LYCwesHW9nB6i6Ju/InQSDzTe6i18VIUV9F6l/9emvt8+1DNgNZgPSBnQU139BG1Fdbyk/BpWTEd4R12xeZta767elRg7Lm25EKta8nYL64cVX3nQ==</text></code></pre></details>
 
 <blockquote>
 <ol>
-<li><a href="http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-1.6(1)/">【量子光学】 Quantum Optics 2 Quiz 1.6(1)</a><br>答案： <text>C/A/B/BD</text></li>
-<li><a href="http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-1.10(2)/">【量子光学】 Quantum Optics 2 Quiz 1.10(2)</a><br>答案： <text>ACD</text></li>
-<li><a href="http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-2.4(3)/">【量子光学】 Quantum Optics 2 Quiz 2.4(3)</a><br>答案： <text>BC/B/B</text></li>
-<li><a href="http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-2.5(4)/">【量子光学】 Quantum Optics 2 Quiz 2.5(4)</a><br>答案： <text>B/A/B</text></li>
-<li><a href="http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.5(5)/">【量子光学】 Quantum Optics 2 Quiz 3.5(5)</a><br>答案： <text>C/A</text></li>
-<li><a href="http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.6(6)/">【量子光学】 Quantum Optics 2 Quiz 3.6(6)</a><br>答案： <text>B</text></li>
-<li><a href="http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.7(7)/">【量子光学】 Quantum Optics 2 Quiz 3.7(7)</a><br>答案： <text>AB/B/B</text></li>
-<li><a href="http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.8(8)/">【量子光学】 Quantum Optics 2 Quiz 3.8(8)</a><br>答案： <text>B/A</text></li>
-<li><a href="http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.2(9)/">【量子光学】 Quantum Optics 2 Quiz 4.2(9)</a><br>答案： <text>A/D/AEF</text></li>
-<li><a href="http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.3(10)/">【量子光学】 Quantum Optics 2 Quiz 4.3(10)</a><br>答案： <text>B/BC/A</text></li>
-<li><a href="http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.4(11)/"> 【量子光学】 Quantum Optics 2 Quiz 4.4(11)</a><br>答案： <text hidden>B</text></li>
-<li><a href="http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.5(12)/"> 【量子光学】 Quantum Optics 2 Quiz 4.5(12)</a><br>答案： <text hidden>B</text></li>
-<li><a href="http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-5.1(13)/"> 【量子光学】 Quantum Optics 2 Quiz 5.1(13)</a><br>答案： <text hidden>C/C</text></li>
-<li><a href="http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-5.4(14)/"> 【量子光学】 Quantum Optics 2 Quiz 5.4(14)</a><br>答案： <text hidden>A/B/A</text></li>
-<li><a href="http://qc.happyan.space/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-5.5(15)/"> 【量子光学】 Quantum Optics 2 Quiz 5.5(15)</a><br>答案： <text hidden>B/A</text></li>
+<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-1.6(1)/" target="_blank" rel="noopener">【量子光学】 Quantum Optics 2 Quiz 1.6(1)</a><br>答案： <text>C/A/B/BD</text></li>
+<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-1.10(2)/" target="_blank" rel="noopener">【量子光学】 Quantum Optics 2 Quiz 1.10(2)</a><br>答案： <text>ACD</text></li>
+<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-2.4(3)/" target="_blank" rel="noopener">【量子光学】 Quantum Optics 2 Quiz 2.4(3)</a><br>答案： <text>BC/B/B</text></li>
+<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-2.5(4)/" target="_blank" rel="noopener">【量子光学】 Quantum Optics 2 Quiz 2.5(4)</a><br>答案： <text>B/A/B</text></li>
+<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.5(5)/" target="_blank" rel="noopener">【量子光学】 Quantum Optics 2 Quiz 3.5(5)</a><br>答案： <text>C/A</text></li>
+<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.6(6)/" target="_blank" rel="noopener">【量子光学】 Quantum Optics 2 Quiz 3.6(6)</a><br>答案： <text>B</text></li>
+<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.7(7)/" target="_blank" rel="noopener">【量子光学】 Quantum Optics 2 Quiz 3.7(7)</a><br>答案： <text>AB/B/B</text></li>
+<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.8(8)/" target="_blank" rel="noopener">【量子光学】 Quantum Optics 2 Quiz 3.8(8)</a><br>答案： <text>B/A</text></li>
+<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.2(9)/" target="_blank" rel="noopener">【量子光学】 Quantum Optics 2 Quiz 4.2(9)</a><br>答案： <text>A/D/AEF</text></li>
+<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.3(10)/" target="_blank" rel="noopener">【量子光学】 Quantum Optics 2 Quiz 4.3(10)</a><br>答案： <text>B/BC/A</text></li>
+<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.4(11)/" target="_blank" rel="noopener"> 【量子光学】 Quantum Optics 2 Quiz 4.4(11)</a><br>答案： <text hidden>B</text></li>
+<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.5(12)/" target="_blank" rel="noopener"> 【量子光学】 Quantum Optics 2 Quiz 4.5(12)</a><br>答案： <text hidden>B</text></li>
+<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-5.1(13)/" target="_blank" rel="noopener"> 【量子光学】 Quantum Optics 2 Quiz 5.1(13)</a><br>答案： <text hidden>C/C</text></li>
+<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-5.4(14)/" target="_blank" rel="noopener"> 【量子光学】 Quantum Optics 2 Quiz 5.4(14)</a><br>答案： <text hidden>A/B/A</text></li>
+<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-5.5(15)/" target="_blank" rel="noopener"> 【量子光学】 Quantum Optics 2 Quiz 5.5(15)</a><br>答案： <text hidden>B/A</text></li>
 </ol>
 </blockquote>
 <script type="text/javascript">
@@ -91,13 +91,13 @@ function mAlert() {
     <title>Quantum Optics Course System</title>
     <url>/2020/05/23/Quantum-Optics-Course-System/</url>
     <content><![CDATA[<p>QOCS v1.0.0<br><a id="more"></a></p>
-<p><head><link href="https://qc.happyan.space/css/video-js.css" rel="stylesheet" /><link rel="alternate" href="/atom.xml" title="PiPhiPsi" type="application/atom+xml">
+<p><head><link href="https://blog.piphipsi.com/css/video-js.css" rel="stylesheet" /><link rel="alternate" href="/atom.xml" title="PiPhiPsi" type="application/atom+xml">
 </head><strong>&gt;服务器状态：</strong><text id='status'><font color='red'>离线</font></text>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&gt;用户：</strong><text id='status'><font color='red'>未登录</font></text>&nbsp;&nbsp;&nbsp;<button id='wcud'>登录</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&gt;Where you are：</strong><text id='status'>ChatRoom 1</text></p>
 <hr>
 <p><strong>选择文件：</strong><input type="file" id="docu" name="docu" webkitdirectory multiple />&nbsp;<a href="javascript:void(0);" onclick ="GetFiles()">GetFiles</a><br><strong>选择播放视频：</strong><select id='videos'><option value='---'>---</option></select><br><strong>正在播放：</strong><text id='zzbf'>test.mp4</text></p>
-<p><div id='videopart'><center><video id="my-video" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" width=100% height=100% poster="https://qc.happyan.space/images/poster_video.jpg" nativeTextTracks=false data-setup="{}"><source src="https://qc.happyan.space/video/test.mp4" type="video/mp4" /><track id='subt' kind="subtitles" src="https://qc.happyan.space/video/test.vtt" srclang="cn" label="Chinese" default /><p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p></video></center></div></p>
-<script src="https://qc.happyan.space/js/video.js"></script>
-<script src="https://cdn2.happyan.space/CDN0522/js/QOCS_global.js"></script>
+<p><div id='videopart'><center><video id="my-video" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" width=100% height=100% poster="https://blog.piphipsi.com/images/poster_video.jpg" nativeTextTracks=false data-setup="{}"><source src="https://blog.piphipsi.com/video/test.mp4" type="video/mp4" /><track id='subt' kind="subtitles" src="https://blog.piphipsi.com/video/test.vtt" srclang="cn" label="Chinese" default /><p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p></video></center></div></p>
+<script src="https://blog.piphipsi.com/js/video.js"></script>
+<script src="https://cdn.piphipsi.com/CDN0522/js/QOCS_global.js"></script>
 <script type= "text/javascript">
 var player=videojs('my-video');
 window.onload=function(){resizevideojs();};
@@ -164,7 +164,7 @@ player.addRemoteTextTrack({id:'subt',src:String(videodict[hz[0]+'.vtt']),srclang
     <label for="hbePass">Enter password to read, and please refresh page to enable mathjax and other scripts.</label>
     <div class="bottom-line"></div>
   </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="f6e5c21261da532e70c9857960d755b680ea3b47614cb473cfa9394655465e3a">df81a18e4c1d2037e8310b903461e27b3b2d8d96222d03adaa47e8e11f2ddf30ef66116b4565b65ffbaba187b3593ce88f13629283d0fb811faa3b6f0ffa62af1be8c1d362785a0b17550a2928720e6cd5c790e3c961b868f99f630abe949a5ce9573ae6f933a65acd8ecc911146b53cb7abb8a3283091338761fa9c89f885af580ddc039cd4e5ae857419ab7eecf1bb71357ca067e256d372db0b8b75fc7f298a38fc833e5206c66c1bea7f4f69a44e9700799e87325e82b3c7e00490699a3e2da8defbdf0e903b64dae42c5e40af280284c0cb72ae3501e3c770df00caddc40fa1a7f40384d2d2d20276a0357030515692bceb21efce1e92eef895fb0ab8da5824b23cc5a3e5f43e8b5a3ab50d78aab03a44b886af602a8ca9bd84302de8c43efc4105b64478003a7292df3d7d9ca0c1550b31a871f58c477192c555ab510eb0edb94da4b2f478cae7ad5535263b3b64a11f7f585ecc0cc0640c09611575dbc9f8e3086c04b22651359b3297b7a3fa94046972e50fe83d7b94f119ac3e4ac775b0650f28effc41412720797659cdfc40cf9ffb3575d57616760d68e47db9c57d9cdb955aa4bd496cf6c24c78558769d7b28badda4af01f524dcc578ba3c57d4083aa52150c376ac94268b1be05f72ff48bef0a86d38b232ae2fe7b56b77c5a27a349f30c54e37e9d7841989ff93567e545085209d4b01c0b604ae5b78fe862493869005a74410efa9f4a5c508048565891a2e209eb3ab5f66866f73d0197ea9c224427a42be80523e2788b7173a791fc8c1735e175a44360f808316d8858d2c044747a5186f4e2cf5ed66e6c0a75593b0bd33ddbf9f492f1d8f60953102c2fa32a8b8541da21dbd390ee187a423de1aff73470ab4f45f9b43e1383fa151b89c812b00aee3070e98bb5b128d36c19c8411b6ad5a64fce1442852c562a943a339d973a4aa5591e6c574dfb88f397caba44791df66e5cb3433934ee245640b0804da80838b65a275a40404c8797e8c69dca17f08165c5c82a473790d2f3a318e07b0dc08fa87d2dcbfc58c8037286b7b03998b3126ac5b61bddad2ae7a1d24561d93cc5dd9c13f4b1a4337ddd6f5f91f63ee3246dda71977e2f64fe8ecefcd2c32e78a5d315a80a7ffd9c0cb4bb0a7140d9d5e524d46038810485b57a4b79fd522358103d2482b8a30423666547693965d762742644c173697bb0759c7aedddcd501a123c495c00587b37c5c36b2d99a18c1eaf5433178d198eaa615213aaf84c66f2a979520c02ec969ae1775d7cfe75a66df5fd9f6e13f0c9d683ad6d054612a8a467c865b25952ddc0754e38a820a20bbbadae0cb620440e35ee8fd91bcc1e0a980ebf58e72743d251e2a89519214bf2eb1d684d8362150699947571d3019e51fe3580a674f491fc1316ac16459115975ae1b7ae9c4e7ab81888dbb346aceae2cada2c531670420138aa8faaa4e608f8819812fa5aa45d962bebba3e237a408847e6edcc7c3e1958472dd3ced42b36a3f6a193ab7bf5c883fb7dd000b944badf216657767be8bbf448faf7787280aed4746a8e61c7a2babfd10d5cb9ee82904c0282a69cebcad1f1a2cc87be95977f76f6425eeb352c3e0761a3106939af688683d2c9813ac0f1d4a2d37a52a4912558acd6ff53eab6bfd4bac9c2a17d8cc67bbdbcfd39c1d5e0a408321e0b019565b3510e026806d17cab1c8c0fecf87dc3</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="caf9d9da54fcbffa4effebb307c45ea133e7a0730d9e6634aa0dc9f9af4ee17f">df81a18e4c1d2037e8310b903461e27b3b2d8d96222d03adaa47e8e11f2ddf30ef66116b4565b65ffbaba187b3593ce88f13629283d0fb811faa3b6f0ffa62af1be8c1d362785a0b17550a2928720e6cd5c790e3c961b868f99f630abe949a5ce9573ae6f933a65acd8ecc911146b53cb7abb8a3283091338761fa9c89f885af580ddc039cd4e5ae857419ab7eecf1bb71357ca067e256d372db0b8b75fc7f298a38fc833e5206c66c1bea7f4f69a44e9700799e87325e82b3c7e00490699a3e2da8defbdf0e903b64dae42c5e40af280284c0cb72ae3501e3c770df00caddc40fa1a7f40384d2d2d20276a0357030515692bceb21efce1e92eef895fb0ab8da5824b23cc5a3e5f43e8b5a3ab50d78aab03a44b886af602a8ca9bd84302de8c43efc4105b64478003a7292df3d7d9ca0c1550b31a871f58c477192c555ab510eb0edb94da4b2f478cae7ad5535263b3b64a11f7f585ecc0cc0640c09611575dbc9f8e3086c04b22651359b3297b7a3fa94046972e50fe83d7b94f119ac3e4ac775b0650f28effc41412720797659cdfc40cf9ffb3575d57616760d68e47db9c57d9cdb955aa4bd496cf6c24c78558769d7b28badda4af01f524dcc578ba3c57d4083aa52150c376ac94268b1be05f72ff48bef0a86d38b232ae2fe7b56b77c5a27a349f30c54e37e9d7841989ff93567e545085209d4b01c0b604ae5b78fe86282ca94d46ff032d18935a76927b0ed985da823e2cc098897f4941ffcf8dcf735b5b94fa9999116fead483138c7de96ebbb952f3af8dbff5dcc003a78336d33b51c05d1f3a52e434a5c00545c57919f1e3a18057deb7984f1c11f1306737ead90fb357a56b6991ac9e2a35a7e716c64a7bfe0eb739147090833a6ea3b523a2d2185e398e6c5a77fafa75340adb3ffb7e03fa39b3fc77534078512a3e80342d66b0c5f5f0d09457a8a5a018427957f03bbbb59ca2f0724f67b929d754f3622db60ca9c650791a51896b481c33f110e7a90894338dab5cf30c5e3b403f6684c0f957d7aceae8dc77fb0330b891ac70743cd46bbfba9822bc79fec1400e065ae7acb66288eaeeb3b7af6afd0af372a600dd3cfd6de8548edbe4dd8a442b7d6cf0be4f1814c6ce87bb93b8250c8cd71b974575cadd71abf9fce81f6810c66edb2d92d4d9b7a1ba13d02e083f9352e9e4f06cbb79b21be6f9b4b14d283c4fa5a832e459471c32dc00c62a3eff0fdde623e8ac4dea58d6c53b885369b26b47248bf4389d59c5ee27b0f589f2ae0cbe072ec8bef499d60c2850917712ba34f5bfa766defeb6e458a05640802ebfe768e7d830b7009a060cf48cfe3769a2175058794a25075e8b91ac23e31565f627318e2a83dae4fb107c81988487158081b650f415cf11c4307e021a0e9200e5f7a57db95f7add5b9dd89ae6133e07213930c8ab69a3b28dec884c9d02c19c8b6f44d018dc5d972c3f9121ac7a9e2858860468f82204174aba41b82023531ba70a3167a50cccee5e10b06bc97a6f67a9c28622168ef912caf037f9fe61694d21cf2723036518ba8594226a6ad7002b3f9ec3627d44a5de66ae2b8a2064676abbddb10aecb2c55551c1ae2735bf18d8e70a76329a96a419deefdff34c399300c8e9c685e5b13eddea1ccffdd23d3927bc452643935cfe452435c8eb5ed638a7ed87ed4045ae5562447648d5f2078f2ca3207f5566bdacb</script>
 </div>
 <script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
@@ -216,7 +216,7 @@ player.addRemoteTextTrack({id:'subt',src:String(videodict[hz[0]+'.vtt']),srclang
 <p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
 <p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
 <p><p id='coursera-qo2'></p></p>
-<script src='https://cdn2.happyan.space/CDN0522/js/qo2.js'></script>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo2.js'></script>
 <script src="/js/jquery-latest.min.js"></script>
 <script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
 <script src="/js/base64.js"></script>
@@ -255,7 +255,7 @@ player.addRemoteTextTrack({id:'subt',src:String(videodict[hz[0]+'.vtt']),srclang
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com/CDN0522:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -368,7 +368,7 @@ function getstate()
 <p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
 <p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
 <p><p id='coursera-qo2'></p></p>
-<script src='https://cdn2.happyan.space/CDN0522/js/qo2.js'></script>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo2.js'></script>
 <script src="/js/jquery-latest.min.js"></script>
 <script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
 <script src="/js/base64.js"></script>
@@ -407,7 +407,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -536,7 +536,7 @@ function getstate()
 <p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
 <p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
 <p><p id='coursera-qo2'></p></p>
-<script src='https://cdn2.happyan.space/CDN0522/js/qo2.js'></script>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo2.js'></script>
 <script src="/js/jquery-latest.min.js"></script>
 <script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
 <script src="/js/base64.js"></script>
@@ -575,7 +575,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -701,7 +701,7 @@ function getstate()
 <p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
 <p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
 <p><p id='coursera-qo2'></p></p>
-<script src='https://cdn2.happyan.space/CDN0522/js/qo2.js'></script>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo2.js'></script>
 <script src="/js/jquery-latest.min.js"></script>
 <script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
 <script src="/js/base64.js"></script>
@@ -740,7 +740,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -858,7 +858,7 @@ function getstate()
 <p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
 <p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
 <p><p id='coursera-qo2'></p></p>
-<script src='https://cdn2.happyan.space/CDN0522/js/qo2.js'></script>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo2.js'></script>
 <script src="/js/jquery-latest.min.js"></script>
 <script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
 <script src="/js/base64.js"></script>
@@ -897,7 +897,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -1008,7 +1008,7 @@ function getstate()
 <p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
 <p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
 <p><p id='coursera-qo2'></p></p>
-<script src='https://cdn2.happyan.space/CDN0522/js/qo2.js'></script>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo2.js'></script>
 <script src="/js/jquery-latest.min.js"></script>
 <script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
 <script src="/js/base64.js"></script>
@@ -1047,7 +1047,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -1170,7 +1170,7 @@ function getstate()
 <p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
 <p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
 <p><p id='coursera-qo2'></p></p>
-<script src='https://cdn2.happyan.space/CDN0522/js/qo2.js'></script>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo2.js'></script>
 <script src="/js/jquery-latest.min.js"></script>
 <script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
 <script src="/js/base64.js"></script>
@@ -1209,7 +1209,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -1326,7 +1326,7 @@ function getstate()
 <p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
 <p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
 <p><p id='coursera-qo2'></p></p>
-<script src='https://cdn2.happyan.space/CDN0522/js/qo2.js'></script>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo2.js'></script>
 <script src="/js/jquery-latest.min.js"></script>
 <script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
 <script src="/js/base64.js"></script>
@@ -1365,7 +1365,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -1495,7 +1495,7 @@ function getstate()
 <p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
 <p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
 <p><p id='coursera-qo2'></p></p>
-<script src='https://cdn2.happyan.space/CDN0522/js/qo2.js'></script>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo2.js'></script>
 <script src="/js/jquery-latest.min.js"></script>
 <script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
 <script src="/js/base64.js"></script>
@@ -1534,7 +1534,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -1662,7 +1662,7 @@ function getstate()
 <p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
 <p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
 <p><p id='coursera-qo2'></p></p>
-<script src='https://cdn2.happyan.space/CDN0522/js/qo2.js'></script>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo2.js'></script>
 <script src="/js/jquery-latest.min.js"></script>
 <script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
 <script src="/js/base64.js"></script>
@@ -1701,7 +1701,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -1812,7 +1812,7 @@ function getstate()
 <p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
 <p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
 <p><p id='coursera-qo2'></p></p>
-<script src='https://cdn2.happyan.space/CDN0522/js/qo2.js'></script>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo2.js'></script>
 <script src="/js/jquery-latest.min.js"></script>
 <script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
 <script src="/js/base64.js"></script>
@@ -1851,7 +1851,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -1964,7 +1964,7 @@ function getstate()
 <p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
 <p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
 <p><p id='coursera-qo2'></p></p>
-<script src='https://cdn2.happyan.space/CDN0522/js/qo2.js'></script>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo2.js'></script>
 <script src="/js/jquery-latest.min.js"></script>
 <script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
 <script src="/js/base64.js"></script>
@@ -2003,7 +2003,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -2123,7 +2123,7 @@ function getstate()
 <p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
 <p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
 <p><p id='coursera-qo2'></p></p>
-<script src='https://cdn2.happyan.space/CDN0522/js/qo2.js'></script>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo2.js'></script>
 <script src="/js/jquery-latest.min.js"></script>
 <script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
 <script src="/js/base64.js"></script>
@@ -2162,7 +2162,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -2290,7 +2290,7 @@ function getstate()
 <p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
 <p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
 <p><p id='coursera-qo2'></p></p>
-<script src='https://cdn2.happyan.space/CDN0522/js/qo2.js'></script>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo2.js'></script>
 <script src="/js/jquery-latest.min.js"></script>
 <script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
 <script src="/js/base64.js"></script>
@@ -2329,7 +2329,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -2448,7 +2448,7 @@ function getstate()
 <p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
 <p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
 <p><p id='coursera-qo2'></p></p>
-<script src='https://cdn2.happyan.space/CDN0522/js/qo2.js'></script>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo2.js'></script>
 <script src="/js/jquery-latest.min.js"></script>
 <script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
 <script src="/js/base64.js"></script>
@@ -2487,7 +2487,7 @@ function getstate()
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn2.happyan.space:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -2624,7 +2624,7 @@ echo 'deb https://apt.dockerproject.org/repo debian-stretch main' > /etc/apt/sou
     <url>/2020/04/07/%E3%80%90%E6%B8%B8%E6%88%8F%E3%80%91IBM-&#39;Hello-Quantum&#39;%E6%94%BB%E7%95%A5/</url>
     <content><![CDATA[<p>LX:Left X gate(左边的X门);RX:Right X gate(右边的X门);<br>LH:Left H gate(左边的H门);RH:Right H gate(右边的H门);<br>LZ:Left Z gate(左边的Z门);RZ:Right Z gate(右边的Z门);</p>
 <a id="more"></a>
-<p>每一关的可行的完美解法如下(执行步骤从左到右)：</p>
+<p><a href='https://cdn.piphipsi.com/CDN0522/helloquantum.apk' target="_blank" rel="noopener">安卓软件下载</a><br>每一关的可行的完美解法如下(执行步骤从左到右)：</p>
 <h1 id="Level-01"><a href="#Level-01" class="headerlink" title="Level 01"></a>Level 01</h1><blockquote>
 <p>Puzzle 01: LX<br>Puzzle 02: RX<br>Puzzle 03: LX, RX<br>Puzzle 04: RH<br>Puzzle 05: LH, RH<br>Puzzle 06: RX, LH<br>Puzzle 07: LZ, LH, RH<br>Puzzle 08: LZ, RZ, LH, RH<br>Puzzle 09: RH, RZ, RH<br>Puzzle 10: LH, LZ, RH, RZ, LH, RH</p>
 </blockquote>
@@ -2712,7 +2712,7 @@ echo 'deb https://apt.dockerproject.org/repo debian-stretch main' > /etc/apt/sou
   <entry>
     <title>【量子光学】 Quantum Optics 2 Quiz 提交说明</title>
     <url>/2020/04/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-%E6%8F%90%E4%BA%A4%E8%AF%B4%E6%98%8E/</url>
-    <content><![CDATA[<p>Quantum Optics 2 Quiz 提交说明<br><a id="more"></a><br><a href='https://qc.happyan.space/2020/05/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-%E6%95%B4%E5%90%88(%E6%9B%B4%E6%96%B0%E5%AE%8C%E6%AF%95)/#more'>整合网址</a></p>
+    <content><![CDATA[<p>Quantum Optics 2 Quiz 提交说明<br><a id="more"></a><br><a href='https://blog.piphipsi.com/2020/05/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-%E6%95%B4%E5%90%88(%E6%9B%B4%E6%96%B0%E5%AE%8C%E6%AF%95)/#more' target="_blank" rel="noopener">整合网址</a></p>
 <h2 id="提交步骤"><a href="#提交步骤" class="headerlink" title="提交步骤"></a>提交步骤</h2><ol>
 <li><p>打开作业页面，请注意检查页面是否是用http协议打开，如果用https协议打开会导致无法提交作业。<br><img src="01.png" alt="01"></p>
 </li>
