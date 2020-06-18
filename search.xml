@@ -88,6 +88,31 @@ function mAlert() {
 ]]></content>
   </entry>
   <entry>
+    <title>书籍文稿音像编目</title>
+    <url>/2020/06/18/%E4%B9%A6%E7%B1%8D%E6%96%87%E7%A8%BF%E9%9F%B3%E5%83%8F%E7%BC%96%E7%9B%AE/</url>
+    <content><![CDATA[<p>本站所有引用的文稿查询<br><a id="more"></a></p>
+<p><details><summary>引用规则</summary><pre><code>引用标识：*src*-书籍-自然科学-数学物理-1 <br>目录指代：一级目录-书籍，二级目录-自然科学，三级目录-数学物理，编号-1</code></pre></details></p>
+<h1 id="书籍"><a href="#书籍" class="headerlink" title="书籍"></a>书籍</h1><h2 id="自然科学"><a href="#自然科学" class="headerlink" title="自然科学"></a>自然科学</h2><h3 id="数学物理"><a href="#数学物理" class="headerlink" title="数学物理"></a>数学物理</h3><blockquote>
+<ol>
+<li>Group Theory in Physics, Wu-Ki Tung, World Scientific, 2008.</li>
+</ol>
+</blockquote>
+<h1 id="文稿"><a href="#文稿" class="headerlink" title="文稿"></a>文稿</h1><h1 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h1><h1 id="音频"><a href="#音频" class="headerlink" title="音频"></a>音频</h1><h1 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h1>]]></content>
+  </entry>
+  <entry>
+    <title>【数理】群论学习手记（1）</title>
+    <url>/2020/06/18/%E3%80%90%E6%95%B0%E7%90%86%E3%80%91%E7%BE%A4%E8%AE%BA%E5%AD%A6%E4%B9%A0%E6%89%8B%E8%AE%B0%EF%BC%881%EF%BC%89/</url>
+    <content><![CDATA[<p>群论学习手记（1）（待更新）</p>
+<p align="right">*src*-书籍-自然科学-数学物理-1</p>
+]]></content>
+      <categories>
+        <category>数学物理</category>
+      </categories>
+      <tags>
+        <tag>数学物理</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Quantum Optics Course System</title>
     <url>/2020/05/23/Quantum-Optics-Course-System/</url>
     <content><![CDATA[<p>QOCS v1.0.0<br><a id="more"></a></p>
