@@ -280,7 +280,7 @@ player.addRemoteTextTrack({id:'subt',src:String(videodict[hz[0]+'.vtt']),srclang
     {
         jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn.piphipsi.com/CDN0522:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
