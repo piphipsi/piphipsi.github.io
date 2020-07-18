@@ -91,7 +91,7 @@ function mAlert() {
     <title>【量子光学】-Quantum-Optics-1-Quiz-Week-1(1)</title>
     <url>/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)/</url>
     <content><![CDATA[<p>Quantum Optics 1课程第一次测验<br><a id="more"></a></p>
-<iframe src="https://cdn.piphipsi.com/pdfjs-2.4.456-es5/web/viewer.html?file=https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf"></iframe>
+<iframe src="https://blog.piphipsi.com/pdfjs-2.4.456-es5/web/viewer.html?file=https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf"></iframe>
 
 ]]></content>
       <categories>
@@ -2752,7 +2752,7 @@ echo 'deb https://apt.dockerproject.org/repo debian-stretch main' > /etc/apt/sou
   <entry>
     <title>【量子光学】 Quantum Optics 2 Quiz 提交说明</title>
     <url>/2020/04/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-%E6%8F%90%E4%BA%A4%E8%AF%B4%E6%98%8E/</url>
-    <content><![CDATA[<p>Quantum Optics 2 Quiz 提交说明<br><a id="more"></a><br><a href='https://blog.piphipsi.com/2020/05/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-%E6%95%B4%E5%90%88(%E6%9B%B4%E6%96%B0%E5%AE%8C%E6%AF%95)/#more' target="_blank" rel="noopener">整合网址</a></p>
+    <content><![CDATA[<p>Quantum Optics 2 Quiz 提交说明<br><a id="more"></a><br><a href='https://blog.piphipsi.com/2020/05/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-%E6%95%B4%E5%90%88(%E6%9B%B4%E6%96%B0%E5%AE%8C%E6%AF%95)/#more'>整合网址</a></p>
 <h2 id="提交步骤"><a href="#提交步骤" class="headerlink" title="提交步骤"></a>提交步骤</h2><ol>
 <li><p>打开作业页面，请注意检查页面是否是用http协议打开，如果用https协议打开会导致无法提交作业。<br><img src="01.png" alt="01"></p>
 </li>
