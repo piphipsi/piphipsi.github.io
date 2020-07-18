@@ -91,8 +91,38 @@ function mAlert() {
     <title>【量子光学】-Quantum-Optics-1-Quiz-Week-1(1)</title>
     <url>/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)/</url>
     <content><![CDATA[<p>Quantum Optics 1课程第一次测验<br><a id="more"></a></p>
-<iframe src="https://blog.piphipsi.com/pdfjs-2.4.456-es5/web/viewer.html?file=https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf"></iframe>
+<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p><button id="button1" type="button" onclick=displaypdf()>在线预览</button><button id="button2" type="button" style="float:right"><a href="https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" target="_blank" rel="noopener">下载文件</a></button></p>
+<iframe id="pdfzone" align="center" src="https://cdn.piphipsi.com/pdfs0718/pdfjs-2.4.456-es5/web/viewer.html?file=https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" height="800px" width="100%"></iframe>
 
+
+<script type="text/javascript">
+document.getElementById("pdfzone").style.display="none";
+function displaypdf()
+{
+    var tag=document.getElementById("pdfzone");
+    var button1=document.getElementById("button1");
+    if (tag.style.display=="none")
+    {
+        tag.style.display="inline";
+        button1.innerHTML="关闭预览";
+    }
+    else
+    {
+        tag.style.display="none";
+        button1.innerHTML="在线预览";
+    };
+};
+window.onload=function(){resizepdfzone();};
+window.onresize=function(){resizepdfzone();};
+function resizepdfzone()
+{
+    var zoneW=document.getElementById("pdfzone").style.width;
+    var zoneH=document.getElementById("pdfzone").style.height;
+    zoneW=document.getElementById("pdfzone").clientWidth*0.95;
+    zoneH=zoneW*1.5;
+
+};
+</script>
 ]]></content>
       <categories>
         <category>Quantum Optics</category>
