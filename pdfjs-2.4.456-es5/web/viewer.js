@@ -2035,9 +2035,10 @@ var validateFileURL;
           origin = _ref11.origin,
           protocol = _ref11.protocol;
 
-      if (origin !== viewerOrigin && protocol !== "blob:") {
-        throw new Error("file origin does not match viewer's");
-      }
+       //ignore
+      //if (origin !== viewerOrigin && protocol !== "blob:") {
+       // throw new Error("file origin does not match viewer's");
+      //}
     } catch (ex) {
       var message = ex && ex.message;
       PDFViewerApplication.l10n.get("loading_error", null, "An error occurred while loading the PDF.").then(function (loadingErrorMessage) {
@@ -6685,7 +6686,7 @@ var PDFDocumentProperties = /*#__PURE__*/function () {
                 return _context3.abrupt("return", this.l10n.get("document_properties_date_string", {
                   date: dateObject.toLocaleDateString(),
                   time: dateObject.toLocaleTimeString()
-                }, "1595058725184, "));
+                }, "1595059034199, "));
 
               case 4:
               case "end":
