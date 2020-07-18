@@ -94,7 +94,7 @@ function mAlert() {
 <h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p><button id="button1" type="button" onclick=displaypdf()>在线预览</button><button id="button2" type="button" style="float:right"><a href="https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" target="_blank" rel="noopener">下载文件</a></button></p>
 <iframe id="pdfzone" align="center" src="https://cdn.piphipsi.com/pdfs0718/pdfjs-2.4.456-es5/web/viewer.html?file=https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" height="900px" width="100%"></iframe>
 
-<h1 id="作答"><a href="#作答" class="headerlink" title="作答"></a>作答</h1><p><input type="file" id="file" onchange="readfile(this.files)"/></p>
+<h1 id="作答"><a href="#作答" class="headerlink" title="作答"></a>作答</h1><p><input type="file" id="file" onchange="readfile(this.files)"/><text id="checker">正在检测浏览器是否支持上传文件！</text></p>
 <script type="text/javascript">
 document.getElementById("pdfzone").style.display="none";
 function displaypdf()
@@ -172,13 +172,13 @@ freader.onload=function(e)
     var jcr= document.getElementById("checker");
     if (window.WebSocket)
     {
-        jcr.innerHTML="Submit Answer";
+        jcr.innerHTML="正在连接作业服务器！";
     }
     else
     {
-        jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
+        jcr.innerHTML='此浏览器不支持提交作业，请更换浏览器再试！';
     };
-    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8676/chatsocket");
     function synSalt()
     {
         var encryptRSA = new JSEncrypt();
@@ -188,7 +188,7 @@ freader.onload=function(e)
     }
     socket.onopen = function () {
         /* 与服务器端连接成功后，自动执行 */
-        jcr.innerHTML = "Submit Answer";
+        jcr.innerHTML = "请上传作业！（pdf文件）";
         synSalt();
     };
     socket.onmessage = function (event) {
@@ -196,7 +196,7 @@ freader.onload=function(e)
         var response = event.data;
         splitdata=response.split('@_w_@');
         console.log(response);
-        if (splitdata[0]=='HZ' & splitdata[1]==accget)
+        if (splitdata[0]=='HZ' & splitdata[1].match(accget))
         {
         kouling= document.getElementById("kouling");
         kouling.innerHTML='确认口令(请保存好作为提交凭据）： '+MyDecrypt(splitdata[2],accget+loginsalt);
@@ -216,8 +216,11 @@ freader.onload=function(e)
     };
 function sendfile(text)
 {
-    senddata='data@_w_@'+accget+'#'+dates.toLocaleString()+'@_w_@'+MyEncrypt(text,accget+loginsalt);
+    datasalt=dates.toLocaleString();
+    senddata='data@_w_@'+accget+'#'+datasalt+'@_w_@'+MyEncrypt(text,accget+'#'+datasalt+loginsalt);
     console.log(senddata);
+    socket.send('length@_w_@'+String(senddata.length));
+    console.log('length@_w_@'+String(senddata.length));
     socket.send(senddata);
 };
 </script>
