@@ -328,6 +328,7 @@ freader.readAsText(file);
 freader.onload=function(e)
 {
     var text=freader.result;
+        jcr.innerHTML="正在上传，请稍候！";
         var fileb64=Base64.encode(text);
         var hashed = CryptoJS.SHA512(fileb64).toString();
         console.log(hashed);
@@ -442,7 +443,7 @@ function sendfile(text,name)
     console.log('length@_w_@'+String(i));
         for (var ir = 0, l = text.length; ir < l/n; ir++) {
         datasalt=dates.toLocaleString();
-    senddata='filebuffer@_w_@'+name+datasalt+'@_w_@'+MyEncrypt(textArr[ir],name+datasalt+loginsalt)+'@_w_@'+String(ir+1);
+    senddata='filebuffer@_w_@'+datasalt+name+'@_w_@'+MyEncrypt(textArr[ir],datasalt+name+loginsalt)+'@_w_@'+String(ir+1);
     console.log(ir+1);
         console.log(senddata);
         sleep(100);
