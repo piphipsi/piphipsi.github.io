@@ -31,7 +31,7 @@
 <meta property="og:description" content="Quantum Optics 1课程第一次测验">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-07-18T07:41:05.000Z">
-<meta property="article:modified_time" content="2020-07-19T04:54:48.798Z">
+<meta property="article:modified_time" content="2020-07-19T05:26:11.086Z">
 <meta property="article:author" content="Happy An">
 <meta property="article:tag" content="Quantum">
 <meta property="article:tag" content="Optics">
@@ -246,7 +246,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-07-19 00:54:48" itemprop="dateModified" datetime="2020-07-19T00:54:48-04:00">2020-07-19</time>
+                <time title="修改时间：2020-07-19 01:26:11" itemprop="dateModified" datetime="2020-07-19T01:26:11-04:00">2020-07-19</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -264,7 +264,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>3.3k</span>
+              <span>3.2k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -334,14 +334,14 @@ freader.onload=function(e)
 {
     var text=freader.result;
     //var base64Decoded = CryptoJS.enc.Base64.parse(text);
-    var base64Decoded = Base64.encode(text);
-        console.log(base64Decoded);
-        var hashed = CryptoJS.SHA512(base64Decoded).toString();
+    //var base64Decoded = Base64.encode(text);
+        //console.log(base64Decoded);
+        var hashed = CryptoJS.SHA512(text).toString();
         console.log(hashed);
         var localcheck=document.getElementById("localhash");
         localcheck.innerHTML=hashed;
-    console.log(encodeUtf8(base64Decoded));
-    sendfile(encodeUtf8(base64Decoded));
+    //console.log(encodeUtf8(base64Decoded));
+    sendfile(text);
 };
 };
 };
