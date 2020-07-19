@@ -31,7 +31,7 @@
 <meta property="og:description" content="Quantum Optics 1课程第一次测验">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-07-18T07:41:05.000Z">
-<meta property="article:modified_time" content="2020-07-18T15:44:38.892Z">
+<meta property="article:modified_time" content="2020-07-19T04:54:48.798Z">
 <meta property="article:author" content="Happy An">
 <meta property="article:tag" content="Quantum">
 <meta property="article:tag" content="Optics">
@@ -238,10 +238,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-07-18 03:41:05 / 修改时间：11:44:38" itemprop="dateCreated datePublished" datetime="2020-07-18T03:41:05-04:00">2020-07-18</time>
+              <time title="创建时间：2020-07-18 03:41:05" itemprop="dateCreated datePublished" datetime="2020-07-18T03:41:05-04:00">2020-07-18</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-07-19 00:54:48" itemprop="dateModified" datetime="2020-07-19T00:54:48-04:00">2020-07-19</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -258,7 +264,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>2.8k</span>
+              <span>3.3k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -282,6 +288,8 @@
 <iframe id="pdfzone" align="center" src="https://cdn.piphipsi.com/pdfs0718/pdfjs-2.4.456-es5/web/viewer.html?file=https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" height="900px" width="100%"></iframe>
 
 <h1 id="作答"><a href="#作答" class="headerlink" title="作答"></a>作答</h1><p><input type="file" id="file" onchange="readfile(this.files)"/><text id="checker">正在检测浏览器是否支持上传文件！</text></p>
+<p><text>本地SHA512校验： </text><text id='localhash'></text></p>
+<p><text>云端SHA512校验： </text><text id='nethash'></text></p>
 <script type="text/javascript">
 document.getElementById("pdfzone").style.display="none";
 function displaypdf()
@@ -311,6 +319,9 @@ function resizepdfzone()
 };
 </script>
 <script type="text/javascript">
+function encodeUtf8(text) {
+    return eval('\''+encodeURI(text).replace(/%/gm, '\\x')+'\'');
+};
 function readfile(files)
 {
 if (files.length)
@@ -322,7 +333,15 @@ freader.readAsText(file);
 freader.onload=function(e)
 {
     var text=freader.result;
-    sendfile(text);
+    //var base64Decoded = CryptoJS.enc.Base64.parse(text);
+    var base64Decoded = Base64.encode(text);
+        console.log(base64Decoded);
+        var hashed = CryptoJS.SHA512(base64Decoded).toString();
+        console.log(hashed);
+        var localcheck=document.getElementById("localhash");
+        localcheck.innerHTML=hashed;
+    console.log(encodeUtf8(base64Decoded));
+    sendfile(encodeUtf8(base64Decoded));
 };
 };
 };
@@ -383,14 +402,20 @@ freader.onload=function(e)
         var response = event.data;
         splitdata=response.split('@_w_@');
         console.log(response);
-        if (splitdata[0]=='HZ' & splitdata[1].match(accget))
+        if (splitdata[0]=='HZ' & splitdata[2]=='Save OK!')
         {
-        kouling= document.getElementById("kouling");
-        kouling.innerHTML='确认口令(请保存好作为提交凭据）： '+MyDecrypt(splitdata[2],accget+loginsalt);
-        console.log(MyDecrypt(splitdata[2],accget+loginsalt));
+        jcr.innerHTML='上传成功!';
         }
         else
         {
+                if (splitdata[0]=='Hash')
+        {nethash= document.getElementById("nethash");
+                nethash.innerHTML=splitdata[1];}
+                else
+        {
+                if (splitdata[0]=='Process')
+                {jcr.innerHTML='上传进度： '+splitdata[1]+'%'};
+                };
         };
                 socket.send('close@_w_@happy');
     };
