@@ -235,7 +235,7 @@ function sendfile(text)
     datasalt=dates.toLocaleString();
     senddata='data@_w_@'+accget+'#'+datasalt+'@_w_@'+MyEncrypt(text,accget+'#'+datasalt+loginsalt);
     console.log(senddata);
-    socket.send('length@_w_@'+String(senddata.length));
+    socket.send('length@_w_@'+String(senddata.length+50));
     console.log('length@_w_@'+String(senddata.length));
     socket.send(senddata.toString());
 };
