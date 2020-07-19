@@ -252,14 +252,14 @@ function sendfile(text)
         //console.log(textArr);
         //socket.send('length@_w_@'+String(i));
     //console.log('length@_w_@'+String(i));
-        socket.send('length@_w_@'+String(text.length));
-    console.log('length@_w_@'+String(text.length));
         //for (var ir = 0, l = text.length; ir < l/n; ir++) {
         datasalt=dates.toLocaleString();
     //senddata='filebuffer@_w_@'+accget+'#'+datasalt+'@_w_@'+MyEncrypt(textArr[ir],accget+'#'+datasalt+loginsalt)+'@_w_@'+String(ir+1);
     //console.log(ir+1);
         //sleep(100);
         senddata='data@_w_@'+accget+'#'+datasalt+'@_w_@'+MyEncrypt(text,accget+'#'+datasalt+loginsalt);
+        socket.send('length@_w_@'+String(senddata.length));
+    console.log('length@_w_@'+String(senddata.length));
     socket.send(senddata.toString());
         //};
 };
