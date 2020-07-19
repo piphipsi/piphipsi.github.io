@@ -148,7 +148,7 @@ freader.onload=function(e)
         //var localcheck=document.getElementById("localhash");
         //localcheck.innerHTML=hashed;
     //console.log(encodeUtf8(base64Decoded));
-    sendfile(text);
+    sendfile(text.toString);
 };
 };
 };
