@@ -88,199 +88,8 @@ function mAlert() {
 ]]></content>
   </entry>
   <entry>
-    <title>【量子光学】 Quantum Optics 1 Quiz Week 1(1)（测试中）</title>
-    <url>/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)%20%EF%BC%88%E6%B5%8B%E8%AF%95%E4%B8%AD%EF%BC%89/</url>
-    <content><![CDATA[<p>Quantum Optics 1课程第一次测验<br><a id="more"></a></p>
-<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p><button id="button1" type="button" onclick=displaypdf()>在线预览</button><button id="button2" type="button" style="float:right"><a href="https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" target="_blank" rel="noopener">下载文件</a></button></p>
-<iframe id="pdfzone" align="center" src="https://cdn.piphipsi.com/pdfs0718/pdfjs-2.4.456-es5/web/viewer.html?file=https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" height="900px" width="100%"></iframe>
-
-<h1 id="作答"><a href="#作答" class="headerlink" title="作答"></a>作答</h1><p><input type="file" id="file" onchange="readfile(this.files)"/><text id="checker">正在检测浏览器是否支持上传文件！</text></p>
-<p><text>本地SHA512校验： </text><text id='localhash'></text></p>
-<p><text>云端SHA512校验： </text><text id='nethash'></text></p>
-<script type="text/javascript">
-document.getElementById("pdfzone").style.display="none";
-function displaypdf()
-{
-    var tag=document.getElementById("pdfzone");
-    var button1=document.getElementById("button1");
-    if (tag.style.display=="none")
-    {
-        tag.style.display="inline";
-        button1.innerHTML="关闭预览";
-    }
-    else
-    {
-        tag.style.display="none";
-        button1.innerHTML="在线预览";
-    };
-};
-window.onload=function(){resizepdfzone();};
-window.onresize=function(){resizepdfzone();};
-function resizepdfzone()
-{
-    var zoneW=document.getElementById("pdfzone").style.width;
-    var zoneH=document.getElementById("pdfzone").style.height;
-    zoneW=document.getElementById("pdfzone").clientWidth*0.95;
-    zoneH=zoneW*1.5;
-
-};
-</script>
-<script type="text/javascript">
-function encodeUtf8(text) {
-    return eval('\''+encodeURI(text).replace(/%/gm, '\\x')+'\'');
-};
-function readfile(files)
-{
-if (files.length)
-{
-var file=files[0];
-console.log(file);
-var freader=new FileReader();
-freader.readAsText(file);
-freader.onload=function(e)
-{
-    var text=freader.result;
-        var fileb64=Base64.encode(text);
-        var hashed = CryptoJS.SHA512(fileb64).toString();
-        console.log(hashed);
-        var localcheck=document.getElementById("localhash");
-        localcheck.innerHTML=hashed;
-        console.log(fileb64);
-    sendfile(fileb64);
-};
-};
-};
-</script>
-<script src="/js/jquery-latest.min.js"></script>
-<script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
-<script src="/js/base64.js"></script>
-<script src="/js/jsencrypt.js"></script>
-<script src='/js/public.js'></script>
-<script type= "text/javascript">
-    function MyEncrypt(dataqq,keywqq){
-        var ciphertextqq = CryptoJS.AES.encrypt(dataqq, keywqq).toString();
-        return ciphertextqq;
-    }
-    function randomString(length) {
-        var chars='~!@#$%^&*()_+`-={}[]|\":\'\\<,>.?/;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-        var result = '';
-        for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
-        return result;
-    }
-    function MyDecrypt(ciphertextqq,keywqq)
-    {
-        var bytesqq = CryptoJS.AES.decrypt(ciphertextqq, keywqq);
-        var originalTextqq = bytesqq.toString(CryptoJS.enc.Utf8);
-        return originalTextqq;
-    }
-</script>
-<script type="text/javascript">
-    var dates = new Date();
-        var accget = "qo2stu";
-    var passget ="qo2stu";
-        loginsalt=String(randomString(128));
-    pubkey=getPubKey();
-    var jcr= document.getElementById("checker");
-    if (window.WebSocket)
-    {
-        jcr.innerHTML="正在连接作业服务器！";
-    }
-    else
-    {
-        jcr.innerHTML='此浏览器不支持提交作业，请更换浏览器再试！';
-    };
-    var socket = new WebSocket("ws://cdn.piphipsi.com:8676/chatsocket");
-    function synSalt()
-    {
-        var encryptRSA = new JSEncrypt();
-        encryptRSA.setPublicKey(pubkey);
-        var encryptRSAData = encryptRSA.encrypt(loginsalt);
-        socket.send('synSalt@_w_@'+encryptRSAData);
-    }
-    socket.onopen = function () {
-        /* 与服务器端连接成功后，自动执行 */
-        jcr.innerHTML = "请上传作业！（pdf文件）";
-        synSalt();
-    };
-    socket.onmessage = function (event) {
-        /* 服务器端向客户端发送数据时，自动执行 */
-        var response = event.data;
-        splitdata=response.split('@_w_@');
-        console.log(response);
-        if (splitdata[0]=='HZ' & splitdata[2]=='Save OK!')
-        {
-        jcr.innerHTML='上传成功!';
-        }
-        else
-        {
-                if (splitdata[0]=='Hash')
-        {nethash= document.getElementById("nethash");
-                nethash.innerHTML=splitdata[1];}
-                else
-        {
-                if (splitdata[0]=='Process')
-                {jcr.innerHTML='上传进度： '+splitdata[1]+'%'};
-                };
-        };
-                socket.send('close@_w_@happy');
-    };
-    socket.onclose = function (event) {
-        /* 服务器端主动断开连接时，自动执行 */
-            socket.send('close@_w_@happy');
-        if (window.WebSocket)
-        {jcr.innerHTML="请刷新页面重试！";}
-        else{jcr.innerHTML='无法使用！';};
-    };
-
-function sleep(numberMillis) {
-            var now = new Date();
-            var exitTime = now.getTime() + numberMillis;
-            while (true) {
-                now = new Date();
-                if (now.getTime() > exitTime)
-                    return;
-            }
-};
-function sendfile(text)
-{
-        var textArr = []; 
-        var n = 1000;
-        for (var i = 0, l = text.length; i < l/n; i++) {
-        var a = text.slice(n*i, n*(i+1));
-        textArr.push(a);
-        };
-        console.log(textArr);
-        socket.send('length@_w_@'+String(i));
-    console.log('length@_w_@'+String(i));
-        for (var ir = 0, l = text.length; ir < l/n; ir++) {
-        //datasalt=dates.toLocaleString();
-    senddata='filebuffer@_w_@'+accget+'@_w_@'+MyEncrypt(textArr[ir],accget+loginsalt)+'@_w_@'+String(ir+1);
-    console.log(ir+1);
-        console.log(senddata);
-        sleep(100);
-        //senddata='data@_w_@'+accget+'#'+datasalt+'@_w_@'+MyEncrypt(text,accget+'#'+datasalt+loginsalt);
-        //socket.send('length@_w_@'+String(senddata.length));
-    //console.log('length@_w_@'+String(senddata.length));
-    if (ir%50==0)
-    {sleep(3000);};
-    socket.send(senddata.toString());
-        };
-};
-</script>
-
-
-]]></content>
-      <categories>
-        <category>Quantum Optics</category>
-      </categories>
-      <tags>
-        <tag>Quantum</tag>
-        <tag>Optics</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【量子光学】 Quantum Optics 1 Quiz Week 1(1)</title>
-    <url>/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)/</url>
+    <url>/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)%EF%BC%88S%EF%BC%89/</url>
     <content><![CDATA[<p>Quantum Optics 1课程第一次测验<br><a id="more"></a></p>
 <h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p><button id="button1" type="button" onclick=displaypdf()>在线预览</button><button id="button2" type="button" style="float:right"><a href="https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" target="_blank" rel="noopener">下载文件</a></button></p>
 <iframe id="pdfzone" align="center" src="https://cdn.piphipsi.com/pdfs0718/pdfjs-2.4.456-es5/web/viewer.html?file=https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" height="900px" width="100%"></iframe>
@@ -453,6 +262,197 @@ function sendfile(text)
     console.log('length@_w_@'+String(senddata.length));
     socket.send(senddata.toString());
         //};
+};
+</script>
+
+
+]]></content>
+      <categories>
+        <category>Quantum Optics</category>
+      </categories>
+      <tags>
+        <tag>Quantum</tag>
+        <tag>Optics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【量子光学】 Quantum Optics 1 Quiz Week 1(1)（L）</title>
+    <url>/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)%20%EF%BC%88L%EF%BC%89/</url>
+    <content><![CDATA[<p>Quantum Optics 1课程第一次测验<br><a id="more"></a></p>
+<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p><button id="button1" type="button" onclick=displaypdf()>在线预览</button><button id="button2" type="button" style="float:right"><a href="https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" target="_blank" rel="noopener">下载文件</a></button></p>
+<iframe id="pdfzone" align="center" src="https://cdn.piphipsi.com/pdfs0718/pdfjs-2.4.456-es5/web/viewer.html?file=https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" height="900px" width="100%"></iframe>
+
+<h1 id="作答"><a href="#作答" class="headerlink" title="作答"></a>作答</h1><p><input type="file" id="file" onchange="readfile(this.files)"/><text id="checker">正在检测浏览器是否支持上传文件！</text></p>
+<p><text>本地SHA512校验： </text><text id='localhash'></text></p>
+<p><text>云端SHA512校验： </text><text id='nethash'></text></p>
+<script type="text/javascript">
+document.getElementById("pdfzone").style.display="none";
+function displaypdf()
+{
+    var tag=document.getElementById("pdfzone");
+    var button1=document.getElementById("button1");
+    if (tag.style.display=="none")
+    {
+        tag.style.display="inline";
+        button1.innerHTML="关闭预览";
+    }
+    else
+    {
+        tag.style.display="none";
+        button1.innerHTML="在线预览";
+    };
+};
+window.onload=function(){resizepdfzone();};
+window.onresize=function(){resizepdfzone();};
+function resizepdfzone()
+{
+    var zoneW=document.getElementById("pdfzone").style.width;
+    var zoneH=document.getElementById("pdfzone").style.height;
+    zoneW=document.getElementById("pdfzone").clientWidth*0.95;
+    zoneH=zoneW*1.5;
+
+};
+</script>
+<script type="text/javascript">
+function encodeUtf8(text) {
+    return eval('\''+encodeURI(text).replace(/%/gm, '\\x')+'\'');
+};
+function readfile(files)
+{
+if (files.length)
+{
+var file=files[0];
+console.log(file);
+var freader=new FileReader();
+freader.readAsText(file);
+freader.onload=function(e)
+{
+    var text=freader.result;
+        var fileb64=Base64.encode(text);
+        var hashed = CryptoJS.SHA512(fileb64).toString();
+        console.log(hashed);
+        var localcheck=document.getElementById("localhash");
+        localcheck.innerHTML=hashed;
+        console.log(fileb64);
+    sendfile(fileb64,file.name);
+};
+};
+};
+</script>
+<script src="/js/jquery-latest.min.js"></script>
+<script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
+<script src="/js/base64.js"></script>
+<script src="/js/jsencrypt.js"></script>
+<script src='/js/public.js'></script>
+<script type= "text/javascript">
+    function MyEncrypt(dataqq,keywqq){
+        var ciphertextqq = CryptoJS.AES.encrypt(dataqq, keywqq).toString();
+        return ciphertextqq;
+    }
+    function randomString(length) {
+        var chars='~!@#$%^&*()_+`-={}[]|\":\'\\<,>.?/;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var result = '';
+        for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+        return result;
+    }
+    function MyDecrypt(ciphertextqq,keywqq)
+    {
+        var bytesqq = CryptoJS.AES.decrypt(ciphertextqq, keywqq);
+        var originalTextqq = bytesqq.toString(CryptoJS.enc.Utf8);
+        return originalTextqq;
+    }
+</script>
+<script type="text/javascript">
+    var dates = new Date();
+        var accget = "qo2stu";
+    var passget ="qo2stu";
+        loginsalt=String(randomString(128));
+    pubkey=getPubKey();
+    var jcr= document.getElementById("checker");
+    if (window.WebSocket)
+    {
+        jcr.innerHTML="正在连接作业服务器！";
+    }
+    else
+    {
+        jcr.innerHTML='此浏览器不支持提交作业，请更换浏览器再试！';
+    };
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8676/chatsocket");
+    function synSalt()
+    {
+        var encryptRSA = new JSEncrypt();
+        encryptRSA.setPublicKey(pubkey);
+        var encryptRSAData = encryptRSA.encrypt(loginsalt);
+        socket.send('synSalt@_w_@'+encryptRSAData);
+    }
+    socket.onopen = function () {
+        /* 与服务器端连接成功后，自动执行 */
+        jcr.innerHTML = "请上传作业！（pdf文件）";
+        synSalt();
+    };
+    socket.onmessage = function (event) {
+        /* 服务器端向客户端发送数据时，自动执行 */
+        var response = event.data;
+        splitdata=response.split('@_w_@');
+        console.log(response);
+        if (splitdata[0]=='HZ' & splitdata[2]=='Save OK!')
+        {
+        jcr.innerHTML='上传成功!';
+        }
+        else
+        {
+                if (splitdata[0]=='Hash')
+        {nethash= document.getElementById("nethash");
+                nethash.innerHTML=splitdata[1];}
+                else
+        {
+                if (splitdata[0]=='Process')
+                {jcr.innerHTML='上传进度： '+splitdata[1]+'%'};
+                };
+        };
+                socket.send('close@_w_@happy');
+    };
+    socket.onclose = function (event) {
+        /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
+        if (window.WebSocket)
+        {jcr.innerHTML="请刷新页面重试！";}
+        else{jcr.innerHTML='无法使用！';};
+    };
+
+function sleep(numberMillis) {
+            var now = new Date();
+            var exitTime = now.getTime() + numberMillis;
+            while (true) {
+                now = new Date();
+                if (now.getTime() > exitTime)
+                    return;
+            }
+};
+function sendfile(text,name)
+{
+        var textArr = []; 
+        var n = 1000;
+        for (var i = 0, l = text.length; i < l/n; i++) {
+        var a = text.slice(n*i, n*(i+1));
+        textArr.push(a);
+        };
+        console.log(textArr);
+        socket.send('length@_w_@'+String(i));
+    console.log('length@_w_@'+String(i));
+        for (var ir = 0, l = text.length; ir < l/n; ir++) {
+        datasalt=dates.toLocaleString();
+    senddata='filebuffer@_w_@'+name+datasalt+'@_w_@'+MyEncrypt(textArr[ir],name+datasalt+loginsalt)+'@_w_@'+String(ir+1);
+    console.log(ir+1);
+        console.log(senddata);
+        sleep(100);
+        //senddata='data@_w_@'+accget+'#'+datasalt+'@_w_@'+MyEncrypt(text,accget+'#'+datasalt+loginsalt);
+        //socket.send('length@_w_@'+String(senddata.length));
+    //console.log('length@_w_@'+String(senddata.length));
+    if (ir%50==0)
+    {sleep(3000);};
+    socket.send(senddata.toString());
+        };
 };
 </script>
 
