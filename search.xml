@@ -231,23 +231,37 @@ freader.onload=function(e)
         {jcr.innerHTML="请刷新页面重试！";}
         else{jcr.innerHTML='无法使用！';};
     };
+
+function sleep(numberMillis) {
+            var now = new Date();
+            var exitTime = now.getTime() + numberMillis;
+            while (true) {
+                now = new Date();
+                if (now.getTime() > exitTime)
+                    return;
+            }
+};
 function sendfile(text)
 {
-        var textArr = []; 
-        var n = 800;
-        for (var i = 0, l = text.length; i < l/n; i++) {
-        var a = text.slice(n*i, n*(i+1));
-        textArr.push(a);
-        };
-        console.log(textArr);
-        socket.send('length@_w_@'+String(i));
-    console.log('length@_w_@'+String(i));
-        for (var i = 0, l = text.length; i < l/n; i++) {
+        //var textArr = []; 
+        //var n = 80;
+        //for (var i = 0, l = text.length; i < l/n; i++) {
+        //var a = text.slice(n*i, n*(i+1));
+        //textArr.push(a);
+        //};
+        //console.log(textArr);
+        //socket.send('length@_w_@'+String(i));
+    //console.log('length@_w_@'+String(i));
+        socket.send('length@_w_@'+String(text.length));
+    console.log('length@_w_@'+String(text.length));
+        //for (var ir = 0, l = text.length; ir < l/n; ir++) {
         datasalt=dates.toLocaleString();
-    senddata='filebuffer@_w_@'+accget+'#'+datasalt+'@_w_@'+MyEncrypt(text,accget+'#'+datasalt+loginsalt)+'@_w_@'+String(i+1);
-    console.log(i+1);
-    socket.send(senddata);
-        };
+    //senddata='filebuffer@_w_@'+accget+'#'+datasalt+'@_w_@'+MyEncrypt(textArr[ir],accget+'#'+datasalt+loginsalt)+'@_w_@'+String(ir+1);
+    //console.log(ir+1);
+        //sleep(100);
+        senddata='data@_w_@'+accget+'#'+datasalt+'@_w_@'+MyEncrypt(text,accget+'#'+datasalt+loginsalt);
+    socket.send(senddata.toString());
+        //};
 };
 </script>
 
