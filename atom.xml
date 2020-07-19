@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.piphipsi.com/"/>
-  <updated>2020-07-19T12:16:29.137Z</updated>
+  <updated>2020-07-19T12:53:13.834Z</updated>
   <id>https://blog.piphipsi.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【量子光学】 Quantum Optics 1 Quiz Week 1(1)（测试中）</title>
+    <link href="https://blog.piphipsi.com/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)%20%EF%BC%88%E6%B5%8B%E8%AF%95%E4%B8%AD%EF%BC%89/"/>
+    <id>https://blog.piphipsi.com/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)%20%EF%BC%88%E6%B5%8B%E8%AF%95%E4%B8%AD%EF%BC%89/</id>
+    <published>2020-07-18T07:41:05.000Z</published>
+    <updated>2020-07-19T12:53:13.834Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Quantum Optics 1课程第一次测验&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Quantum Optics" scheme="https://blog.piphipsi.com/categories/Quantum-Optics/"/>
+    
+    
+      <category term="Quantum" scheme="https://blog.piphipsi.com/tags/Quantum/"/>
+    
+      <category term="Optics" scheme="https://blog.piphipsi.com/tags/Optics/"/>
+    
+  </entry>
   
   <entry>
     <title>【量子光学】 Quantum Optics 1 Quiz Week 1(1)</title>
@@ -425,29 +448,6 @@
     <summary type="html">
     
       &lt;p&gt;Quantum Optics 2课程第十三次测验&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="Quantum Optics" scheme="https://blog.piphipsi.com/categories/Quantum-Optics/"/>
-    
-    
-      <category term="Quantum" scheme="https://blog.piphipsi.com/tags/Quantum/"/>
-    
-      <category term="Optics" scheme="https://blog.piphipsi.com/tags/Optics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【量子光学】 Quantum Optics 2 Quiz 5.4(14)</title>
-    <link href="https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-5.4(14)/"/>
-    <id>https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-5.4(14)/</id>
-    <published>2020-04-26T18:34:35.000Z</published>
-    <updated>2020-05-26T15:14:08.029Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Quantum Optics 2课程第十四次测验&lt;br&gt;
     
     </summary>
     
