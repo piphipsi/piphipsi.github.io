@@ -387,7 +387,7 @@ freader.onload=function(e)
     }
     socket.onopen = function () {
         /* 与服务器端连接成功后，自动执行 */
-        jcr.innerHTML = "请上传作业！（pdf文件）";
+        jcr.innerHTML = "请上传作业！（md文件，务必小于40KB）";
         synSalt();
     };
     socket.onmessage = function (event) {
