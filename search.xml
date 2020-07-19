@@ -143,10 +143,10 @@ freader.onload=function(e)
     //var base64Decoded = CryptoJS.enc.Base64.parse(text);
     //var base64Decoded = Base64.encode(text);
         //console.log(base64Decoded);
-        var hashed = CryptoJS.SHA512(text).toString();
-        console.log(hashed);
-        var localcheck=document.getElementById("localhash");
-        localcheck.innerHTML=hashed;
+        //var hashed = CryptoJS.SHA512(text).toString();
+        //console.log(hashed);
+        //var localcheck=document.getElementById("localhash");
+        //localcheck.innerHTML=hashed;
     //console.log(encodeUtf8(base64Decoded));
     sendfile(text);
 };
