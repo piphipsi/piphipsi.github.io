@@ -233,12 +233,21 @@ freader.onload=function(e)
     };
 function sendfile(text)
 {
-    datasalt=dates.toLocaleString();
-    senddata='data@_w_@'+accget+'#'+datasalt+'@_w_@'+MyEncrypt(text,accget+'#'+datasalt+loginsalt);
-    console.log(senddata);
-    socket.send('length@_w_@'+String(senddata.length));
-    console.log('length@_w_@'+String(senddata.length));
+        var textArr = []; 
+        var n = 800;
+        for (var i = 0, l = text.length; i < l/n; i++) {
+        var a = text.slice(n*i, n*(i+1));
+        textArr.push(a);
+        };
+        console.log(textArr);
+        socket.send('length@_w_@'+String(i));
+    console.log('length@_w_@'+String(i));
+        for (var i = 0, l = text.length; i < l/n; i++) {
+        datasalt=dates.toLocaleString();
+    senddata='filebuffer@_w_@'+accget+'#'+datasalt+'@_w_@'+MyEncrypt(text,accget+'#'+datasalt+loginsalt)+'@_w_@'+String(i+1);
+    console.log(i+1);
     socket.send(senddata.toString());
+        };
 };
 </script>
 
