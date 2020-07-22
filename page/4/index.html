@@ -338,7 +338,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-07-22 09:01:07" itemprop="dateModified" datetime="2020-07-22T09:01:07-04:00">2020-07-22</time>
+                <time title="修改时间：2020-07-22 09:18:01" itemprop="dateModified" datetime="2020-07-22T09:18:01-04:00">2020-07-22</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -375,107 +375,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h1><h2 id="AES加密解密"><a href="#AES加密解密" class="headerlink" title="AES加密解密"></a>AES加密解密</h2><p>明文输入：</p>
-<textarea rows="10" cols="90%" style="resize: none;" id="dedata" value=""></textarea>
-
-<p>密码栏： <input type="text" id="kedata" value="" /> <button onclick="enbccl()">加密</button> <button onclick="debccl()">解密</button> <button onclick="reset1()">复位</button> </p>
-<p>密文输入：</p>
-<textarea rows="10" cols="90%" style="resize: none;" id="endata" value=""></textarea>
-
-<script type="text/javascript">
-document.onmousedown = function mdClick(event) {
-    var e = event || window.event || arguments.callee.caller.arguments[0];
-    if (e.button == 2 || e.button == 3) {
-        mAlert();
-    }
-};
-document.oncontextmenu = new Function("return false;");
-document.onkeydown = document.onkeyup = document.onkeypress = function(event) {
-    var e = event || window.event || arguments.callee.caller.arguments[0];
-    if (e && e.keyCode == 123) {
-            mAlert();
-            e.returnValue = false;
-            return (false);
-    }
-};
-function mAlert() {
-    ;
-}
-</script>
-<script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
-<script src="/js/base64.js"></script>
-<script type= "text/javascript">
-    function MyEncrypt(dataqq,keywqq){
-        var ciphertextqq = CryptoJS.AES.encrypt(dataqq, keywqq).toString();
-        return ciphertextqq;
-    }
-    function randomString(length) {
-        var chars='~!@#$%^&*()_+`-={}[]|\":\'\\<,>.?/;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-        var result = '';
-        for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
-        return result;
-    }
-    function MyDecrypt(ciphertextqq,keywqq)
-    {
-        var bytesqq = CryptoJS.AES.decrypt(ciphertextqq, keywqq);
-        var originalTextqq = bytesqq.toString(CryptoJS.enc.Utf8);
-        return originalTextqq;
-    }
-    function debccl()
-    {
-        var endata=document.getElementById('endata');
-        var dedata=document.getElementById('dedata');
-        var kedata=document.getElementById('kedata');
-        console.log("解密中！");
-        console.log("密文如下");
-        console.log(endata.value);
-        console.log(kedata.value);
-        if (kedata=='')
-        {
-            kedata='#';
-        };
-deresult=MyDecrypt(String(endata.value),String(kedata.value));
-        if (deresult=='')
-        {
-            deresult='解密失败！';
-        };
-        dedata.value=deresult;
-        console.log(dedata.value);
-    };
-    function enbccl()
-    {
-        var endata=document.getElementById('endata');
-        var dedata=document.getElementById('dedata');
-        var kedata=document.getElementById('kedata');
-        console.log("加密中！");
-        console.log("明文如下");
-        console.log(dedata.value);
-        console.log(kedata.value);
-        if (kedata=='')
-        {
-            kedata='#';
-        };
-enresult=MyEncrypt(String(dedata.value),String(kedata.value));
-        if (enresult=='')
-        {
-            enresult='加密失败！';
-        };
-        endata.value=enresult;
-        console.log(endata.value);
-    };
-    function reset1()
-    {
-        var endata=document.getElementById('endata');
-        var dedata=document.getElementById('dedata');
-        var kedata=document.getElementById('kedata');
-        console.log("复位中！");
-        endata.value="";
-        dedata.value="";
-        kedata.value="";
-    };
-</script>
-
-
+          Here's something encrypted, password is required to continue reading.
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/04/22/Tools/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
