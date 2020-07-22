@@ -5,7 +5,7 @@
     <url>/2020/05/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-%E6%95%B4%E5%90%88(%E6%AD%A3%E5%9C%A8%E6%9B%B4%E6%96%B0)/</url>
     <content><![CDATA[<p>答案更新中，最近更新2020/5/18。<br><a id="more"></a></p>
 <details><summary>使用说明</summary><pre><code><a href='https://blog.piphipsi.com/2020/04/05/【量子光学】-Quantum-Optics-1-Quiz-提交说明/#more'>在线提交说明(第一次使用请认真阅读)</a></code></pre></details>
-<details><summary>补充材料</summary><pre><code id='bccl'><input type="text" id="bdy" value="" /><button href="javascript:void(0);" onclick ="debccl()">确认</button><br/><text id='forend' hidden>U2FsdGVkX19qqJL+cqOMrDhcy8FrY1RmncLfNyGTyvdpgnGrmB2lIMO60Ok6aOkeI3jxb9Ygir7APhVrIolGzQMTeuGDKffeVveT+LYCwesHW9nB6i6Ju/InQSDzTe6i18VIUV9F6l/9emvt8+1DNgNZgPSBnQU139BG1Fdbyk/BpWTEd4R12xeZta767elRg7Lm25EKta8nYL64cVX3nQ==</text></code></pre></details>
+<details><summary>补充材料</summary><pre><code id='bccl'><input type="text" id="bdy" value="" /><button href="javascript:void(0);" onclick ="debccl()">确认</button><br/><text id='forend' hidden>U2FsdGVkX184QWJsELXEy0blW7/PecYjjHIyhCY15bCPM5aZS0WXY54MT7By43LB32RU7DN/MwJjRpAYmHCspqVBByS7vFaYJ9IGEJggRWDiL67yoWYBGBKmugdi2tb8</text></code></pre></details>
 
 <blockquote>
 <ol>
@@ -525,6 +525,7 @@ function getstate()
 
 <h1 id="作答"><a href="#作答" class="headerlink" title="作答"></a>作答</h1><p><input type="file" id="file" onchange="readfile(this.files)"/><text id="checker">正在检测浏览器是否支持上传文件！</text></p>
 <text>本地SHA512校验： </text><text id='localhash'></text>
+
 <text>云端SHA512校验： </text><text id='nethash'></text>
 
 <h1 id="答案"><a href="#答案" class="headerlink" title="答案"></a>答案</h1><details><summary>点击展开答案</summary><pre><code id='bccl'><input type="text" id="bdy" value="" /><button href="javascript:void(0);" onclick ="debccl()">确认</button><br/><text id='forend' hidden>U2FsdGVkX18nj1aiL19oJSpNJ2DP89qQHaVYe4xUw3G7PXIOcq2jakJr/yTQzfyloLKH5rVfHAv4uAFIPKdWitQaH8x2r/nuYvVu6E0r3F4L544M2H3gFHHt1zGoH6RDyTM/vwdPoWcKR0UNKBm1gBXHeYDXE7Uib5hwLLRfI38z3+uJeTlAFqO4vWYe11pPD8lnVaSWnvsJ/aILi+5ytWMBTB/efhiUBrFdNyHWJHZKldTb281kZovOpmPFR8nTHSzQzGA/nuZRs98Fp1iShvrTUlAB+G6oezt1hTOESDNe4zVabTbHidz78AScTGWE</text></code></pre></details>
@@ -756,7 +757,8 @@ function mAlert() {
 <iframe id="pdfzone" align="center" src="https://cdn.piphipsi.com/pdfs0718/pdfjs-2.4.456-es5/web/viewer.html?file=https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" height="900px" width="100%"></iframe>
 
 <h1 id="作答"><a href="#作答" class="headerlink" title="作答"></a>作答</h1><p><input type="file" id="file" onchange="readfile(this.files)"/><text id="checker">正在检测浏览器是否支持上传文件！</text></p>
-<p><text>本地SHA512校验： </text><text id='localhash'></text></p>
+<text>本地SHA512校验： </text><text id='localhash'></text>
+
 <p><text>云端SHA512校验： </text><text id='nethash'></text></p>
 <script type="text/javascript">
 document.getElementById("pdfzone").style.display="none";
@@ -3729,7 +3731,7 @@ echo 'deb https://apt.dockerproject.org/repo debian-stretch main' > /etc/apt/sou
 </li>
 <li><p>完成答题后，完成”姓名”等基本信息的输入，请注意使用ASCII码字符，即使用拼音或可分辨的英文简称。”邮箱”、”备注”都可以不填，如需填写，同样要求使用ASCII码。<br><img src="03.png" alt="03"></p>
 </li>
-<li><p>点击 Submit Answer 按钮提交你的答案。稍等片刻，若按钮下方出现确认口令等即为提交成功，若未出现，请检查是否使用了https协议，若无法解决请联系email：<strong>happyan@happyan.space</strong> .<br><img src="04.png" alt="04"></p>
+<li><p>点击 Submit Answer 按钮提交你的答案。稍等片刻，若按钮下方出现确认口令等即为提交成功，若未出现，请检查是否使用了https协议，若无法解决请联系email：<strong>happyan@piphipsi.com</strong> .<br><img src="04.png" alt="04"></p>
 </li>
 </ol>
 <h2 id="Week-Quiz提交步骤"><a href="#Week-Quiz提交步骤" class="headerlink" title="Week Quiz提交步骤"></a>Week Quiz提交步骤</h2><ol>
