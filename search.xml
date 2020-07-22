@@ -11,7 +11,7 @@
 <ol>
 <li><a href="http://blog.piphipsi.com/2020/07/21/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-0.0(1)/">【量子光学】 Quantum Optics 1 Quiz 0.0(1)</a><br>答案： <text hidden></text></li>
 <li><a href="http://blog.piphipsi.com/2020/07/21/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-1.1(2)/">【量子光学】 Quantum Optics 1 Quiz 1.1(2)</a><br>答案： <text hidden></text></li>
-<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)（L）/">【量子光学】 Quantum Optics 1 Quiz Week 1(1)</a><br>答案： <text hidden>提取码: qnp2020qosa</text></li>
+<li><a href="http://blog.piphipsi.com/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)（L）/">【量子光学】 Quantum Optics 1 Quiz Week 1(1)</a><br>答案： <text hidden>提取码: qnp2020qosa</text></li>
 </ol>
 </blockquote>
 <script type="text/javascript">
@@ -3452,6 +3452,117 @@ function getstate()
       <tags>
         <tag>Quantum</tag>
         <tag>Optics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Tools</title>
+    <url>/2020/04/22/Tools/</url>
+    <content><![CDATA[<h1 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h1><h2 id="AES加密解密"><a href="#AES加密解密" class="headerlink" title="AES加密解密"></a>AES加密解密</h2><p>明文输入：</p>
+<textarea rows="5" cols="30" style="resize: none;" id="dedata" value=""></textarea>
+
+<p>密码栏： <input type="text" id="kedata" value="" /> <button onclick="enbccl()">加密</button> <button onclick="debccl()">解密</button> <button onclick="reset1()">复位</button> </p>
+<p>密文输入：</p>
+<textarea rows="5" cols="30" style="resize: none;" id="endata" value=""></textarea>
+
+<script type="text/javascript">
+document.onmousedown = function mdClick(event) {
+    var e = event || window.event || arguments.callee.caller.arguments[0];
+    if (e.button == 2 || e.button == 3) {
+        mAlert();
+    }
+};
+document.oncontextmenu = new Function("return false;");
+document.onkeydown = document.onkeyup = document.onkeypress = function(event) {
+    var e = event || window.event || arguments.callee.caller.arguments[0];
+    if (e && e.keyCode == 123) {
+            mAlert();
+            e.returnValue = false;
+            return (false);
+    }
+};
+function mAlert() {
+    ;
+}
+</script>
+<script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
+<script src="/js/base64.js"></script>
+<script type= "text/javascript">
+    function MyEncrypt(dataqq,keywqq){
+        var ciphertextqq = CryptoJS.AES.encrypt(dataqq, keywqq).toString();
+        return ciphertextqq;
+    }
+    function randomString(length) {
+        var chars='~!@#$%^&*()_+`-={}[]|\":\'\\<,>.?/;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var result = '';
+        for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+        return result;
+    }
+    function MyDecrypt(ciphertextqq,keywqq)
+    {
+        var bytesqq = CryptoJS.AES.decrypt(ciphertextqq, keywqq);
+        var originalTextqq = bytesqq.toString(CryptoJS.enc.Utf8);
+        return originalTextqq;
+    }
+    function debccl()
+    {
+        var endata=document.getElementById('endata');
+        var dedata=document.getElementById('dedata');
+        var kedata=document.getElementById('kedata');
+        console.log("解密中！");
+        console.log("密文如下");
+        console.log(endata.value);
+        console.log(kedata.value);
+        if (kedata=='')
+        {
+            kedata='#';
+        };
+deresult=MyDecrypt(String(endata.value),String(kedata.value));
+        if (deresult=='')
+        {
+            deresult='解密失败！';
+        };
+        dedata.value=deresult;
+        console.log(dedata.value);
+    };
+    function enbccl()
+    {
+        var endata=document.getElementById('endata');
+        var dedata=document.getElementById('dedata');
+        var kedata=document.getElementById('kedata');
+        console.log("加密中！");
+        console.log("明文如下");
+        console.log(dedata.value);
+        console.log(kedata.value);
+        if (kedata=='')
+        {
+            kedata='#';
+        };
+enresult=MyEncrypt(String(dedata.value),String(kedata.value));
+        if (enresult=='')
+        {
+            enresult='加密失败！';
+        };
+        endata.value=enresult;
+        console.log(endata.value);
+    };
+    function reset1()
+    {
+        var endata=document.getElementById('endata');
+        var dedata=document.getElementById('dedata');
+        var kedata=document.getElementById('kedata');
+        console.log("复位中！");
+        endata.value="";
+        dedata.value="";
+        kedata.value="";
+    };
+</script>
+
+]]></content>
+      <categories>
+        <category>tool</category>
+      </categories>
+      <tags>
+        <tag>tool</tag>
       </tags>
   </entry>
   <entry>
