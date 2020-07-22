@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.piphipsi.com/"/>
-  <updated>2020-07-19T12:16:29.137Z</updated>
+  <updated>2020-07-22T04:40:07.390Z</updated>
   <id>https://blog.piphipsi.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【量子光学】 Quantum Optics 1 Quiz Week 1(1)</title>
-    <link href="https://blog.piphipsi.com/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)%EF%BC%88S%EF%BC%89/"/>
-    <id>https://blog.piphipsi.com/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)%EF%BC%88S%EF%BC%89/</id>
-    <published>2020-07-18T07:41:05.000Z</published>
-    <updated>2020-07-19T12:16:29.137Z</updated>
+    <title>【量子光学】 Quantum Optics 1 Quiz 0.0(1)</title>
+    <link href="https://blog.piphipsi.com/2020/07/21/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-0.0(1)/"/>
+    <id>https://blog.piphipsi.com/2020/07/21/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-0.0(1)/</id>
+    <published>2020-07-22T03:55:25.000Z</published>
+    <updated>2020-07-22T04:40:07.390Z</updated>
     
     <summary type="html">
     
@@ -40,11 +40,57 @@
   </entry>
   
   <entry>
+    <title>【量子光学】 Quantum Optics 1 Quiz 1.1(2)</title>
+    <link href="https://blog.piphipsi.com/2020/07/21/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-1.1(2)/"/>
+    <id>https://blog.piphipsi.com/2020/07/21/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-1.1(2)/</id>
+    <published>2020-07-22T03:55:24.000Z</published>
+    <updated>2020-07-22T04:38:45.630Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Quantum Optics 1课程第二次测验&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Quantum Optics" scheme="https://blog.piphipsi.com/categories/Quantum-Optics/"/>
+    
+    
+      <category term="Quantum" scheme="https://blog.piphipsi.com/tags/Quantum/"/>
+    
+      <category term="Optics" scheme="https://blog.piphipsi.com/tags/Optics/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【量子光学】 Quantum Optics 1 Quiz Week 1(1)（L）</title>
-    <link href="https://blog.piphipsi.com/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)%20%EF%BC%88L%EF%BC%89/"/>
-    <id>https://blog.piphipsi.com/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)%20%EF%BC%88L%EF%BC%89/</id>
+    <link href="https://blog.piphipsi.com/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)%EF%BC%88L%EF%BC%89/"/>
+    <id>https://blog.piphipsi.com/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)%EF%BC%88L%EF%BC%89/</id>
     <published>2020-07-18T07:41:05.000Z</published>
-    <updated>2020-07-19T15:24:58.747Z</updated>
+    <updated>2020-07-22T05:54:20.298Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Quantum Optics 1课程第一次测验&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Quantum Optics" scheme="https://blog.piphipsi.com/categories/Quantum-Optics/"/>
+    
+    
+      <category term="Quantum" scheme="https://blog.piphipsi.com/tags/Quantum/"/>
+    
+      <category term="Optics" scheme="https://blog.piphipsi.com/tags/Optics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【量子光学】 Quantum Optics 1 Quiz Week 1(1)（S）</title>
+    <link href="https://blog.piphipsi.com/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)%EF%BC%88S%EF%BC%89/"/>
+    <id>https://blog.piphipsi.com/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)%EF%BC%88S%EF%BC%89/</id>
+    <published>2020-07-18T07:41:05.000Z</published>
+    <updated>2020-07-22T03:45:43.023Z</updated>
     
     <summary type="html">
     
@@ -146,6 +192,23 @@
   </entry>
   
   <entry>
+    <title>【量子光学】 Quantum Optics 1 Quiz 整合(正在更新)</title>
+    <link href="https://blog.piphipsi.com/2020/05/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-%E6%95%B4%E5%90%88(%E6%AD%A3%E5%9C%A8%E6%9B%B4%E6%96%B0)/"/>
+    <id>https://blog.piphipsi.com/2020/05/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-%E6%95%B4%E5%90%88(%E6%AD%A3%E5%9C%A8%E6%9B%B4%E6%96%B0)/</id>
+    <published>2020-05-05T13:06:18.000Z</published>
+    <updated>2020-07-22T05:55:11.890Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;答案更新中，最近更新2020/5/18。&lt;br&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>【量子光学】 Quantum Optics 2 Quiz 整合(更新完毕)</title>
     <link href="https://blog.piphipsi.com/2020/05/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-%E6%95%B4%E5%90%88(%E6%9B%B4%E6%96%B0%E5%AE%8C%E6%AF%95)/"/>
     <id>https://blog.piphipsi.com/2020/05/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-%E6%95%B4%E5%90%88(%E6%9B%B4%E6%96%B0%E5%AE%8C%E6%AF%95)/</id>
@@ -167,7 +230,7 @@
     <link href="https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-1.6(1)/"/>
     <id>https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-1.6(1)/</id>
     <published>2020-04-26T19:34:37.000Z</published>
-    <updated>2020-07-11T10:51:00.173Z</updated>
+    <updated>2020-07-22T03:50:11.093Z</updated>
     
     <summary type="html">
     
@@ -190,7 +253,7 @@
     <link href="https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-1.10(2)/"/>
     <id>https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-1.10(2)/</id>
     <published>2020-04-26T19:34:36.000Z</published>
-    <updated>2020-05-26T15:09:59.297Z</updated>
+    <updated>2020-07-22T03:50:24.744Z</updated>
     
     <summary type="html">
     
@@ -213,7 +276,7 @@
     <link href="https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-2.4(3)/"/>
     <id>https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-2.4(3)/</id>
     <published>2020-04-26T19:34:35.000Z</published>
-    <updated>2020-05-26T15:10:24.622Z</updated>
+    <updated>2020-07-22T03:50:37.519Z</updated>
     
     <summary type="html">
     
@@ -236,7 +299,7 @@
     <link href="https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-2.5(4)/"/>
     <id>https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-2.5(4)/</id>
     <published>2020-04-26T19:34:34.000Z</published>
-    <updated>2020-05-26T15:10:47.581Z</updated>
+    <updated>2020-07-22T03:50:50.337Z</updated>
     
     <summary type="html">
     
@@ -259,7 +322,7 @@
     <link href="https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.5(5)/"/>
     <id>https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.5(5)/</id>
     <published>2020-04-26T19:34:33.000Z</published>
-    <updated>2020-05-26T15:11:10.200Z</updated>
+    <updated>2020-07-22T03:51:01.102Z</updated>
     
     <summary type="html">
     
@@ -282,7 +345,7 @@
     <link href="https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.6(6)/"/>
     <id>https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.6(6)/</id>
     <published>2020-04-26T19:34:32.000Z</published>
-    <updated>2020-05-26T15:11:43.925Z</updated>
+    <updated>2020-07-22T03:51:19.544Z</updated>
     
     <summary type="html">
     
@@ -305,7 +368,7 @@
     <link href="https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.7(7)/"/>
     <id>https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.7(7)/</id>
     <published>2020-04-26T19:34:31.000Z</published>
-    <updated>2020-05-26T15:12:03.795Z</updated>
+    <updated>2020-07-22T03:51:39.069Z</updated>
     
     <summary type="html">
     
@@ -328,7 +391,7 @@
     <link href="https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.8(8)/"/>
     <id>https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-3.8(8)/</id>
     <published>2020-04-26T19:34:30.000Z</published>
-    <updated>2020-05-26T15:12:17.734Z</updated>
+    <updated>2020-07-22T03:51:57.118Z</updated>
     
     <summary type="html">
     
@@ -351,7 +414,7 @@
     <link href="https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.2(9)/"/>
     <id>https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.2(9)/</id>
     <published>2020-04-26T19:34:29.000Z</published>
-    <updated>2020-05-26T15:12:37.740Z</updated>
+    <updated>2020-07-22T03:52:07.900Z</updated>
     
     <summary type="html">
     
@@ -374,80 +437,11 @@
     <link href="https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.3(10)/"/>
     <id>https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.3(10)/</id>
     <published>2020-04-26T19:34:28.000Z</published>
-    <updated>2020-05-26T15:12:56.513Z</updated>
+    <updated>2020-07-22T03:52:16.684Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;Quantum Optics 2课程第十次测验&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="Quantum Optics" scheme="https://blog.piphipsi.com/categories/Quantum-Optics/"/>
-    
-    
-      <category term="Quantum" scheme="https://blog.piphipsi.com/tags/Quantum/"/>
-    
-      <category term="Optics" scheme="https://blog.piphipsi.com/tags/Optics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【量子光学】 Quantum Optics 2 Quiz 4.4(11)</title>
-    <link href="https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.4(11)/"/>
-    <id>https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.4(11)/</id>
-    <published>2020-04-26T19:34:27.000Z</published>
-    <updated>2020-05-26T15:13:13.938Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Quantum Optics 2课程第十一次测验&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="Quantum Optics" scheme="https://blog.piphipsi.com/categories/Quantum-Optics/"/>
-    
-    
-      <category term="Quantum" scheme="https://blog.piphipsi.com/tags/Quantum/"/>
-    
-      <category term="Optics" scheme="https://blog.piphipsi.com/tags/Optics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【量子光学】 Quantum Optics 2 Quiz 4.5(12)</title>
-    <link href="https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.5(12)/"/>
-    <id>https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-4.5(12)/</id>
-    <published>2020-04-26T19:34:26.000Z</published>
-    <updated>2020-05-26T15:13:30.623Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Quantum Optics 2课程第十二次测验&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="Quantum Optics" scheme="https://blog.piphipsi.com/categories/Quantum-Optics/"/>
-    
-    
-      <category term="Quantum" scheme="https://blog.piphipsi.com/tags/Quantum/"/>
-    
-      <category term="Optics" scheme="https://blog.piphipsi.com/tags/Optics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【量子光学】 Quantum Optics 2 Quiz 5.1(13)</title>
-    <link href="https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-5.1(13)/"/>
-    <id>https://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-5.1(13)/</id>
-    <published>2020-04-26T19:30:25.000Z</published>
-    <updated>2020-05-26T15:13:48.491Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Quantum Optics 2课程第十三次测验&lt;br&gt;
     
     </summary>
     

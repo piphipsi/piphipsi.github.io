@@ -1,6 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>【量子光学】 Quantum Optics 1 Quiz 整合(正在更新)</title>
+    <url>/2020/05/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-%E6%95%B4%E5%90%88(%E6%AD%A3%E5%9C%A8%E6%9B%B4%E6%96%B0)/</url>
+    <content><![CDATA[<p>答案更新中，最近更新2020/5/18。<br><a id="more"></a></p>
+<details><summary>使用说明</summary><pre><code><a href='https://blog.piphipsi.com/2020/04/05/【量子光学】-Quantum-Optics-1-Quiz-提交说明/#more'>在线提交说明(第一次使用请认真阅读)</a></code></pre></details>
+<details><summary>补充材料</summary><pre><code id='bccl'><input type="text" id="bdy" value="" /><button href="javascript:void(0);" onclick ="debccl()">确认</button><br/><text id='forend' hidden>U2FsdGVkX19qqJL+cqOMrDhcy8FrY1RmncLfNyGTyvdpgnGrmB2lIMO60Ok6aOkeI3jxb9Ygir7APhVrIolGzQMTeuGDKffeVveT+LYCwesHW9nB6i6Ju/InQSDzTe6i18VIUV9F6l/9emvt8+1DNgNZgPSBnQU139BG1Fdbyk/BpWTEd4R12xeZta767elRg7Lm25EKta8nYL64cVX3nQ==</text></code></pre></details>
+
+<blockquote>
+<ol>
+<li><a href="http://blog.piphipsi.com/2020/07/21/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-0.0(1)/">【量子光学】 Quantum Optics 1 Quiz 0.0(1)</a><br>答案： <text hidden></text></li>
+<li><a href="http://blog.piphipsi.com/2020/07/21/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-1.1(2)/">【量子光学】 Quantum Optics 1 Quiz 1.1(2)</a><br>答案： <text hidden></text></li>
+<li><a href="http://blog.piphipsi.com/2020/04/26/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)（L）/">【量子光学】 Quantum Optics 1 Quiz Week 1(1)</a><br>答案： <text hidden>提取码: qnp2020qosa</text></li>
+</ol>
+</blockquote>
+<script type="text/javascript">
+document.onmousedown = function mdClick(event) {
+    var e = event || window.event || arguments.callee.caller.arguments[0];
+    if (e.button == 2 || e.button == 3) {
+        mAlert();
+    }
+};
+document.oncontextmenu = new Function("return false;");
+document.onkeydown = document.onkeyup = document.onkeypress = function(event) {
+    var e = event || window.event || arguments.callee.caller.arguments[0];
+    if (e && e.keyCode == 123) {
+            mAlert();
+            e.returnValue = false;
+            return (false);
+    }
+};
+function mAlert() {
+    ;
+}
+</script>
+<script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
+<script src="/js/base64.js"></script>
+<script type= "text/javascript">
+    function MyEncrypt(dataqq,keywqq){
+        var ciphertextqq = CryptoJS.AES.encrypt(dataqq, keywqq).toString();
+        return ciphertextqq;
+    }
+    function randomString(length) {
+        var chars='~!@#$%^&*()_+`-={}[]|\":\'\\<,>.?/;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var result = '';
+        for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+        return result;
+    }
+    function MyDecrypt(ciphertextqq,keywqq)
+    {
+        var bytesqq = CryptoJS.AES.decrypt(ciphertextqq, keywqq);
+        var originalTextqq = bytesqq.toString(CryptoJS.enc.Utf8);
+        return originalTextqq;
+    }
+    function debccl()
+    {
+        var bccl=document.getElementById('bccl');
+        var tiquma=document.getElementById('bdy').value;
+        var miwen=document.getElementById('forend').innerHTML;
+        if (tiquma=='')
+        {
+            tiquma='#';
+        };
+        bdyHTML=MyDecrypt(String(miwen),String(tiquma));
+        if (bdyHTML=='')
+        {
+            bdyHTML='提取失败！';
+        };
+        bccl.innerHTML=bdyHTML;
+    }
+    console.log(MyEncrypt("链接：<a href=\'url'>url</a>, 提取码：2333",'password'));
+</script>
+
+
+]]></content>
+  </entry>
+  <entry>
     <title>【量子光学】 Quantum Optics 2 Quiz 整合(更新完毕)</title>
     <url>/2020/05/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-2-Quiz-%E6%95%B4%E5%90%88(%E6%9B%B4%E6%96%B0%E5%AE%8C%E6%AF%95)/</url>
     <content><![CDATA[<p>答案更新中，最近更新2020/5/18。<br><a id="more"></a></p>
@@ -88,7 +163,593 @@ function mAlert() {
 ]]></content>
   </entry>
   <entry>
-    <title>【量子光学】 Quantum Optics 1 Quiz Week 1(1)</title>
+    <title>【量子光学】 Quantum Optics 1 Quiz 0.0(1)</title>
+    <url>/2020/07/21/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-0.0(1)/</url>
+    <content><![CDATA[<p>Quantum Optics 1课程第一次测验<br><a id="more"></a><br>第1题 (不定项选择)</p>
+<blockquote>
+<p>For which reason is it absolutely necessary to quantize light?</p>
+<p><label><input type="checkbox" name="1" value="A"><font> A) In order to understand stimulated light emission and absorption. </font></label> <br/></p>
+<p><label><input type="checkbox" name="1" value="B"><font> B) Because quantum technologies based on light may have applications. </font></label> <br/></p>
+<p><label><input type="checkbox" name="1" value="C"><font> C) In order to understand spontaneous emission. </font></label> <br/></p>
+<p><label><input type="checkbox" name="1" value="D"><font> D) Because there exist quantum states of light, which cannot be described classically </font></label> <br/></p>
+</blockquote>
+<p>第2题 (不定项选择)</p>
+<blockquote>
+<p>Among these states of light, which ones do need a quantum description?</p>
+<p><label><input type="checkbox" name="2" value="A"><font> A) Single photon state. </font></label> <br/></p>
+<p><label><input type="checkbox" name="2" value="B"><font> B) Two photons pairs. </font></label> <br/></p>
+<p><label><input type="checkbox" name="2" value="C"><font> C) Many photons states as the one radiated by a laser. </font></label> <br/></p>
+<p><label><input type="checkbox" name="2" value="D"><font> D) Squeezed states of light. </font></label> <br/></p>
+</blockquote>
+<p>第3题 (单选)</p>
+<blockquote>
+<p>What is the power of a source radiating 1 photon per second at a wavelength of 630 nm?</p>
+<p><label><input type="radio" name="3" value="A"><font> A) $3.15*10^{-19} W$ </font></label>  <br/></p>
+<p><label><input type="radio" name="3" value="B"><font> B) $3.15*10^{-18} W$ </font></label> <br/></p>
+<p><label><input type="radio" name="3" value="C"><font> C) $1*10^{-23} W$ </font></label> <br/></p>
+</blockquote>
+<p>第4题 (单选)</p>
+<blockquote>
+<p>What is the photon flux emitted by a 1 mW HeNe laser (Wavelength 630 nm)</p>
+<p><label><input type="radio" name="4" value="A"><font> A) $3.2*10^{15} photons/s$ </font></label> <br/></p>
+<p><label><input type="radio" name="4" value="B"><font> B) $7.0*10^{14} photons/s$ </font></label> <br/></p>
+<p><label><input type="radio" name="4" value="C"><font> C) $6.5*10^{23} photons/s$ </font></label> <br/></p>
+</blockquote>
+<p id='qattach'></p>
+
+<p>补全下方信息(禁止使用符号‘#’，‘/’)，点击Submit Answer按钮提交答案。<br>姓名(英语/拼音)：<input type="text" id="name" value="" /><br/><br>邮箱(手机/其他)：<input type="text" id="email" value="" /><br/><br>备注(英语/不填)：<input type="text" id="note" value="" /><br/></p>
+<p><button id="checker" href="javascript:void(0);" onclick ="getstate()">Submit Answer</button></p>
+<p id="kouling">---提交后等待口令，若无需刷新后重新提交！---</p>
+
+<p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
+<p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
+<p><p id='coursera-qo1'></p></p>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo1.js'></script>
+<script src="/js/jquery-latest.min.js"></script>
+<script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
+<script src="/js/base64.js"></script>
+<script src="/js/jsencrypt.js"></script>
+<script src='/js/public.js'></script>
+<script type= "text/javascript">
+    function MyEncrypt(dataqq,keywqq){
+        var ciphertextqq = CryptoJS.AES.encrypt(dataqq, keywqq).toString();
+        return ciphertextqq;
+    }
+    function randomString(length) {
+        var chars='~!@#$%^&*()_+`-={}[]|\":\'\\<,>.?/;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var result = '';
+        for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+        return result;
+    }
+    function MyDecrypt(ciphertextqq,keywqq)
+    {
+        var bytesqq = CryptoJS.AES.decrypt(ciphertextqq, keywqq);
+        var originalTextqq = bytesqq.toString(CryptoJS.enc.Utf8);
+        return originalTextqq;
+    }
+</script>
+<script type="text/javascript">
+    var dates = new Date();
+    var accget = "qo2stu";
+    var passget ="qo2stu";
+    loginsalt=String(randomString(128));
+    pubkey=getPubKey();
+    var jcr= document.getElementById("checker");
+    if (window.WebSocket)
+    {
+        jcr.innerHTML="Submit Answer";
+    }
+    else
+    {
+        jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
+    };
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
+    function synSalt()
+    {
+        var encryptRSA = new JSEncrypt();
+        encryptRSA.setPublicKey(pubkey);
+        var encryptRSAData = encryptRSA.encrypt(loginsalt);
+        socket.send('synSalt@_w_@'+encryptRSAData);
+    }
+    socket.onopen = function () {
+        /* 与服务器端连接成功后，自动执行 */
+        jcr.innerHTML = "Submit Answer";
+        synSalt();
+    };
+    socket.onmessage = function (event) {
+        /* 服务器端向客户端发送数据时，自动执行 */
+        var response = event.data;
+        splitdata=response.split('@_w_@');
+        console.log(response);
+        if (splitdata[0]=='HZ' & splitdata[1]==accget)
+        {
+        kouling= document.getElementById("kouling");
+        kouling.innerHTML='确认口令(请保存好作为提交凭据）： '+MyDecrypt(splitdata[2],accget+loginsalt);
+        console.log(MyDecrypt(splitdata[2],accget+loginsalt));
+        }
+        else
+        {
+        };
+                socket.send('close@_w_@happy');
+    };
+    socket.onclose = function (event) {
+        /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
+        if (window.WebSocket)
+        {jcr.innerHTML="请刷新页面重试！";}
+        else{jcr.innerHTML='无法使用！';};
+    };
+function getstate()
+{
+    var NOQ=4;
+    var selectvalue='1_1/';
+    var nametext=document.getElementById('name').value;
+    var emailtext=document.getElementById('email').value;
+    var notetext=document.getElementById('note').value;
+    if (nametext=='')
+    {
+        nametext='#';
+    };
+    if (emailtext=='')
+    {
+        emailtext='#';
+    };
+    if (notetext=='')
+    {
+        notetext='#';
+    };
+    selectvalue=selectvalue+nametext+'/'+emailtext+'/'+notetext+'/';
+    for (var i=1;i<=NOQ;i++)
+    {
+        var qname=String(i);
+        var ainput=document.getElementsByName(qname);
+        var tmpselect='';
+        for(var j=0;j<ainput.length;j++)
+        {
+            if(ainput[j].checked==true) 
+            {
+                tmpselect=tmpselect+ainput[j].value;
+            };
+        };
+        if (tmpselect=='')
+        {
+            tmpselect='#';
+        };
+        if (i != NOQ)
+        {
+            tmpselect=tmpselect+'/';
+        };
+        selectvalue=selectvalue+tmpselect;
+    };
+    console.log(selectvalue);
+    var tagger=document.getElementById('checker');
+    tagger.onclick='';
+  socket.send('data@_w_@'+accget+'@_w_@'+MyEncrypt(selectvalue,accget+loginsalt));
+};
+</script>
+]]></content>
+      <categories>
+        <category>Quantum Optics</category>
+      </categories>
+      <tags>
+        <tag>Quantum</tag>
+        <tag>Optics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【量子光学】 Quantum Optics 1 Quiz 1.1(2)</title>
+    <url>/2020/07/21/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-1.1(2)/</url>
+    <content><![CDATA[<p>Quantum Optics 1课程第二次测验<br><a id="more"></a><br>第1题 (单选)</p>
+<blockquote>
+<p>The expression of the energy of a classical system as a function of canonically conjugate variables is called:</p>
+<p><label><input type="radio" name="1" value="A"><font> A) The Hamiltonian </font></label>  <br/></p>
+<p><label><input type="radio" name="1" value="B"><font> B) The lagrangian </font></label> <br/></p>
+<p><label><input type="radio" name="1" value="C"><font> C) The Feynmanian </font></label> <br/></p>
+</blockquote>
+<p>第2题 (不定项选择)</p>
+<blockquote>
+<p>Classical Hamilton equations can be used to:</p>
+<p><label><input type="checkbox" name="2" value="A"><font> A) Describe the quantum evolution of the system </font></label> <br/></p>
+<p><label><input type="checkbox" name="2" value="B"><font> B) Obtain the dynamical equations of the system </font></label> <br/></p>
+<p><label><input type="checkbox" name="2" value="C"><font> C) Recognize canonically conjugate variables </font></label> <br/></p>
+</blockquote>
+<p>第3题 (不定项选择)</p>
+<blockquote>
+<p>Consider a 1D material particle with position $x$ , mass $m$ and energy $H=\frac{1}{2}m\nu^2+U(x)$ where $\nu=\frac{\mathrm{d}x}{\mathrm{d}t}$. Are the proposed pair of variables canonically conjugate variables (CCV):</p>
+<p><label><input type="checkbox" name="3" value="A"><font> A) $x$ and $\nu$ </font></label> <br/></p>
+<p><label><input type="checkbox" name="3" value="B"><font> B) $x$ and $p=m\nu$ </font></label> <br/></p>
+<p><label><input type="checkbox" name="3" value="C"><font> C) $\frac{x}{m}$ and $\nu$ </font></label> <br/></p>
+<p><label><input type="checkbox" name="3" value="D"><font> D) $m\nu$ and $x$ </font></label> <br/></p>
+</blockquote>
+<p>第4题 (单选)</p>
+<blockquote>
+<p>The commutator of operators $\hat{A}$ and $\hat{B}$ is defined by:</p>
+<p><label><input type="radio" name="4" value="A"><font> A) $\left[\hat{A},\hat{B}\right]=\hat{A}\hat{B}+\hat{B}\hat{A}$ </font></label>  <br/></p>
+<p><label><input type="radio" name="4" value="B"><font> B) $\left[\hat{A},\hat{B}\right]=\hat{A}\hat{B}-\hat{B}\hat{A}$ </font></label> <br/></p>
+<p><label><input type="radio" name="4" value="C"><font> C) $\left[\hat{A},\hat{B}\right]=\hat{B}\hat{A}-\hat{A}\hat{B}$ </font></label> <br/></p>
+</blockquote>
+<p>第5题 (单选)</p>
+<blockquote>
+<p>What is the photon flux emitted by a 1 mW HeNe laser (Wavelength 630 nm)</p>
+<p><label><input type="radio" name="5" value="A"><font> A) $\left[\hat{q},\hat{p}\right]=1$ </font></label> <br/></p>
+<p><label><input type="radio" name="5" value="B"><font> B) $\left[\hat{q},\hat{p}\right]=\mathbf{i}$ </font></label> <br/></p>
+<p><label><input type="radio" name="5" value="C"><font> C) $\left[\hat{q},\hat{p}\right]=\hbar$ </font></label> <br/></p>
+<p><label><input type="radio" name="5" value="D"><font> D) $\left[\hat{q},\hat{p}\right]=\mathbf{i}\hbar$ </font></label> <br/></p>
+</blockquote>
+<p id='qattach'></p>
+
+<p>补全下方信息(禁止使用符号‘#’，‘/’)，点击Submit Answer按钮提交答案。<br>姓名(英语/拼音)：<input type="text" id="name" value="" /><br/><br>邮箱(手机/其他)：<input type="text" id="email" value="" /><br/><br>备注(英语/不填)：<input type="text" id="note" value="" /><br/></p>
+<p><button id="checker" href="javascript:void(0);" onclick ="getstate()">Submit Answer</button></p>
+<p id="kouling">---提交后等待口令，若无需刷新后重新提交！---</p>
+
+<p><details><summary>点击展开答案</summary><pre><code><p id="answers">暂未发布</p><p id='aattach'></p></code></pre></details></p>
+<p><p id='baoliu'>任何问题请联系：email:happyan@happyan.space</p></p>
+<p><p id='coursera-qo1'></p></p>
+<script src='https://cdn.piphipsi.com/CDN0522/js/qo1.js'></script>
+<script src="/js/jquery-latest.min.js"></script>
+<script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
+<script src="/js/base64.js"></script>
+<script src="/js/jsencrypt.js"></script>
+<script src='/js/public.js'></script>
+<script type= "text/javascript">
+    function MyEncrypt(dataqq,keywqq){
+        var ciphertextqq = CryptoJS.AES.encrypt(dataqq, keywqq).toString();
+        return ciphertextqq;
+    }
+    function randomString(length) {
+        var chars='~!@#$%^&*()_+`-={}[]|\":\'\\<,>.?/;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var result = '';
+        for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+        return result;
+    }
+    function MyDecrypt(ciphertextqq,keywqq)
+    {
+        var bytesqq = CryptoJS.AES.decrypt(ciphertextqq, keywqq);
+        var originalTextqq = bytesqq.toString(CryptoJS.enc.Utf8);
+        return originalTextqq;
+    }
+</script>
+<script type="text/javascript">
+    var dates = new Date();
+    var accget = "qo2stu";
+    var passget ="qo2stu";
+    loginsalt=String(randomString(128));
+    pubkey=getPubKey();
+    var jcr= document.getElementById("checker");
+    if (window.WebSocket)
+    {
+        jcr.innerHTML="Submit Answer";
+    }
+    else
+    {
+        jcr.innerHTML='此浏览器不支持提交答案，请更换浏览器再试！';
+    };
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8675/chatsocket");
+    function synSalt()
+    {
+        var encryptRSA = new JSEncrypt();
+        encryptRSA.setPublicKey(pubkey);
+        var encryptRSAData = encryptRSA.encrypt(loginsalt);
+        socket.send('synSalt@_w_@'+encryptRSAData);
+    }
+    socket.onopen = function () {
+        /* 与服务器端连接成功后，自动执行 */
+        jcr.innerHTML = "Submit Answer";
+        synSalt();
+    };
+    socket.onmessage = function (event) {
+        /* 服务器端向客户端发送数据时，自动执行 */
+        var response = event.data;
+        splitdata=response.split('@_w_@');
+        console.log(response);
+        if (splitdata[0]=='HZ' & splitdata[1]==accget)
+        {
+        kouling= document.getElementById("kouling");
+        kouling.innerHTML='确认口令(请保存好作为提交凭据）： '+MyDecrypt(splitdata[2],accget+loginsalt);
+        console.log(MyDecrypt(splitdata[2],accget+loginsalt));
+        }
+        else
+        {
+        };
+                socket.send('close@_w_@happy');
+    };
+    socket.onclose = function (event) {
+        /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
+        if (window.WebSocket)
+        {jcr.innerHTML="请刷新页面重试！";}
+        else{jcr.innerHTML='无法使用！';};
+    };
+function getstate()
+{
+    var NOQ=5;
+    var selectvalue='1_2/';
+    var nametext=document.getElementById('name').value;
+    var emailtext=document.getElementById('email').value;
+    var notetext=document.getElementById('note').value;
+    if (nametext=='')
+    {
+        nametext='#';
+    };
+    if (emailtext=='')
+    {
+        emailtext='#';
+    };
+    if (notetext=='')
+    {
+        notetext='#';
+    };
+    selectvalue=selectvalue+nametext+'/'+emailtext+'/'+notetext+'/';
+    for (var i=1;i<=NOQ;i++)
+    {
+        var qname=String(i);
+        var ainput=document.getElementsByName(qname);
+        var tmpselect='';
+        for(var j=0;j<ainput.length;j++)
+        {
+            if(ainput[j].checked==true) 
+            {
+                tmpselect=tmpselect+ainput[j].value;
+            };
+        };
+        if (tmpselect=='')
+        {
+            tmpselect='#';
+        };
+        if (i != NOQ)
+        {
+            tmpselect=tmpselect+'/';
+        };
+        selectvalue=selectvalue+tmpselect;
+    };
+    console.log(selectvalue);
+    var tagger=document.getElementById('checker');
+    tagger.onclick='';
+  socket.send('data@_w_@'+accget+'@_w_@'+MyEncrypt(selectvalue,accget+loginsalt));
+};
+</script>]]></content>
+      <categories>
+        <category>Quantum Optics</category>
+      </categories>
+      <tags>
+        <tag>Quantum</tag>
+        <tag>Optics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【量子光学】 Quantum Optics 1 Quiz Week 1(1)（L）</title>
+    <url>/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)%EF%BC%88L%EF%BC%89/</url>
+    <content><![CDATA[<p>Quantum Optics 1课程第一次测验<br><a id="more"></a></p>
+<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p><button id="button1" type="button" onclick=displaypdf()>在线预览</button><button id="button2" type="button" style="float:right"><a href="https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" target="_blank" rel="noopener">下载文件</a></button></p>
+<iframe id="pdfzone" align="center" src="https://cdn.piphipsi.com/pdfs0718/pdfjs-2.4.456-es5/web/viewer.html?file=https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" height="900px" width="100%"></iframe>
+
+<h1 id="作答"><a href="#作答" class="headerlink" title="作答"></a>作答</h1><p><input type="file" id="file" onchange="readfile(this.files)"/><text id="checker">正在检测浏览器是否支持上传文件！</text></p>
+<text>本地SHA512校验： </text><text id='localhash'></text>
+<text>云端SHA512校验： </text><text id='nethash'></text>
+
+<h1 id="答案"><a href="#答案" class="headerlink" title="答案"></a>答案</h1><details><summary>点击展开答案</summary><pre><code id='bccl'><input type="text" id="bdy" value="" /><button href="javascript:void(0);" onclick ="debccl()">确认</button><br/><text id='forend' hidden>U2FsdGVkX19qqJL+cqOMrDhcy8FrY1RmncLfNyGTyvdpgnGrmB2lIMO60Ok6aOkeI3jxb9Ygir7APhVrIolGzQMTeuGDKffeVveT+LYCwesHW9nB6i6Ju/InQSDzTe6i18VIUV9F6l/9emvt8+1DNgNZgPSBnQU139BG1Fdbyk/BpWTEd4R12xeZta767elRg7Lm25EKta8nYL64cVX3nQ==</text></code></pre></details>
+
+<script type="text/javascript">
+document.getElementById("pdfzone").style.display="none";
+function displaypdf()
+{
+    var tag=document.getElementById("pdfzone");
+    var button1=document.getElementById("button1");
+    if (tag.style.display=="none")
+    {
+        tag.style.display="inline";
+        button1.innerHTML="关闭预览";
+    }
+    else
+    {
+        tag.style.display="none";
+        button1.innerHTML="在线预览";
+    };
+};
+window.onload=function(){resizepdfzone();};
+window.onresize=function(){resizepdfzone();};
+function resizepdfzone()
+{
+    var zoneW=document.getElementById("pdfzone").style.width;
+    var zoneH=document.getElementById("pdfzone").style.height;
+    zoneW=document.getElementById("pdfzone").clientWidth*0.95;
+    zoneH=zoneW*1.5;
+
+};
+</script>
+<script type="text/javascript">
+function encodeUtf8(text) {
+    return eval('\''+encodeURI(text).replace(/%/gm, '\\x')+'\'');
+};
+function readfile(files)
+{
+if (files.length)
+{
+var file=files[0];
+console.log(file);
+var freader=new FileReader();
+freader.readAsText(file);
+freader.onload=function(e)
+{
+    var text=freader.result;
+        jcr.innerHTML="正在上传，请稍候！";
+        var fileb64=Base64.encode(text);
+        var hashed = CryptoJS.SHA512(fileb64).toString();
+        console.log(hashed);
+        var localcheck=document.getElementById("localhash");
+        localcheck.innerHTML=hashed;
+        console.log(fileb64);
+    sendfile(fileb64,file.name);
+};
+};
+};
+</script>
+<script src="/js/jquery-latest.min.js"></script>
+<script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
+<script src="/js/base64.js"></script>
+<script src="/js/jsencrypt.js"></script>
+<script src='/js/public.js'></script>
+<script type= "text/javascript">
+    function MyEncrypt(dataqq,keywqq){
+        var ciphertextqq = CryptoJS.AES.encrypt(dataqq, keywqq).toString();
+        return ciphertextqq;
+    }
+    function randomString(length) {
+        var chars='~!@#$%^&*()_+`-={}[]|\":\'\\<,>.?/;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var result = '';
+        for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+        return result;
+    }
+    function MyDecrypt(ciphertextqq,keywqq)
+    {
+        var bytesqq = CryptoJS.AES.decrypt(ciphertextqq, keywqq);
+        var originalTextqq = bytesqq.toString(CryptoJS.enc.Utf8);
+        return originalTextqq;
+    }
+</script>
+<script type="text/javascript">
+    var dates = new Date();
+        var accget = "qo2stu";
+    var passget ="qo2stu";
+        loginsalt=String(randomString(128));
+    pubkey=getPubKey();
+    var jcr= document.getElementById("checker");
+    if (window.WebSocket)
+    {
+        jcr.innerHTML="正在连接作业服务器！";
+    }
+    else
+    {
+        jcr.innerHTML='此浏览器不支持提交作业，请更换浏览器再试！';
+    };
+    var socket = new WebSocket("ws://cdn.piphipsi.com:8676/chatsocket");
+    function synSalt()
+    {
+        var encryptRSA = new JSEncrypt();
+        encryptRSA.setPublicKey(pubkey);
+        var encryptRSAData = encryptRSA.encrypt(loginsalt);
+        socket.send('synSalt@_w_@'+encryptRSAData);
+    }
+    socket.onopen = function () {
+        /* 与服务器端连接成功后，自动执行 */
+        jcr.innerHTML = "请上传作业！（md文件，务必小于40KB）";
+        synSalt();
+    };
+    socket.onmessage = function (event) {
+        /* 服务器端向客户端发送数据时，自动执行 */
+        var response = event.data;
+        splitdata=response.split('@_w_@');
+        console.log(response);
+        if (splitdata[0]=='HZ' & splitdata[2]=='Save OK!')
+        {
+        jcr.innerHTML='上传成功!';
+        }
+        else
+        {
+                if (splitdata[0]=='Hash')
+        {nethash= document.getElementById("nethash");
+                nethash.innerHTML=splitdata[1];}
+                else
+        {
+                if (splitdata[0]=='Process')
+                {jcr.innerHTML='上传进度： '+splitdata[1]+'%'};
+                };
+        };
+                socket.send('close@_w_@happy');
+    };
+    socket.onclose = function (event) {
+        /* 服务器端主动断开连接时，自动执行 */
+            socket.send('close@_w_@happy');
+        if (window.WebSocket)
+        {jcr.innerHTML="请刷新页面重试！";}
+        else{jcr.innerHTML='无法使用！';};
+    };
+
+function sleep(numberMillis) {
+            var now = new Date();
+            var exitTime = now.getTime() + numberMillis;
+            while (true) {
+                now = new Date();
+                if (now.getTime() > exitTime)
+                    return;
+            }
+};
+function sendfile(text,name)
+{
+        var textArr = []; 
+        var n = 1000;
+        for (var i = 0, l = text.length; i < l/n; i++) {
+        var a = text.slice(n*i, n*(i+1));
+        textArr.push(a);
+        };
+        console.log(textArr);
+        socket.send('length@_w_@'+String(i));
+    console.log('length@_w_@'+String(i));
+        for (var ir = 0, l = text.length; ir < l/n; ir++) {
+        datasalt=dates.toLocaleString();
+    senddata='filebuffer@_w_@'+datasalt+name+'@_w_@'+MyEncrypt(textArr[ir],datasalt+name+loginsalt)+'@_w_@'+String(ir+1);
+    console.log(ir+1);
+        console.log(senddata);
+        sleep(100);
+        //senddata='data@_w_@'+accget+'#'+datasalt+'@_w_@'+MyEncrypt(text,accget+'#'+datasalt+loginsalt);
+        //socket.send('length@_w_@'+String(senddata.length));
+    //console.log('length@_w_@'+String(senddata.length));
+    if (ir%50==0)
+    {sleep(3000);};
+    socket.send(senddata.toString());
+        };
+};
+function debccl()
+    {
+        var bccl=document.getElementById('bccl');
+        var tiquma=document.getElementById('bdy').value;
+        var miwen=document.getElementById('forend').innerHTML;
+        if (tiquma=='')
+        {
+            tiquma='#';
+        };
+        bdyHTML=MyDecrypt(String(miwen),String(tiquma));
+        if (bdyHTML=='')
+        {
+            bdyHTML='提取失败！';
+        };
+        bccl.innerHTML=bdyHTML;
+    }
+    console.log(MyEncrypt("链接：<a href=\'url'>url</a>, 提取码：2333",'password'));
+</script>
+<script type="text/javascript">
+document.onmousedown = function mdClick(event) {
+    var e = event || window.event || arguments.callee.caller.arguments[0];
+    if (e.button == 2 || e.button == 3) {
+        mAlert();
+    }
+};
+document.oncontextmenu = new Function("return false;");
+document.onkeydown = document.onkeyup = document.onkeypress = function(event) {
+    var e = event || window.event || arguments.callee.caller.arguments[0];
+    if (e && e.keyCode == 123) {
+            mAlert();
+            e.returnValue = false;
+            return (false);
+    }
+};
+function mAlert() {
+    ;
+}
+</script>
+
+
+]]></content>
+      <categories>
+        <category>Quantum Optics</category>
+      </categories>
+      <tags>
+        <tag>Quantum</tag>
+        <tag>Optics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【量子光学】 Quantum Optics 1 Quiz Week 1(1)（S）</title>
     <url>/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)%EF%BC%88S%EF%BC%89/</url>
     <content><![CDATA[<p>Quantum Optics 1课程第一次测验<br><a id="more"></a></p>
 <h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p><button id="button1" type="button" onclick=displaypdf()>在线预览</button><button id="button2" type="button" style="float:right"><a href="https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" target="_blank" rel="noopener">下载文件</a></button></p>
@@ -262,198 +923,6 @@ function sendfile(text)
     console.log('length@_w_@'+String(senddata.length));
     socket.send(senddata.toString());
         //};
-};
-</script>
-
-
-]]></content>
-      <categories>
-        <category>Quantum Optics</category>
-      </categories>
-      <tags>
-        <tag>Quantum</tag>
-        <tag>Optics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【量子光学】 Quantum Optics 1 Quiz Week 1(1)（L）</title>
-    <url>/2020/07/18/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-Week-1(1)%20%EF%BC%88L%EF%BC%89/</url>
-    <content><![CDATA[<p>Quantum Optics 1课程第一次测验<br><a id="more"></a></p>
-<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p><button id="button1" type="button" onclick=displaypdf()>在线预览</button><button id="button2" type="button" style="float:right"><a href="https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" target="_blank" rel="noopener">下载文件</a></button></p>
-<iframe id="pdfzone" align="center" src="https://cdn.piphipsi.com/pdfs0718/pdfjs-2.4.456-es5/web/viewer.html?file=https://cdn.piphipsi.com/pdfs0718/qo1homework/qo1week1.pdf" height="900px" width="100%"></iframe>
-
-<h1 id="作答"><a href="#作答" class="headerlink" title="作答"></a>作答</h1><p><input type="file" id="file" onchange="readfile(this.files)"/><text id="checker">正在检测浏览器是否支持上传文件！</text></p>
-<p><text>本地SHA512校验： </text><text id='localhash'></text></p>
-<p><text>云端SHA512校验： </text><text id='nethash'></text></p>
-<script type="text/javascript">
-document.getElementById("pdfzone").style.display="none";
-function displaypdf()
-{
-    var tag=document.getElementById("pdfzone");
-    var button1=document.getElementById("button1");
-    if (tag.style.display=="none")
-    {
-        tag.style.display="inline";
-        button1.innerHTML="关闭预览";
-    }
-    else
-    {
-        tag.style.display="none";
-        button1.innerHTML="在线预览";
-    };
-};
-window.onload=function(){resizepdfzone();};
-window.onresize=function(){resizepdfzone();};
-function resizepdfzone()
-{
-    var zoneW=document.getElementById("pdfzone").style.width;
-    var zoneH=document.getElementById("pdfzone").style.height;
-    zoneW=document.getElementById("pdfzone").clientWidth*0.95;
-    zoneH=zoneW*1.5;
-
-};
-</script>
-<script type="text/javascript">
-function encodeUtf8(text) {
-    return eval('\''+encodeURI(text).replace(/%/gm, '\\x')+'\'');
-};
-function readfile(files)
-{
-if (files.length)
-{
-var file=files[0];
-console.log(file);
-var freader=new FileReader();
-freader.readAsText(file);
-freader.onload=function(e)
-{
-    var text=freader.result;
-        jcr.innerHTML="正在上传，请稍候！";
-        var fileb64=Base64.encode(text);
-        var hashed = CryptoJS.SHA512(fileb64).toString();
-        console.log(hashed);
-        var localcheck=document.getElementById("localhash");
-        localcheck.innerHTML=hashed;
-        console.log(fileb64);
-    sendfile(fileb64,file.name);
-};
-};
-};
-</script>
-<script src="/js/jquery-latest.min.js"></script>
-<script src="/js/crypto-js-4.0.0/crypto-js.js"></script>
-<script src="/js/base64.js"></script>
-<script src="/js/jsencrypt.js"></script>
-<script src='/js/public.js'></script>
-<script type= "text/javascript">
-    function MyEncrypt(dataqq,keywqq){
-        var ciphertextqq = CryptoJS.AES.encrypt(dataqq, keywqq).toString();
-        return ciphertextqq;
-    }
-    function randomString(length) {
-        var chars='~!@#$%^&*()_+`-={}[]|\":\'\\<,>.?/;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-        var result = '';
-        for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
-        return result;
-    }
-    function MyDecrypt(ciphertextqq,keywqq)
-    {
-        var bytesqq = CryptoJS.AES.decrypt(ciphertextqq, keywqq);
-        var originalTextqq = bytesqq.toString(CryptoJS.enc.Utf8);
-        return originalTextqq;
-    }
-</script>
-<script type="text/javascript">
-    var dates = new Date();
-        var accget = "qo2stu";
-    var passget ="qo2stu";
-        loginsalt=String(randomString(128));
-    pubkey=getPubKey();
-    var jcr= document.getElementById("checker");
-    if (window.WebSocket)
-    {
-        jcr.innerHTML="正在连接作业服务器！";
-    }
-    else
-    {
-        jcr.innerHTML='此浏览器不支持提交作业，请更换浏览器再试！';
-    };
-    var socket = new WebSocket("ws://cdn.piphipsi.com:8676/chatsocket");
-    function synSalt()
-    {
-        var encryptRSA = new JSEncrypt();
-        encryptRSA.setPublicKey(pubkey);
-        var encryptRSAData = encryptRSA.encrypt(loginsalt);
-        socket.send('synSalt@_w_@'+encryptRSAData);
-    }
-    socket.onopen = function () {
-        /* 与服务器端连接成功后，自动执行 */
-        jcr.innerHTML = "请上传作业！（md文件，务必小于40KB）";
-        synSalt();
-    };
-    socket.onmessage = function (event) {
-        /* 服务器端向客户端发送数据时，自动执行 */
-        var response = event.data;
-        splitdata=response.split('@_w_@');
-        console.log(response);
-        if (splitdata[0]=='HZ' & splitdata[2]=='Save OK!')
-        {
-        jcr.innerHTML='上传成功!';
-        }
-        else
-        {
-                if (splitdata[0]=='Hash')
-        {nethash= document.getElementById("nethash");
-                nethash.innerHTML=splitdata[1];}
-                else
-        {
-                if (splitdata[0]=='Process')
-                {jcr.innerHTML='上传进度： '+splitdata[1]+'%'};
-                };
-        };
-                socket.send('close@_w_@happy');
-    };
-    socket.onclose = function (event) {
-        /* 服务器端主动断开连接时，自动执行 */
-            socket.send('close@_w_@happy');
-        if (window.WebSocket)
-        {jcr.innerHTML="请刷新页面重试！";}
-        else{jcr.innerHTML='无法使用！';};
-    };
-
-function sleep(numberMillis) {
-            var now = new Date();
-            var exitTime = now.getTime() + numberMillis;
-            while (true) {
-                now = new Date();
-                if (now.getTime() > exitTime)
-                    return;
-            }
-};
-function sendfile(text,name)
-{
-        var textArr = []; 
-        var n = 1000;
-        for (var i = 0, l = text.length; i < l/n; i++) {
-        var a = text.slice(n*i, n*(i+1));
-        textArr.push(a);
-        };
-        console.log(textArr);
-        socket.send('length@_w_@'+String(i));
-    console.log('length@_w_@'+String(i));
-        for (var ir = 0, l = text.length; ir < l/n; ir++) {
-        datasalt=dates.toLocaleString();
-    senddata='filebuffer@_w_@'+datasalt+name+'@_w_@'+MyEncrypt(textArr[ir],datasalt+name+loginsalt)+'@_w_@'+String(ir+1);
-    console.log(ir+1);
-        console.log(senddata);
-        sleep(100);
-        //senddata='data@_w_@'+accget+'#'+datasalt+'@_w_@'+MyEncrypt(text,accget+'#'+datasalt+loginsalt);
-        //socket.send('length@_w_@'+String(senddata.length));
-    //console.log('length@_w_@'+String(senddata.length));
-    if (ir%50==0)
-    {sleep(3000);};
-    socket.send(senddata.toString());
-        };
 };
 </script>
 
@@ -699,7 +1168,7 @@ player.addRemoteTextTrack({id:'subt',src:String(videodict[hz[0]+'.vtt']),srclang
 function getstate()
 {
     var NOQ=4;
-    var selectvalue='1/';
+    var selectvalue='2_1/';
     var nametext=document.getElementById('name').value;
     var emailtext=document.getElementById('email').value;
     var notetext=document.getElementById('note').value;
@@ -851,7 +1320,7 @@ function getstate()
 function getstate()
 {
     var NOQ=1;
-    var selectvalue='2/';
+    var selectvalue='2_2/';
     var nametext=document.getElementById('name').value;
     var emailtext=document.getElementById('email').value;
     var notetext=document.getElementById('note').value;
@@ -1019,7 +1488,7 @@ function getstate()
 function getstate()
 {
     var NOQ=3;
-    var selectvalue='3/';
+    var selectvalue='2_3/';
     var nametext=document.getElementById('name').value;
     var emailtext=document.getElementById('email').value;
     var notetext=document.getElementById('note').value;
@@ -1184,7 +1653,7 @@ function getstate()
 function getstate()
 {
     var NOQ=3;
-    var selectvalue='4/';
+    var selectvalue='2_4/';
     var nametext=document.getElementById('name').value;
     var emailtext=document.getElementById('email').value;
     var notetext=document.getElementById('note').value;
@@ -1341,7 +1810,7 @@ function getstate()
 function getstate()
 {
     var NOQ=2;
-    var selectvalue='5/';
+    var selectvalue='2_5/';
     var nametext=document.getElementById('name').value;
     var emailtext=document.getElementById('email').value;
     var notetext=document.getElementById('note').value;
@@ -1491,7 +1960,7 @@ function getstate()
 function getstate()
 {
     var NOQ=1;
-    var selectvalue='6/';
+    var selectvalue='2_6/';
     var nametext=document.getElementById('name').value;
     var emailtext=document.getElementById('email').value;
     var notetext=document.getElementById('note').value;
@@ -1653,7 +2122,7 @@ function getstate()
 function getstate()
 {
     var NOQ=3;
-    var selectvalue='7/';
+    var selectvalue='2_7/';
     var nametext=document.getElementById('name').value;
     var emailtext=document.getElementById('email').value;
     var notetext=document.getElementById('note').value;
@@ -1809,7 +2278,7 @@ function getstate()
 function getstate()
 {
     var NOQ=2;
-    var selectvalue='8/';
+    var selectvalue='2_8/';
     var nametext=document.getElementById('name').value;
     var emailtext=document.getElementById('email').value;
     var notetext=document.getElementById('note').value;
@@ -1978,7 +2447,7 @@ function getstate()
 function getstate()
 {
     var NOQ=3;
-    var selectvalue='9/';
+    var selectvalue='2_9/';
     var nametext=document.getElementById('name').value;
     var emailtext=document.getElementById('email').value;
     var notetext=document.getElementById('note').value;
@@ -2145,7 +2614,7 @@ function getstate()
 function getstate()
 {
     var NOQ=3;
-    var selectvalue='10/';
+    var selectvalue='2_10/';
     var nametext=document.getElementById('name').value;
     var emailtext=document.getElementById('email').value;
     var notetext=document.getElementById('note').value;
@@ -2296,7 +2765,7 @@ function getstate()
 function getstate()
 {
     var NOQ=1;
-    var selectvalue='11/';
+    var selectvalue='2_11/';
     var nametext=document.getElementById('name').value;
     var emailtext=document.getElementById('email').value;
     var notetext=document.getElementById('note').value;
@@ -2447,7 +2916,7 @@ function getstate()
 function getstate()
 {
     var NOQ=1;
-    var selectvalue='12/';
+    var selectvalue='2_12/';
     var nametext=document.getElementById('name').value;
     var emailtext=document.getElementById('email').value;
     var notetext=document.getElementById('note').value;
@@ -2606,7 +3075,7 @@ function getstate()
 function getstate()
 {
     var NOQ=2;
-    var selectvalue='13/';
+    var selectvalue='2_13/';
     var nametext=document.getElementById('name').value;
     var emailtext=document.getElementById('email').value;
     var notetext=document.getElementById('note').value;
@@ -2773,7 +3242,7 @@ function getstate()
 function getstate()
 {
     var NOQ=3;
-    var selectvalue='14/';
+    var selectvalue='2_14/';
     var nametext=document.getElementById('name').value;
     var emailtext=document.getElementById('email').value;
     var notetext=document.getElementById('note').value;
@@ -2931,7 +3400,7 @@ function getstate()
 function getstate()
 {
     var NOQ=2;
-    var selectvalue='15/';
+    var selectvalue='2_15/';
     var nametext=document.getElementById('name').value;
     var emailtext=document.getElementById('email').value;
     var notetext=document.getElementById('note').value;
@@ -3135,6 +3604,40 @@ echo 'deb https://apt.dockerproject.org/repo debian-stretch main' > /etc/apt/sou
 <li>本网站所有信息只做测试之用，<strong>权侵删</strong>，本网站保留最终解释权。</li>
 <li>如果没出现 Submit Answer 按钮，可能管理员没开启提交功能，请联系管理员。</li>
 <li>任何问题请联系email：<strong>happyan@happyan.space</strong> 。</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>【量子光学】 Quantum Optics 1 Quiz 提交说明</title>
+    <url>/2020/04/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-%E6%8F%90%E4%BA%A4%E8%AF%B4%E6%98%8E/</url>
+    <content><![CDATA[<p>Quantum Optics 1 Quiz 提交说明<br><a id="more"></a><br><a href='https://blog.piphipsi.com/2020/05/05/%E3%80%90%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E3%80%91-Quantum-Optics-1-Quiz-%E6%95%B4%E5%90%88(%E6%9B%B4%E6%96%B0%E5%AE%8C%E6%AF%95)/#more'>整合网址</a></p>
+<h2 id="正常Quiz提交步骤"><a href="#正常Quiz提交步骤" class="headerlink" title="正常Quiz提交步骤"></a>正常Quiz提交步骤</h2><ol>
+<li><p>打开作业页面，请注意检查页面是否是用http协议打开，如果用https协议打开会导致无法提交作业。<br><img src="01.png" alt="01"></p>
+</li>
+<li><p>Quantum Optics 2 Quiz全部由选择题构成，请根据”单选”、”不定项选择”标签确定选择类型，勾选你认为正确的答案。<br><img src="02.png" alt="02"></p>
+</li>
+<li><p>完成答题后，完成”姓名”等基本信息的输入，请注意使用ASCII码字符，即使用拼音或可分辨的英文简称。”邮箱”、”备注”都可以不填，如需填写，同样要求使用ASCII码。<br><img src="03.png" alt="03"></p>
+</li>
+<li><p>点击 Submit Answer 按钮提交你的答案。稍等片刻，若按钮下方出现确认口令等即为提交成功，若未出现，请检查是否使用了https协议，若无法解决请联系email：<strong>happyan@happyan.space</strong> .<br><img src="04.png" alt="04"></p>
+</li>
+</ol>
+<h2 id="Week-Quiz提交步骤"><a href="#Week-Quiz提交步骤" class="headerlink" title="Week Quiz提交步骤"></a>Week Quiz提交步骤</h2><ol>
+<li><p>打开作业页面，请注意检查页面是否是用http协议打开，如果用https协议打开会导致无法提交作业。网页上的“在线预览”按钮可以打开作业PDF在线阅读器，点击下载文件按钮下载PDF。<br><img src="11.png" alt="11"><br><img src="12.png" alt="12"></p>
+</li>
+<li><p>Quantum Optics 1 Week Quiz全部由问答题构成，请用Markdown文档整理并提交，公式使用Latex语法输入。收到Markdown文件后会使用<a href="http://www.mdeditor.com/" target="_blank" rel="noopener">Mdeditor网站</a>进行渲染，请务必测试渲染结果是否符合预期。<br><img src="15.png" alt="15"></p>
+</li>
+<li><p>完成答题后，将Markdown文件保存为姓名+Week编号.md的格式，如“happyan+3.md”。点击答题区的选择文件按钮，选择md文件。等待片刻，本地SHA512校验和云端SHA512校验会出现校验值，如匹配，则上传成功。<br><img src="13.png" alt="13"><br><img src="14.png" alt="14"></p>
+</li>
+<li><p>若上传许久没有变化，请刷新页面重新上传，并检查文件大小是否超过40KB，请尽量传输较小的文件。如果无法解决请联系email：<strong>happyan@piphipsi.com</strong> .</p>
+</li>
+</ol>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ol>
+<li>请勿频繁提交给核对答案造成不便。</li>
+<li>“姓名”请一定填写能让管理者立刻明白提交者身份的ASCII码字符。</li>
+<li>如非必要，请尽量不要填写”邮箱”、”备注”。</li>
+<li>本网站所有信息只做测试之用，<strong>权侵删</strong>，本网站保留最终解释权。</li>
+<li>如果没出现 Submit Answer 按钮，可能管理员没开启提交功能，请联系管理员。</li>
+<li>任何问题请联系email：<strong>happyan@piphipsi.com</strong> 。</li>
 </ol>
 ]]></content>
   </entry>
